@@ -10,7 +10,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import classification_report as report
 from sklearn.svm import SVC
+
 
 def create_arg_parser():
     parser = argparse.ArgumentParser()
@@ -18,6 +20,7 @@ def create_arg_parser():
                         help="Input file to learn from (default reviews.txt)")
     args = parser.parse_args()
     return args
+
 
 def read_data():
     sentences = []
@@ -39,12 +42,13 @@ def train_dummy_classifier(X_train, Y_train):
     dummy_classifier.fit(X_train, Y_train)
     return dummy_classifier
 
+
 def train_forest_classifier(X_train, Y_train):
     vec = TfidfVectorizer()
     forest_classifier = Pipeline([('vec', vec), ('cls', RandomForestClassifier())])
     forest_classifier = forest_classifier.fit(X_train, Y_train)
-
     return forest_classifier
+
 
 def train_naive_bayes(X_train, Y_train):
     vec = TfidfVectorizer()
@@ -53,12 +57,14 @@ def train_naive_bayes(X_train, Y_train):
 
     return naive_classifier
 
+
 def train_svm(X_train, Y_train):
     vec = TfidfVectorizer()
     svm_classifier = Pipeline([('vec', vec), ('svc', SVC())])
     svm_classifier = svm_classifier.fit(X_train, Y_train)
 
     return svm_classifier
+
 
 def main():
     args = create_arg_parser()
@@ -68,16 +74,25 @@ def main():
     print("-------------")
     dummy_classifier = train_dummy_classifier(X_train, Y_train)
     print("Dummy classifier accuracy: {}".format(round(dummy_classifier.score(X_test, Y_test), 3)))
+    pred_1 = dummy_classifier.predict(X_test)
+    print(report(Y_test, pred_1, digits=3))
 
     forest_classifier = train_forest_classifier(X_train, Y_train)
     print("Random Forest accuracy: {}".format(round(forest_classifier.score(X_test, Y_test), 3)))
+    pred_2 = forest_classifier.predict(X_test)
+    print(report(Y_test, pred_2, digits=3))
 
     naive_classifier = train_naive_bayes(X_train, Y_train)
     print("Naive Bayes accuracy: {}".format(round(naive_classifier.score(X_test, Y_test), 3)))
+    pred_3 = naive_classifier.predict(X_test)
+    print(report(Y_test, pred_3, digits=3))
 
     svm_classifier = train_svm(X_train, Y_train)
     print("SVM accuracy: {}".format(round(svm_classifier.score(X_test, Y_test), 3)))
+    pred_4 = svm_classifier.predict(X_test)
+    print(report(Y_test, pred_4, digits=3))
     print("-------------")
+
 
 if __name__ == "__main__":
     main()

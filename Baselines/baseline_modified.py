@@ -12,7 +12,9 @@ from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report as report
+from sklearn.metrics import accuracy_score
 from sklearn.model_selection import cross_val_predict
+
 
 
 def create_arg_parser():
@@ -64,14 +66,12 @@ def train_forest_classifier(X_train, Y_train):
     print(X_train)
     forest_classifier = Pipeline([('vec', vec), ('cls', RandomForestClassifier())])
     forest_classifier = forest_classifier.fit(X_train, Y_train)
-
     return forest_classifier
 
 def train_naive_bayes(X_train, Y_train):
     vec = TfidfVectorizer(preprocessor=identity, tokenizer=identity)
     naive_classifier = Pipeline([('vec', vec), ('cls', MultinomialNB())])
     naive_classifier = naive_classifier.fit(X_train, Y_train)
-
     return naive_classifier
 
 
@@ -131,7 +131,9 @@ def main():
     X_train, X_test, Y_train, Y_test = train_test_split(X_full, Y_full, test_size=0.2, random_state=0)
     print("-------------")
     svm_classifier = train_svm(X_train, Y_train, args.C, args.gamma, args.kernel)
-    pred = cross_val_predict(svm_classifier, X_full, Y_full, cv=5)
+    cv_pred = cross_val_predict(svm_classifier, X_full, Y_full, cv=5)
+    cv_score = accuracy_score(Y_full, cv_pred)
+    print('CV scores: ', cv_score)
     if args.hyper:
         get_optimal_hyperParmeters(args.kernel, X_train, Y_train, X_test, Y_test)
     print("SVM accuracy: {}".format(round(svm_classifier.score(X_test, Y_test), 3)))
