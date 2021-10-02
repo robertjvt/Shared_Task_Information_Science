@@ -1,0 +1,60 @@
+1. Setting: rbf kernel, C = 1, gamma = 1
+
+SVM accuracy: 0.909
+-------------
+              precision    recall  f1-score   support
+
+           0      0.894     0.917     0.905       551
+           1      0.924     0.903     0.913       617
+
+    accuracy                          0.909      1168
+   macro avg      0.909     0.910     0.909      1168
+weighted avg      0.910     0.909     0.909      1168
+
+
+2. Setting: linear kernel, C = 1
+
+SVM accuracy: 0.891
+-------------
+              precision    recall  f1-score   support
+
+           0      0.898     0.868     0.883       551
+           1      0.885     0.912     0.899       617
+
+    accuracy                          0.891      1168
+   macro avg      0.892     0.890     0.891      1168
+weighted avg      0.891     0.891     0.891      1168
+
+
+3. Setting rbf kernel, hyper C = 100, hyper gamma = 0.1
+
+SVM accuracy: 0.937
+-------------
+              precision    recall  f1-score   support
+
+           0      0.915     0.955     0.934       551
+           1      0.958     0.921     0.939       617
+
+    accuracy                          0.937      1168
+   macro avg      0.936     0.938     0.937      1168
+weighted avg      0.938     0.937     0.937      1168
+
+4. Setting linear kernel, hyper C = 10
+
+SVM accuracy: 0.912
+-------------
+              precision    recall  f1-score   support
+
+           0      0.918     0.893     0.905       551
+           1      0.907     0.929     0.918       617
+
+    accuracy                          0.912      1168
+   macro avg      0.912     0.911     0.911      1168
+weighted avg      0.912     0.912     0.912      1168
+
+
+Dummy classifier accuracy: 0.502
+Random Forest accuracy: 0.903
+Naive Bayes accuracy: 0.872
+
+

@@ -58,14 +58,13 @@ def train_svm(X_train, Y_train):
     svm_classifier = Pipeline([('vec', vec), ('svc', SVC())])
     svm_classifier = svm_classifier.fit(X_train, Y_train)
 
-
     return svm_classifier
 
 def main():
     args = create_arg_parser()
     X_full, Y_full = read_data()
     X_train, X_test, Y_train, Y_test = train_test_split(X_full, Y_full, test_size=0.2, random_state=0)
-    
+
     print("-------------")
     dummy_classifier = train_dummy_classifier(X_train, Y_train)
     print("Dummy classifier accuracy: {}".format(round(dummy_classifier.score(X_test, Y_test), 3)))

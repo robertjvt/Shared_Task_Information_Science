@@ -11,7 +11,7 @@ import tensorflow as tf
 from tensorflow import keras
 from keras.models import Sequential
 from keras import layers
-from keras.layers import Flatten
+from keras.layers import Flatten, Dropout
 from keras.layers.core import Dense, Activation
 from keras.layers import Dense, Embedding, LSTM, Bidirectional
 from keras.preprocessing.text import Tokenizer
@@ -120,7 +120,7 @@ def main():
             embedding_matrix[i] = embedding_vector
     # pprint(embedding_matrix)
 
-    learning_rate = 0.02
+    learning_rate = 0.01
     # SGD optimizer
     sgd = SGD(lr=learning_rate)
     batch_size = 50
@@ -140,13 +140,15 @@ def main():
             embedding_layer,
             Bidirectional(LSTM(embedding_dim, return_sequences=True)),
             Bidirectional(LSTM(embedding_dim,)),
-            Dense(6, activation='sigmoid'),
-            Dense(1, activation='softmax')
+
+            Dense(600, activation='tanh'),
+            Dense(1, activation='softmax'),
+            Dropout(0.8),
             ])
     model.compile(loss='binary_crossentropy',optimizer=opt_2, metrics=['accuracy'])
     model.summary()
 
-    model.fit(padded_X_train, Y_train, epochs=32, batch_size=batch_size, validation_split=0.1)
+    model.fit(padded_X_train, Y_train, epochs=30, batch_size=batch_size, validation_split=0.1)
     Y_pred = model.predict(padded_X_test)
     # Y_pred = [str(int(n)) for n in pred]
     # print(Y_pred[:10])
