@@ -33,8 +33,8 @@ python_random.seed(1234)
 def create_arg_parser():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-e", "--embeddings", default='glove_filtered.json', type=str,
-                        help="Embedding file we are using (default glove_filtered.json)")
+    parser.add_argument("-e", "--embeddings", default='glove/glove.6B.100d.txt', type=str,
+                        help="Embedding file we are using")
 
     args = parser.parse_args()
 
@@ -47,20 +47,34 @@ def read_data():
     for root, dirs, files in os.walk('../Data', topdown=False):
         for name in files:
             if name[:11] == 'En-Subtask1':
-                with open(os.path.join(root, name)) as fd:
-                    text = list(csv.reader(fd, delimiter='\t'))
+                file = open(os.path.join(root, name))
+                text = list(csv.reader(file, delimiter='\t'))
+                #Remove rowId
                 for row in text[1:]:
-                    sentences.append(row[1])
+                    tokens = row[1].strip().split()
+                    sentences.append(tokens)
                     labels.append(row[2])
     return sentences, labels
+
+# def read_embeddings(embeddings_file):
+#     '''Read in word embeddings from file and save as numpy array'''
+
+#     with open(embeddings_file, 'r') as fd:
+#         embeddings = json.load(fd)
+#     return {word: np.array(embeddings[word]) for word in embeddings}
 
 
 def read_embeddings(embeddings_file):
     '''Read in word embeddings from file and save as numpy array'''
-
+    embeddings_index = {}
     with open(embeddings_file, 'r') as fd:
-        embeddings = json.load(fd)
-    return {word: np.array(embeddings[word]) for word in embeddings}
+        for line in fd:
+            values = line.split()
+            word = values[0]
+            coefs = np.array(values[1:], dtype='float32')
+            embeddings_index[word] = coefs
+
+    return embeddings_index
 
 
 def main():
@@ -100,7 +114,7 @@ def main():
     # pprint(encoded_X_train[:10])
 
     # Creating fixed length vectors using padding
-    max_length = 300
+    max_length = 100
     padded_X_train = pad_sequences(encoded_X_train, maxlen=max_length, padding = 'post')
     pprint(padded_X_train[:10])
     print("padded_X_train: ", padded_X_train.shape)
@@ -132,18 +146,14 @@ def main():
     opt_2 = tf.keras.optimizers.RMSprop()
 
     embedding_layer = Embedding(vocab_size, max_length, weights=[embedding_matrix], input_length=max_length, trainable=False)
-    embedding_dim = 30
+    # embedding_dim = 30
     # Model is defined with embedding layer as the first layer,
     # followed by 2 LSTM layers, then a dense layer with 6 units
     # and a final output layer.
     model = Sequential([
             embedding_layer,
-            Bidirectional(LSTM(embedding_dim, return_sequences=True)),
-            Bidirectional(LSTM(embedding_dim,)),
-
-            Dense(600, activation='tanh'),
+            Bidirectional(LSTM(4, dropout=0.5, return_sequences=True)),
             Dense(1, activation='softmax'),
-            Dropout(0.8),
             ])
     model.compile(loss='binary_crossentropy',optimizer=opt_2, metrics=['accuracy'])
     model.summary()
