@@ -1,0 +1,22 @@
+[NOUN] is a [NOUN] .
+[NOUN] was a [NOUN] .
+[PL-NOUN] are a [PL-NOUN] .
+[PL-NOUN] were a [PL-NOUN] .
+[PL-NOUN] are examples of [PL-NOUN] .
+[NOUN] is example of [NOUN] .
+[NOUN] is a kind of [NOUN] .
+[PL-NOUN] are kinds of [PL-NOUN] .
+[NOUN] is a form of [NOUN] .
+[PL-NOUN] are forms of [PL-NOUN] .
+[PL-NOUN] look like [PL-NOUN] .
+[PL-NOUN] sound like [PL-NOUN] .
+[NOUN] looks like [NOUN] .
+[NOUN] sounds like [NOUN] .
+[PL-NOUN] are similar to [PL-NOUN] .
+[NOUN] is similar to [NOUN] .
+[NOUN] is sort of [NOUN] .
+[PL-NOUN] include [PL-NOUN] .
+[NOUN] includes [NOUN] .
+[NOUN] included [NOUN] .
+[NOUN] is compared to [NOUN] .
+[PL-NOUN] are compared to [PL-NOUN] .
