@@ -1,0 +1,40 @@
+"I like [word1] , but not [word2] ." & 655 & 595 & 60 
+"I like [word1] , and [word2] too ." & 659 & 539 & 120 
+"I like [word1] more than [word2] ." & 703 & 575 & 128 
+"I like [word1] , an interesting type of [word2] ." & 659 & 60 & 599 
+"I do not like [word1] , I prefer [word2] ." & 747 & 611 & 136 
+"I like [word1] , and more specifically [word2] ." & 615 & 56 & 559 
+"I like [word1] , except [word2] ." & 655 & 57 & 598 
+"I use [word1] , except [word2] ." & 44 & 4 & 40 
+"He likes [word1] , and [word2] too ." & 44 & 36 & 8 
+"I use [word1] , and more specifically [word2] ." & 44 & 4 & 40
+"I met [word1] , and more specifically [word2] ." & 88 & 8 & 80 
+"He trusts his [word1] , an interesting type of [word2] ." & 28 & 4 & 24
+"He trusts his [word1] , except [word2] ." & 28 & 4 & 24 
+"I use [word1] , and [word2] too ." & 44 & 36 & 24 
+"He trusts [word1] , and more specifically his [word2] ." & 16 & 0 & 16
+"He likes [word1] , an interesting type of [word2] ." & 44 & 4 & 40 
+"He does not trust [word1] , he prefers his [word2] ." & 16 & 16 & 0 
+"I met [word1] , an interesting type of [word2] ." & 44 & 4 & 40
+"He does not like [word1] , he prefers [word2] ." & 44 & 36 & 8
+"He trusts his [word1] more than [word2] ." & 28 & 20 & 8
+"He trusts [word1] , an interesting type of [word2] ." & 16 & 0 & 16
+"He trusts his [word1] , but not [word2] ." & 28 & 24 & 4
+"I use [word1] more than [word2] ." & 44 & 36 & 8
+"I use [word1] , but not [word2] ." & 44 & 40 & 4
+"I met [word1] , and [word2] too ." & 44 & 36 & 8
+"I use [word1] , an interesting type of [word2] ." & 44 & 4 & 40
+"He likes [word1] more than [word2] ." & 44 & 36 & 8
+"He does not trust his [word1] , he prefers [word2] ." & 28 & 20 & 8
+"I met [word1] , except [word2] ." & 44 & 4 & 40
+"I met [word1] , but not [word2] ." & 44 & 40 & 4
+"He trusts his [word1] , and [word2] too ." & 20 & 20 & 0
+"He likes [word1] , but not [word2] ." & 44 & 40 & 4
+"He trusts his [word1] , and more specifically [word2] ." & 28 & 4 & 24
+"He trusts [word1] , except his [word2] ." & 16 & 0 & 16
+"He likes [word1] , and more specifically [word2] ." & 44 & 4 & 40
+"He likes [word1] , except [word2] ." & 44 & 4 & 40
+"He trusts [word1] more than his [word2] ." & 16 & 16 & 0
+"He trusts [word1] , but not his [word2] ." & 16 & 16 & 0
+"He trusts his [word1] , and his [word2] too ." & 8 & 0 & 8
+"He trusts [word1] , and his [word2] too ." & 16 & 16 & 0
