@@ -1,0 +1,98 @@
+              precision    recall  f1-score   support
+
+           0       0.75      0.79      0.77      1037
+           1       0.77      0.73      0.75       995
+
+    accuracy                           0.76      2032
+   macro avg       0.76      0.76      0.76      2032
+weighted avg       0.76      0.76      0.76      2032
+
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+[CV 1/3] END svc__C=0.1, svc__gamma=1, svc__kernel=rbf;, score=0.622 total time=   4.4s
+[CV 2/3] END svc__C=0.1, svc__gamma=1, svc__kernel=rbf;, score=0.609 total time=   4.4s
+[CV 3/3] END svc__C=0.1, svc__gamma=1, svc__kernel=rbf;, score=0.621 total time=   4.4s
+[CV 1/3] END svc__C=0.1, svc__gamma=0.1, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 2/3] END svc__C=0.1, svc__gamma=0.1, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 3/3] END svc__C=0.1, svc__gamma=0.1, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 1/3] END svc__C=0.1, svc__gamma=0.01, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 2/3] END svc__C=0.1, svc__gamma=0.01, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 3/3] END svc__C=0.1, svc__gamma=0.01, svc__kernel=rbf;, score=0.335 total time=   4.6s
+[CV 1/3] END svc__C=1, svc__gamma=1, svc__kernel=rbf;, score=0.724 total time=   4.0s
+[CV 2/3] END svc__C=1, svc__gamma=1, svc__kernel=rbf;, score=0.706 total time=   3.9s
+[CV 3/3] END svc__C=1, svc__gamma=1, svc__kernel=rbf;, score=0.713 total time=   4.0s
+[CV 1/3] END svc__C=1, svc__gamma=0.1, svc__kernel=rbf;, score=0.593 total time=   4.4s
+[CV 2/3] END svc__C=1, svc__gamma=0.1, svc__kernel=rbf;, score=0.588 total time=   4.3s
+[CV 3/3] END svc__C=1, svc__gamma=0.1, svc__kernel=rbf;, score=0.604 total time=   4.3s
+[CV 1/3] END svc__C=1, svc__gamma=0.01, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 2/3] END svc__C=1, svc__gamma=0.01, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 3/3] END svc__C=1, svc__gamma=0.01, svc__kernel=rbf;, score=0.335 total time=   4.5s
+[CV 1/3] END svc__C=10, svc__gamma=1, svc__kernel=rbf;, score=0.782 total time=   3.7s
+[CV 2/3] END svc__C=10, svc__gamma=1, svc__kernel=rbf;, score=0.783 total time=   3.7s
+[CV 3/3] END svc__C=10, svc__gamma=1, svc__kernel=rbf;, score=0.779 total time=   3.7s
+[CV 1/3] END svc__C=10, svc__gamma=0.1, svc__kernel=rbf;, score=0.633 total time=   4.6s
+[CV 2/3] END svc__C=10, svc__gamma=0.1, svc__kernel=rbf;, score=0.610 total time=   5.0s
+[CV 3/3] END svc__C=10, svc__gamma=0.1, svc__kernel=rbf;, score=0.633 total time=   4.3s
+[CV 1/3] END svc__C=10, svc__gamma=0.01, svc__kernel=rbf;, score=0.584 total time=   4.5s
+[CV 2/3] END svc__C=10, svc__gamma=0.01, svc__kernel=rbf;, score=0.576 total time=   4.3s
+[CV 3/3] END svc__C=10, svc__gamma=0.01, svc__kernel=rbf;, score=0.600 total time=   4.3s
+[CV 1/3] END svc__C=100, svc__gamma=1, svc__kernel=rbf;, score=0.827 total time=   5.5s
+[CV 2/3] END svc__C=100, svc__gamma=1, svc__kernel=rbf;, score=0.826 total time=   5.3s
+[CV 3/3] END svc__C=100, svc__gamma=1, svc__kernel=rbf;, score=0.819 total time=   5.6s
+[CV 1/3] END svc__C=100, svc__gamma=0.1, svc__kernel=rbf;, score=0.725 total time=   4.7s
+[CV 2/3] END svc__C=100, svc__gamma=0.1, svc__kernel=rbf;, score=0.714 total time=   4.6s
+[CV 3/3] END svc__C=100, svc__gamma=0.1, svc__kernel=rbf;, score=0.716 total time=   4.8s
+[CV 1/3] END svc__C=100, svc__gamma=0.01, svc__kernel=rbf;, score=0.607 total time=   4.3s
+[CV 2/3] END svc__C=100, svc__gamma=0.01, svc__kernel=rbf;, score=0.591 total time=   4.3s
+[CV 3/3] END svc__C=100, svc__gamma=0.01, svc__kernel=rbf;, score=0.605 total time=   4.6s
+Best estimator found by grid search:
+
+Pipeline(steps=[('vec',
+                 TfidfVectorizer(preprocessor=<function identity at 0x7ff57c47e670>,
+                                 tokenizer=<function identity at 0x7ff57c47e670>)),
+                ('svc', SVC(C=100, gamma=1, random_state=0))])
+Best parameters found by the grid search and macro f1-score:
+
+{'svc__C': 100, 'svc__gamma': 1, 'svc__kernel': 'rbf'} 0.8238117953654313
+Results on cross validation during grid search:
+
+{'mean_fit_time': array([2.97195609, 3.02387047, 3.07076947, 2.71492863, 2.91184433,
+       3.01928027, 2.68409085, 3.22277768, 2.94351665, 4.58566332,
+       3.47655177, 2.98331483]), 'std_fit_time': array([0.01391984, 0.00722654, 0.02106236, 0.02278893, 0.01595528,
+       0.00917823, 0.04963891, 0.34854076, 0.0719533 , 0.12102319,
+       0.10006957, 0.12582655]), 'mean_score_time': array([1.44553129, 1.48113386, 1.47499418, 1.26434803, 1.44213963,
+       1.48151398, 0.99993698, 1.4270792 , 1.43465598, 0.88437494,
+       1.21014539, 1.41971111]), 'std_score_time': array([0.0052927 , 0.00341613, 0.00407803, 0.01502697, 0.00427258,
+       0.01039173, 0.00627654, 0.06159361, 0.00469184, 0.04839276,
+       0.01289604, 0.04055232]), 'param_svc__C': masked_array(data=[0.1, 0.1, 0.1, 1, 1, 1, 10, 10, 10, 100, 100, 100],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_svc__gamma': masked_array(data=[1, 0.1, 0.01, 1, 0.1, 0.01, 1, 0.1, 0.01, 1, 0.1, 0.01],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_svc__kernel': masked_array(data=['rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf', 'rbf',
+                   'rbf', 'rbf', 'rbf', 'rbf'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'svc__C': 0.1, 'svc__gamma': 1, 'svc__kernel': 'rbf'}, {'svc__C': 0.1, 'svc__gamma': 0.1, 'svc__kernel': 'rbf'}, {'svc__C': 0.1, 'svc__gamma': 0.01, 'svc__kernel': 'rbf'}, {'svc__C': 1, 'svc__gamma': 1, 'svc__kernel': 'rbf'}, {'svc__C': 1, 'svc__gamma': 0.1, 'svc__kernel': 'rbf'}, {'svc__C': 1, 'svc__gamma': 0.01, 'svc__kernel': 'rbf'}, {'svc__C': 10, 'svc__gamma': 1, 'svc__kernel': 'rbf'}, {'svc__C': 10, 'svc__gamma': 0.1, 'svc__kernel': 'rbf'}, {'svc__C': 10, 'svc__gamma': 0.01, 'svc__kernel': 'rbf'}, {'svc__C': 100, 'svc__gamma': 1, 'svc__kernel': 'rbf'}, {'svc__C': 100, 'svc__gamma': 0.1, 'svc__kernel': 'rbf'}, {'svc__C': 100, 'svc__gamma': 0.01, 'svc__kernel': 'rbf'}], 'split0_test_score': array([0.62185638, 0.33496933, 0.33496933, 0.72368872, 0.59261511,
+       0.33496933, 0.78220135, 0.63293344, 0.58435237, 0.82656827,
+       0.72482804, 0.6065735 ]), 'split1_test_score': array([0.60935309, 0.33488829, 0.33488829, 0.7061419 , 0.58767575,
+       0.33488829, 0.78331476, 0.60967602, 0.57626686, 0.82574866,
+       0.71424988, 0.59115197]), 'split2_test_score': array([0.62054564, 0.33488829, 0.33488829, 0.71333517, 0.60396134,
+       0.33488829, 0.7792507 , 0.63301259, 0.59954119, 0.81911846,
+       0.71613661, 0.60541031]), 'mean_test_score': array([0.6172517 , 0.3349153 , 0.3349153 , 0.7143886 , 0.59475073,
+       0.3349153 , 0.78158893, 0.62520735, 0.58672014, 0.8238118 ,
+       0.71840484, 0.60104526]), 'std_test_score': array([5.61073755e-03, 3.82009360e-05, 3.82009360e-05, 7.20208292e-03,
+       6.81790797e-03, 3.82009360e-05, 1.71472698e-03, 1.09823570e-02,
+       9.64808988e-03, 3.33551145e-03, 4.60673635e-03, 7.01171176e-03]), 'rank_test_score': array([ 6, 10, 10,  4,  8, 10,  2,  5,  9,  1,  3,  7], dtype=int32)}
+              precision    recall  f1-score   support
+
+           0       0.86      0.87      0.87      1037
+           1       0.87      0.86      0.86       995
+
+    accuracy                           0.87      2032
+   macro avg       0.87      0.87      0.87      2032
+weighted avg       0.87      0.87      0.87      2032
+

@@ -12,6 +12,7 @@ from sklearn.model_selection import GridSearchCV
 
 
 def read_data():
+    ''' To run the baseline on the original set '''
     sentences = []
     labels = []
     os.chdir('../Data')
@@ -24,6 +25,21 @@ def read_data():
                     sentences.append(row[1])
                     labels.append(row[2])
     return sentences, labels
+
+def read_data_template():
+    ''' To run the baseline on the balanced set '''
+    sentences = []
+    labels = []
+    os.chdir('../Data')
+    with open('full_data_balanced.txt') as f:
+        lines = f.readlines()
+    for line in lines:
+        line = line.replace("\n", "")
+        split_string = line.split("\t")
+        sentences.append(split_string[0])
+        labels.append(split_string[1])
+    return sentences, labels
+        
 
 
 def train_svm(X_train, Y_train):
@@ -65,6 +81,7 @@ def main():
     X_train, X_test, Y_train, Y_test = train_test_split(X_full, Y_full, test_size=0.2, random_state=0)
     classifier = train_svm(X_train, Y_train)
     Y_pred = classifier.predict(X_test)
+
     print(classification_report(Y_test, Y_pred))
 
     gs_classifier = optimize_hyperparameters(classifier, X_train, Y_train)
