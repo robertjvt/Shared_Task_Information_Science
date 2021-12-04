@@ -5,23 +5,9 @@ import os
 import csv
 import argparse
 import random
-import torch
-import torchtext
 import nltk
 import requests
 import  tarfile
-import matplotlib.pyplot as plt
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.pipeline import Pipeline
-from sklearn.model_selection import train_test_split
-from sklearn.dummy import DummyClassifier
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.svm import SVC
-from sklearn.svm import LinearSVC
-from sklearn.metrics import classification_report as report
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import cross_val_predict
 import numpy as np  
 import random
 #nltk.download()
@@ -67,7 +53,7 @@ def create_arg_parser():
     args = parser.parse_args()
     return args
 
-
+'''
 def read_data_with_acc_split():
     sentences = []
     labels = []
@@ -100,6 +86,27 @@ def read_data_with_acc_split():
                         sentences.append(tokens)
                         labels.append(row[2])
     return sentences, sentences1, labels, labels1
+'''
+def read_data():
+    sentences = []
+    labels = []
+
+    test = False
+    os.chdir('../Data/split_dataset')
+    for root, dirs, files in os.walk('.', topdown=False):
+        for name in files:
+            if name == 'train.txt':
+                file = open(os.path.join(root, name))
+                text = list(csv.reader(file, delimiter='.'))
+
+                for row in text:
+                    print(row)
+                    tokens = row[0].strip().split()
+                    tokens.append('.')
+                    tokens = " ".join(tokens)
+                    sentences.append(tokens)
+                    labels.append(row[1])
+    return sentences, labels
 
 def read_data_template():
     templates = {}
@@ -115,6 +122,7 @@ def read_data_template():
                     templates[row[0].strip()].append(int(row[1].strip()))
                     templates[row[0].strip()].append(int(row[2].strip())) 
                     templates[row[0].strip()].append(int(row[3].strip()))
+                    templates[row[0].strip()].append(int(row[4].strip()))
     return templates
     
 def sentence_tempalate_match(template, sentence):
@@ -151,24 +159,49 @@ def getNewSentences(template, word1):
 
 
 def applify(templates, data, labels):
+    new_data = []
+    new_labels = []
     for i in templates:
-        for x,y in data, labels:
-            if len(sentence_tempalate_match(i,x)) == 2:
-                hypernyms = sentence_tempalate_match(i,x)
-                if label == 1:
-                    if getRelation(hypernyms[0], hypernyms[1]) == "hyper":
-                        print()
-                    elif getRelation(hypernyms[0], hypernyms[1]) == "hypo":
-                        print()
-                    else:
-                        print()
-                else:
-                    if getRelation(hypernyms[0], hypernyms[1]) == "hyper":
-                        print()
-                    elif getRelation(hypernyms[0], hypernyms[1]) == "hypo":
-                        print()
-                    else:
-                        print()
+        new_data_temp, new_labels_temp = getNewSentences(i, templates[i])
+        new_data.extend(new_data_temp)
+        new_labels.extend(new_labels_temp)
+    labels.extend(new_labels)
+    data.extend(new_data)
+    return data, labels
+                     
+
+def getNewSentences(template, data):
+    new_sentences = []
+    label = 0
+    print(data)
+    if data[2] >  data[1]:
+        n_sentences = data[2]-data[1]  
+        label = 1
+        if data[3] == 1:
+            new_sentences = getHypernymSentences(n_sentences, template)
+        elif data[3] == 2:
+            new_sentences = getHyponymSentences(n_sentences, template)
+        elif data[3] == 3:
+            new_sentences = getNormalSentences(n_sentences, template)
+    elif data[1] >  data[2]:
+        n_sentences = data[1]-data[2] 
+        label = 0 
+        if data[3] == 1:
+            new_sentences = getNormalSentences(n_sentences, template)
+        elif data[3] == 2:
+            new_sentences = getHypernymSentences(n_sentences, template)
+        elif data[3] == 3:
+            new_sentences = getHyponymSentences(n_sentences, template)
+    return new_sentences ,getLabels(label, n_sentences)    
+
+def getLabels(label, n_labels):
+    labels = []
+    while len(labels) != n_labels:
+        labels.append(label)
+    return labels
+
+
+
 
 def getNormalSentences(n_sentence, template):
     nouns = list(wn.all_synsets('n'))
@@ -213,14 +246,24 @@ def getHyponymSentences(n_sentence, template):
             sentences.append(" ".join(templateWordList))
     return sentences
 
+def writetocsv(X_full, Y_full):
+    output = '\n'.join('\t'.join(map(str,row)) for row in zip(X_full, Y_full))
+    with open('label_balanced_train.txt', 'w') as f:
+        f.write(output)
+    
+    
 def main():
     templates = read_data_template()
     sentence_tempalate_match("I like [word] , but not [word] .","I like ham , but not fish .")
-    print(getRelation("apple","fruit"))
+    #print(getRelation("apple","fruit"))
     #print(getNewSentences("I like [word1] , but not [word2] .", "dog"))
-    print(getNormalSentences(3, "I like [word1] , but not [word2] ."))
-    print(getHypernymSentences(3, "I like [word1] , and more specifically [word2] ."))
-    print(getHyponymSentences(3, "I like [word1] , an interesting type of [word2] ."))
+    #print(getNormalSentences(3, "I like [word1] , but not [word2] ."))
+    #print(getHypernymSentences(3, "I like [word1] , and more specifically [word2] ."))
+    #print(getHyponymSentences(3, "I like [word1] , an interesting type of [word2] ."))
+    X_full, Y_full = read_data()
+    print(X_full)
+    new_data, new_labels = applify(templates, X_full, Y_full)
+    writetocsv(new_data, new_labels)
 
 
 if __name__ == "__main__":
