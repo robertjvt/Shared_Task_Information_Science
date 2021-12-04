@@ -118,11 +118,16 @@ def read_data_template():
                 file = open(os.path.join(root, name))
                 text = list(csv.reader(file, delimiter='&'))
                 for row in text:
-                    templates[row[0].strip()] = []
-                    templates[row[0].strip()].append(int(row[1].strip()))
-                    templates[row[0].strip()].append(int(row[2].strip())) 
-                    templates[row[0].strip()].append(int(row[3].strip()))
-                    templates[row[0].strip()].append(int(row[4].strip()))
+                    if "more specifically" in row[0].strip():
+                        continue
+                    elif "interesting type" in row[0].strip():
+                        continue
+                    else:
+                        templates[row[0].strip()] = []
+                        templates[row[0].strip()].append(int(row[1].strip()))
+                        templates[row[0].strip()].append(int(row[2].strip())) 
+                        templates[row[0].strip()].append(int(row[3].strip()))
+                        templates[row[0].strip()].append(int(row[4].strip()))
     return templates
     
 def sentence_tempalate_match(template, sentence):
