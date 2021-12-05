@@ -31,15 +31,4 @@ def read_data(file):
             labels.append(int(tokens[-1]))
     return sentences, labels
 
-
-def change_dtype(tokens):
-
-    """Return model inputs after changing data type to int32"""
-
-    tokens['input_ids'] = tokens['input_ids'].astype('int32')
-    tokens['input_ids'] = tokens['input_ids'].astype('int32')
-
-    tokens['attention_mask'] = tokens['attention_mask'].astype('int32')
-    tokens['attention_mask'] = tokens['attention_mask'].astype('int32')
-
-    return tokens
+s

@@ -107,9 +107,6 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
     tokens_dev = tokenizer(X_dev, padding=True, max_length=max_length,
         truncation=True, return_tensors="np").data
 
-    # tokens_train = utils.change_dtype(tokens_train)
-    # tokens_dev = utils.change_dtype(tokens_dev)
-
     pprint(f'tokens_train: {tokens_train}')
     pprint(f'tokens_train: {tokens_train.keys()}')
 
