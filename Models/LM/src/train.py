@@ -112,9 +112,12 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
     history_logger = CSVLogger(utils.LOG_DIR+model_name+"_HISTORY.csv",
         separator=",", append=True)
 
+    X_train = np.asarray(X_train)
     Y_train = np.asarray(Y_train)
-    print(tokens_train)
-    print(Y_train)
+    X_dev = np.asarray(X_dev)
+    Y_dev = np.asarray(Y_dev)
+    # print(tokens_train)
+    # print(Y_train)
 
     # train models
     model.fit(tokens_train, Y_train, verbose=0, epochs=epochs,
