@@ -8,7 +8,6 @@ LOG_DIR = "../Logs/"
 
 
 def get_config():
-
     """Return model name and paramters after reading it from json file"""
     try:
         location = 'config.json'
@@ -22,12 +21,25 @@ def get_config():
 
 
 def read_data(file):
-    '''Read in data sets and returns sentences and labels'''
+    """Read in data sets and returns sentences and labels"""
     sentences = []
     labels = []
     with open(file, encoding='utf-8') as f:
         for line in f:
             tokens = line.strip().split()
-            sentences.append(" ".join(tokens))
-            labels.append(tokens[-1])
+            sentences.append(" ".join(tokens[:-1]))
+            labels.append(int(tokens[-1]))
     return sentences, labels
+
+
+def change_dtype(tokens):
+
+    """Return model inputs after changing data type to int32"""
+
+    tokens['input_ids'] = tokens['input_ids'].astype('int32')
+    tokens['input_ids'] = tokens['input_ids'].astype('int32')
+
+    tokens['attention_mask'] = tokens['attention_mask'].astype('int32')
+    tokens['attention_mask'] = tokens['attention_mask'].astype('int32')
+
+    return tokens
