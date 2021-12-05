@@ -120,11 +120,16 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
 
     # pprint(f'Y_dev_bin: {Y_dev_bin}')
     # pprint(f'Y_train_bin: {Y_train_bin}')
+
     # Y_train = np.asarray(Y_train).astype('float32').reshape((-1,1))
     # Y_dev = np.asarray(Y_dev).astype('float32').reshape((-1,1))
 
     # pprint(f'Y_dev: {Y_dev}')
     # pprint(f'Y_train: {Y_train}')
+
+    #convert Y into one hot encoding
+    Y_train = tf.one_hot(Y_train,depth=2)
+    Y_dev = tf.one_hot(Y_dev,depth=2)
 
     model.compile(loss=loss_function, optimizer=optim, metrics=['accuracy'])
 
