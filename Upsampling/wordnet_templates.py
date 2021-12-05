@@ -1,7 +1,11 @@
+'''Reads in the new templates we have created and and injects wordnet
+hyper- and hyponyms into the places where nouns should be.'''
+
 from nltk.corpus import wordnet as wn
 
 
 def read_templates():
+    '''Reads the other_templates.txt templates into a list.'''
     # Returns only regular nouns
     templates = []
     f = open('other_templates.txt', 'r')
@@ -14,6 +18,7 @@ def read_templates():
 
 
 def wordnet_word(word):
+    '''Retrieves synsets from WordNet to use as the hyper- and hyponyms.'''
     synsets = wn.synsets(word, pos=wn.NOUN)
     synset = synsets[0]
     hypernyms = synset.hypernyms()
@@ -23,6 +28,7 @@ def wordnet_word(word):
 
 
 def inject_words(word, new_word, templates):
+    '''Puts the WordNet synsets into the correct place in the template.'''
     for template in templates:
         template = template.split()
         template[0] = word
