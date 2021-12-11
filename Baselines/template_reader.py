@@ -13,7 +13,7 @@ def create_arg_parser():
     args = parser.parse_args()
     return args
 
-
+''''
 def read_data():
     sentences = []
     labels = []
@@ -27,7 +27,29 @@ def read_data():
                     sentences.append(row[1])
                     labels.append(row[2])
     return sentences, labels
+'''
+'''
+Read template balanced dataset
+'''
+def read_data():
+    sentences = []
+    labels = []
 
+    test = False
+    os.chdir('../Data/split_dataset')
+    for root, dirs, files in os.walk('.', topdown=False):
+        for name in files:
+            if name == 'label_balanced_train.txt':
+                file = open(os.path.join(root, name))
+                text = list(csv.reader(file, delimiter='\t'))
+
+                for row in text:
+                    print(row)
+                    tokens = row[0].strip().split()
+                    tokens = " ".join(tokens)
+                    sentences.append(tokens)
+                    labels.append(row[1]) 
+    return sentences, labels
 def main():
     args = create_arg_parser()
     X_full, Y_full = read_data()

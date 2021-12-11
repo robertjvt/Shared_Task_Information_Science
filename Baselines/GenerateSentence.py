@@ -95,7 +95,7 @@ def read_data():
     os.chdir('../Data/split_dataset')
     for root, dirs, files in os.walk('.', topdown=False):
         for name in files:
-            if name == 'train.txt':
+            if name == 'label_balanced_train.txt':
                 file = open(os.path.join(root, name))
                 text = list(csv.reader(file, delimiter='.'))
 
@@ -174,6 +174,17 @@ def applify(templates, data, labels):
     data.extend(new_data)
     return data, labels
                      
+def applify2(templates, data, labels):
+    new_data = []
+    new_labels = []
+    for i in templates:
+        new_data_temp, new_labels_temp = getNewSentences(i, templates[i])
+        new_data.extend(new_data_temp)
+        new_labels.extend(new_labels_temp)
+    labels.extend(new_labels)
+    data.extend(new_data)
+    return data, labels
+
 
 def getNewSentences(template, data):
     new_sentences = []
@@ -197,7 +208,29 @@ def getNewSentences(template, data):
             new_sentences = getHypernymSentences(n_sentences, template)
         elif data[3] == 3:
             new_sentences = getHyponymSentences(n_sentences, template)
-    return new_sentences ,getLabels(label, n_sentences)    
+    return new_sentences ,getLabels(label, n_sentences)   
+
+def getNewSentences2(template, data):
+    new_sentences = []
+    label = 0
+    n_sentences = int((1222 - data[0])/2)
+
+    label = 1
+    if data[3] == 1:
+        new_sentences = getHypernymSentences(n_sentences, template)
+    elif data[3] == 2:
+        new_sentences = getHyponymSentences(n_sentences, template)
+    elif data[3] == 3:
+        new_sentences = getNormalSentences(n_sentences, template)
+
+    label = 0 
+    if data[3] == 1:
+        new_sentences = getNormalSentences(n_sentences, template)
+    elif data[3] == 2:
+        new_sentences = getHypernymSentences(n_sentences, template)
+    elif data[3] == 3:
+        new_sentences = getHyponymSentences(n_sentences, template)
+    return new_sentences ,getLabels(label, n_sentences)   
 
 def getLabels(label, n_labels):
     labels = []
@@ -253,7 +286,7 @@ def getHyponymSentences(n_sentence, template):
 
 def writetocsv(X_full, Y_full):
     output = '\n'.join('\t'.join(map(str,row)) for row in zip(X_full, Y_full))
-    with open('label_balanced_train.txt', 'w') as f:
+    with open('label_template_balanced_train.txt', 'w') as f:
         f.write(output)
     
     
@@ -267,7 +300,8 @@ def main():
     #print(getHyponymSentences(3, "I like [word1] , an interesting type of [word2] ."))
     X_full, Y_full = read_data()
     print(X_full)
-    new_data, new_labels = applify(templates, X_full, Y_full)
+    new_data, new_labels = applify2(templates, X_full, Y_full)
+    #new_data, new_labels = applify2(templates, new_data, new_labels)
     writetocsv(new_data, new_labels)
 
 
