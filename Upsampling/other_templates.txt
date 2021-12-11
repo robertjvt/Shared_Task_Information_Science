@@ -1,22 +1,22 @@
-[NOUN] is a [NOUN] .
-[NOUN] was a [NOUN] .
-[PL-NOUN] are a [PL-NOUN] .
-[PL-NOUN] were a [PL-NOUN] .
-[PL-NOUN] are examples of [PL-NOUN] .
-[NOUN] is example of [NOUN] .
-[NOUN] is a kind of [NOUN] .
-[PL-NOUN] are kinds of [PL-NOUN] .
-[NOUN] is a form of [NOUN] .
-[PL-NOUN] are forms of [PL-NOUN] .
-[PL-NOUN] look like [PL-NOUN] .
-[PL-NOUN] sound like [PL-NOUN] .
-[NOUN] looks like [NOUN] .
-[NOUN] sounds like [NOUN] .
-[PL-NOUN] are similar to [PL-NOUN] .
-[NOUN] is similar to [NOUN] .
-[NOUN] is sort of [NOUN] .
-[PL-NOUN] include [PL-NOUN] .
-[NOUN] includes [NOUN] .
-[NOUN] included [NOUN] .
-[NOUN] is compared to [NOUN] .
-[PL-NOUN] are compared to [PL-NOUN] .
+[NOUN-1] is a [NOUN-2] .
+[NOUN-1] was a [NOUN-2] .
+[PL-NOUN-1] are a [PL-NOUN-2] .
+[PL-NOUN-1] were a [PL-NOUN-2] .
+[PL-NOUN-1] are examples of [PL-NOUN-2] .
+[NOUN-1] is example of [NOUN-2] .
+[NOUN-1] is a kind of [NOUN-2] .
+[PL-NOUN-1] are kinds of [PL-NOUN-2] .
+[NOUN-1] is a form of [NOUN-2] .
+[PL-NOUN-1] are forms of [PL-NOUN-2] .
+[PL-NOUN-1] look like [PL-NOUN-2] .
+[PL-NOUN-1] sound like [PL-NOUN-2] .
+[NOUN-1] looks like [NOUN-2] .
+[NOUN-1] sounds like [NOUN-2] .
+[PL-NOUN-1] are similar to [PL-NOUN-2] .
+[NOUN-1] is similar to [NOUN-2] .
+[NOUN-1] is sort of [NOUN-2] .
+[PL-NOUN-1] include [PL-NOUN-2] .
+[NOUN-1] includes [NOUN-2] .
+[NOUN-1] included [NOUN-2] .
+[NOUN-1] is compared to [NOUN-2] .
+[PL-NOUN-1] are compared to [PL-NOUN-2] .

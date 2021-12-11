@@ -14,14 +14,13 @@ import numpy as np
 import os
 import pandas as pd
 from tensorflow.keras.optimizers import Adam, SGD
-from tensorflow.python.keras.losses import BinaryCrossentropy
+from tensorflow.python.keras.losses import BinaryCrossentropy, CategoricalCrossentropy
 from transformers import TFAutoModelForSequenceClassification
 from transformers import AutoTokenizer
 from tensorflow.keras.callbacks import EarlyStopping, CSVLogger
 import tensorflow as tf
 from tqdm.keras import TqdmCallback
 
-from sklearn.preprocessing import LabelBinarizer
 from pprint import pprint
 
 import utils
@@ -81,8 +80,8 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
 
     if config["loss"].upper() == "BINARY":
         loss_function = BinaryCrossentropy(from_logits=True)
-    # elif config["loss"].upper() == "CUSTOM":
-    #     loss_function = weighted_loss_function
+    elif config["loss"].upper() == "CATEGORY":
+        loss_function = CategoricalCrossentropy(from_logits=True)
 
     if config['optimizer'].upper() == "ADAM":
         optim = Adam(learning_rate=learning_rate)
@@ -109,20 +108,6 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
 
     pprint(f'tokens_train: {tokens_train}')
     pprint(f'tokens_train: {tokens_train.keys()}')
-
-    # transform string labels to one-hot encodings
-    # encoder = LabelBinarizer()
-    # Y_train_bin = encoder.fit_transform(Y_train)  # Use encoder.classes_ to find mapping back
-    # Y_dev_bin = encoder.fit_transform(Y_dev)
-
-    # pprint(f'Y_dev_bin: {Y_dev_bin}')
-    # pprint(f'Y_train_bin: {Y_train_bin}')
-
-    # Y_train = np.asarray(Y_train).astype('float32').reshape((-1,1))
-    # Y_dev = np.asarray(Y_dev).astype('float32').reshape((-1,1))
-
-    # pprint(f'Y_dev: {Y_dev}')
-    # pprint(f'Y_train: {Y_train}')
 
     #convert Y into one hot encoding
     Y_train = tf.one_hot(Y_train,depth=2)
