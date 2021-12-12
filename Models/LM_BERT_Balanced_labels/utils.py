@@ -1,7 +1,7 @@
 import json
 
 
-DATA_DIR = '../Data/split_dataset'
+DATA_DIR = '../../Data/split_dataset'
 MODEL_DIR = "Saved_Models/"
 OUTPUT_DIR = "Output/"
 LOG_DIR = "Logs/"

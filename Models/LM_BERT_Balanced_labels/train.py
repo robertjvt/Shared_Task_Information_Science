@@ -46,7 +46,7 @@ def load_data1(dir, config):
     X_train = df_train["Document"].ravel().tolist()
     Y_train = df_train["Label"]
 
-    df_dev = pd.read_csv(dir+'/dev.csv')
+    df_dev = pd.read_csv(dir+'/dev_shared_template.csv')
 
     X_dev = df_dev['Document'].ravel().tolist()
     Y_dev = df_dev['Label']
@@ -67,7 +67,7 @@ def load_data(dir, config):
     elif training_set.lower() == "label_balanced_train":
         X_train, Y_train = utils.read_data(dir+'/label_balanced_train.txt')
 
-    X_dev, Y_dev = utils.read_data(dir+'/dev.txt')
+    X_dev, Y_dev = utils.read_data(dir+'/dev_shared_template.txt')
 
     return X_train, Y_train, X_dev, Y_dev
 
@@ -80,7 +80,7 @@ def read_data():
     labels_dev = []
 
     test = False
-    os.chdir('../Data/split_dataset')
+    os.chdir('../../Data/split_dataset')
     for root, dirs, files in os.walk('.', topdown=False):
         for name in files:
             if name == 'label_balanced_train.txt':
@@ -104,7 +104,7 @@ def read_data():
                     tokens = " ".join(tokens)
                     sentences_dev.append(tokens)
                     labels_dev.append(row[1].strip())
-    os.chdir('../../LM')
+    os.chdir('../../../Models/LM_BERT_Balanced_labels')
     return sentences_train, labels_train, sentences_dev, labels_dev
 
 def read_data_dev():

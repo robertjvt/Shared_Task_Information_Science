@@ -39,17 +39,18 @@ def read_data():
     os.chdir('../Data/split_dataset')
     for root, dirs, files in os.walk('.', topdown=False):
         for name in files:
-            if name == 'label_balanced_train.txt':
-                file = open(os.path.join(root, name))
-                text = list(csv.reader(file, delimiter='\t'))
-
-                for row in text:
-                    print(row)
-                    tokens = row[0].strip().split()
-                    tokens = " ".join(tokens)
-                    sentences.append(tokens)
-                    labels.append(row[1]) 
+            if name == 'label_template_balanced_train.txt':
+                #file = open(os.path.join(root, name))
+                with open(os.path.join(root, name), encoding='utf-8') as f:
+                    for line in f:
+                        tokens = line.strip().split()
+                        sentences.append(" ".join(tokens[:-1]))
+                        labels.append(tokens[-1].strip())
     return sentences, labels
+    
+
+
+    
 def main():
     args = create_arg_parser()
     X_full, Y_full = read_data()

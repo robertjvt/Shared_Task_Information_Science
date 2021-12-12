@@ -37,7 +37,7 @@ def load_data(dir, testset):
     """Return test sets reading from csv files"""
     try:
         if testset=="24":
-            df_test = pd.read_csv(dir+'/dev.csv')
+            df_test = pd.read_csv(dir+'/test.csv')
         elif testset=="25":
             df_test = pd.read_csv(dir+'/test_25th.csv')
     except FileNotFoundError as error:
