@@ -3,7 +3,7 @@
 [PL-NOUN-HYPO] are [PL-NOUN-HYPER] .
 [PL-NOUN-HYPO] were [PL-NOUN-HYPER] .
 [PL-NOUN-HYPO] are examples of [PL-NOUN-HYPER] .
-[NOUN-HYPO] is example of [NOUN-HYPER] .
+[NOUN-HYPO] is an example of [NOUN-HYPER] .
 [NOUN-HYPO] is a kind of [NOUN-HYPER] .
 [PL-NOUN-HYPO] are kinds of [PL-NOUN-HYPER] .
 [NOUN-HYPO] is a form of [NOUN-HYPER] .
