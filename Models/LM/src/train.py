@@ -34,9 +34,12 @@ def load_data(dir, config):
         X_train, Y_train = utils.read_data(dir+'train.txt')
 
     elif training_set.lower() == "label_balanced_train":
-        X_train, Y_train = utils.read_data(dir+'/label_balanced_train.txt')
+        X_train, Y_train = utils.read_data(dir+'label_balanced_train.txt')
 
-    X_dev, Y_dev = utils.read_data(dir+'dev.txt')
+    elif training_set.lower() == "data_generated_from_other_templates":
+        X_train, Y_train = utils.read_data(dir+'data_generated_from_other_templates.txt')
+
+    X_dev, Y_dev = utils.read_data(dir+'dev_shared_template.txt')
 
     return X_train, Y_train, X_dev, Y_dev
 

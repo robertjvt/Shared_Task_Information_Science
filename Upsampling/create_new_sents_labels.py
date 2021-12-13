@@ -6,7 +6,7 @@ from nltk.corpus import wordnet as wn
 
 # nltk.download("wordnet")
 
-
+DATA_DIR = '../Data/split_dataset/'
 NOUNS = list(wn.all_synsets("n"))
 RANGE = 50
 
@@ -427,10 +427,15 @@ def main():
     false_sentences = false_sentence_generator(infile)
     good_sentences = good_sentence_generator(infile)
     sentences = false_sentences + good_sentences
-    random.shuffle(sentences)
 
-    with open("sents_generated_from_other_templates.txt","w") as outfile:
-        for sent in sentences:
+    # Eliminate the under steep between wordnet nouns.
+    cleaned_sentences = [sent.replace("_", " ") for sent in sentences]
+
+    random.shuffle(cleaned_sentences)
+
+    outfile_path = DATA_DIR + "data_generated_from_other_templates.txt"
+    with open(outfile_path,"w") as outfile:
+        for sent in cleaned_sentences:
             outfile.write(sent + "\n")
 
 
