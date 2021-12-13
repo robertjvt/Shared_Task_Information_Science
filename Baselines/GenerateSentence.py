@@ -110,7 +110,7 @@ def getRelation(word1, word2):
     hyper if hypernym
     no if no hypernym/hyponym relation exists 
     """
-    
+    print(wn.synsets(word1))
     word1_h = wn.synsets(word1)[0]
     word2_h = wn.synsets(word2)[0]
     hypo_word1_h = set([i for i in word1_h.closure(lambda s:s.hyponyms())])
@@ -175,6 +175,15 @@ def applify3(templates, data, labels):
         new_data_temp, new_labels_temp = getNewSentences3(i, templates[i])
         new_data.extend(new_data_temp)
         new_labels.extend(new_labels_temp)
+    return new_data, new_labels
+
+def getIsAdataset():
+    new_data = []
+    new_labels = []
+    new_data.extend(getHyponymSentences(10000,'[word1] is [word2]'))
+    new_labels.extend(getLabels(1,10000))
+    new_data.extend(getNormalSentences(10000,'[word1] is [word2]'))
+    new_labels.extend(getLabels(0,10000))
     return new_data, new_labels
 
 
@@ -346,7 +355,7 @@ def getHyponymSentences(n_sentence, template):
 
 def writetocsv(X_full, Y_full):
     output = '\n'.join('\t'.join(map(str,row)) for row in zip(X_full, Y_full))
-    with open('label_template_balanced_train.txt', 'w') as f:
+    with open('custom_train_large.txt', 'w') as f:
         f.write(output)
     
     
@@ -356,7 +365,8 @@ def main():
 
 
     #new_data, new_labels = amplify(templates, X_full, Y_full)
-    new_data, new_labels = applify2(templates, X_full, Y_full)
+    #new_data, new_labels = applify2(templates, X_full, Y_full)
+    new_data, new_labels = getIsAdataset()
     writetocsv(new_data, new_labels)
 
 

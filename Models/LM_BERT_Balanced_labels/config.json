@@ -6,10 +6,10 @@
     "learning_rate": 1e-5,
     "epochs": 10,
     "patience": 3,
-    "batch_size": 32,
+    "batch_size": 64,
     "loss": "binary",
     "optimizer": "adam",
-    "training-set": "label_balanced_train",
+    "training-set": "custom_train_large",
     "seed": 1234
 
 
