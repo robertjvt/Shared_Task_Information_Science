@@ -66,8 +66,14 @@ def load_data(dir, config):
 
     elif training_set.lower() == "label_balanced_train":
         X_train, Y_train = utils.read_data(dir+'/label_balanced_train.txt')
+    elif training_set.lower() == "label_template_balanced_train":
+        X_train, Y_train = utils.read_data(dir+'/label_template_balanced_train.txt')
+    elif training_set.lower() == "custom":
+        X_train, Y_train = utils.read_data(dir+'/custom_train.txt')
+    elif training_set.lower() == "custom_train_large":
+        X_train, Y_train = utils.read_data(dir+'/custom_train_large.txt')
 
-    X_dev, Y_dev = utils.read_data(dir+'/dev_shared_template.txt')
+    X_dev, Y_dev = utils.read_data(dir+'/dev.txt')
 
     return X_train, Y_train, X_dev, Y_dev
 
@@ -174,6 +180,10 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
 
     if config["model"].upper() =='BERT':
         lm = 'bert-base-uncased'
+    elif config["model"].upper() =='WHOLE':
+        lm = 'bert-large-uncased-whole-word-masking'
+        
+
     # enable if trying with other pre-trained model.
     # elif config["model"].upper() ==' ':
     #     lm = ''

@@ -5,7 +5,7 @@ log.setLevel(logging.INFO)
 print = log.info
 import os
 import pandas as pd
-from transformers import TFBertForSequenceClassification
+from transformers import TFAutoModelForSequenceClassification
 from transformers import AutoTokenizer
 import numpy as np
 import tensorflow as tf
@@ -46,7 +46,7 @@ def load_data(dir, testset):
         print("#########################################################################\n")
             
     """Return appropriate training and validation sets reading from csv files"""
-    X_test, Y_test = utils.read_data(dir+'/test.txt')
+    X_test, Y_test = utils.read_data(dir+'/dev.txt')
     #convert Y into one hot encoding
     Y_test = tf.one_hot(Y_test, depth=2)
 
@@ -132,8 +132,8 @@ def main():
 
     #enable memory growth for a physical device so that the runtime initialization will not allocate all memory on the device
     physical_devices = tf.config.experimental.list_physical_devices('GPU')
-    if len(physical_devices) > 0:
-        tf.config.experimental.set_memory_growth(physical_devices[0], True)
+   # if len(physical_devices) > 0:
+    #    tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
     #get parameters for experiments
     config, model_name = utils.get_config()
@@ -143,15 +143,12 @@ def main():
 
     args = create_arg_parser()
 
-     #load data from train-test-dev folder
-    try:
-        X_train, Y_train = load_data(utils.DATA_DIR,args.testset)
-        Y_test, Y_pred = test(X_train, Y_train, config, model_name)
+    #load data from train-test-dev folder
+    X_train, Y_train = load_data(utils.DATA_DIR,args.testset)
+    Y_test, Y_pred = test(X_train, Y_train, config, model_name)
     
-        #save output in directory
-        save_output(Y_test, Y_pred, model_name)
-    except:
-        return
+    #save output in directory
+    save_output(Y_test, Y_pred, model_name)
   
     
 
