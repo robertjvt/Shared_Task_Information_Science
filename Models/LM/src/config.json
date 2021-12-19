@@ -9,7 +9,7 @@
     "batch_size": 8,
     "loss": "category",
     "optimizer": "sgd",
-    "training-set": "balanced_train+other_templates",
+    "training-set": "label_template_balanced_train",
     "seed": 1234
 
 
