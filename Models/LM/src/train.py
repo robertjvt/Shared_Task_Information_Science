@@ -12,7 +12,6 @@ print = log.info
 import random as python_random
 import numpy as np
 import os
-import pandas as pd
 from tensorflow.keras.optimizers import Adam, SGD
 from tensorflow.python.keras.losses import BinaryCrossentropy, CategoricalCrossentropy
 from transformers import TFAutoModelForSequenceClassification
@@ -33,11 +32,17 @@ def load_data(dir, config):
     if training_set.lower() == "train":
         X_train, Y_train = utils.read_data(dir+'train.txt')
 
-    elif training_set.lower() == "label_balanced_train":
-        X_train, Y_train = utils.read_data(dir+'label_balanced_train.txt')
+    elif training_set.lower() == "label_template_balanced_train":
+        X_train, Y_train = utils.read_data(dir+'label_template_balanced_train.txt')
+
+    elif training_set.lower() == "custom_train_large":
+        X_train, Y_train = utils.read_data(dir+'custom_train_large.txt')
 
     elif training_set.lower() == "data_generated_from_other_templates":
         X_train, Y_train = utils.read_data(dir+'data_generated_from_other_templates.txt')
+
+    elif training_set.lower() == "balanced_train+other_templates":
+        X_train, Y_train = utils.read_data(dir+'balanced_train+other_templates.txt')
 
     X_dev, Y_dev = utils.read_data(dir+'dev_shared_template.txt')
 
