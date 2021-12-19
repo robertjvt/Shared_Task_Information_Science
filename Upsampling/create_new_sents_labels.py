@@ -436,7 +436,7 @@ def main():
     outfile_path = DATA_DIR + "data_generated_from_other_templates.txt"
     with open(outfile_path,"w") as outfile:
         for sent in cleaned_sentences:
-            outfile.write(sent + "\n")
+            outfile.write(sent.capitalize() + "\n")
 
 
 if __name__ == "__main__":
