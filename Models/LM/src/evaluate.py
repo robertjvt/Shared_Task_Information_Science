@@ -1,6 +1,9 @@
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
+import sys
+
 import utils
 
 
@@ -51,9 +54,18 @@ def save_results(Y_test, Y_pred, model_name):
 
 def main():
 
+    try:
+        config_location = sys.argv[1]
+    except IndexError:
+        print("config not given!")
+        sys.exit(1)
+
+    if not Path(config_location).exists():
+        print(f"does not exist: {config_location}")
+        sys.exit(2)
 
     #get parameters for experiments
-    config, model_name = utils.get_config()
+    config, model_name = utils.get_config(config_location)
     
     # if config['training-set'] != 'trial':
     #     model_name = model_name+"_"+str(config['seed'])

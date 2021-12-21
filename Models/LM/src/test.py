@@ -12,6 +12,8 @@ import tensorflow as tf
 import random as python_random
 import utils
 import argparse
+from pathlib import Path
+import sys
 
 import utils
 
@@ -108,8 +110,18 @@ def main():
     # if len(physical_devices) > 0:
     #     tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
+    try:
+        config_location = sys.argv[1]
+    except IndexError:
+        print("config not given!")
+        sys.exit(1)
+
+    if not Path(config_location).exists():
+        print(f"does not exist: {config_location}")
+        sys.exit(2)
+
     #get parameters for experiments
-    config, model_name = utils.get_config()
+    config, model_name = utils.get_config(config_location)
     
     # if config['training-set'] != 'trial':
     #     model_name = model_name+"_"+str(config['seed'])

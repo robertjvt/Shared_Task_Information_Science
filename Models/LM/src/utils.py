@@ -1,4 +1,6 @@
 import json
+import random
+from pprint import pprint
 
 
 DATA_DIR = '../../../Data/split_dataset/'
@@ -7,10 +9,10 @@ OUTPUT_DIR = "../Output/"
 LOG_DIR = "../Logs/"
 
 
-def get_config():
+def get_config(location):
     """Return model name and paramters after reading it from json file"""
     try:
-        location = 'config.json'
+        # location = 'config.json'
         with open(location) as file:
             configs = json.load(file)
             vals = [str(v).upper() for v in configs.values()]
@@ -30,6 +32,17 @@ def read_data(file):
             sentences.append(" ".join(tokens[:-1]))
             labels.append(int(tokens[-1]))
     return sentences, labels
+
+
+def shuffle_dependent_lists(l1, l2):
+    '''Shuffle two lists, but keep the dependency between them'''
+    tmp = list(zip(l1, l2))
+    # Seed the random generator so results are consistent between runs
+    random.Random(123).shuffle(tmp)
+    new_l1, new_l2 = list(zip(*tmp))
+    new_l1 = list(new_l1)
+    new_l2 = list(new_l2)
+    return new_l1, new_l2
 
 
 # def change_dtype(tokens):

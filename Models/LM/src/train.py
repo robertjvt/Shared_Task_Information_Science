@@ -3,11 +3,13 @@
 '''Train BERT-based model on different train sets,
 trained models will be saved to test and evaluate.'''
 
+import sys
 import logging
+from pathlib import Path
 # get TF logger for pre-trained transformer model
 log = logging.getLogger('transformers')
 log.setLevel(logging.INFO)
-print = log.info
+# print = log.info
 
 import random as python_random
 import numpy as np
@@ -27,24 +29,30 @@ import utils
 
 def load_data(dir, config):
     """Return appropriate training and validation sets reading from csv files"""
-    training_set = config["training-set"]
+    training_set = config["training-set"].lower()
 
-    if training_set.lower() == "train":
+    # original train set
+    if training_set == "train":
         X_train, Y_train = utils.read_data(dir+'train.txt')
 
-    elif training_set.lower() == "label_template_balanced_train":
+    elif training_set == "label_template_balanced_train":
         X_train, Y_train = utils.read_data(dir+'label_template_balanced_train.txt')
 
-    elif training_set.lower() == "custom_train_large":
-        X_train, Y_train = utils.read_data(dir+'custom_train_large.txt')
-
-    elif training_set.lower() == "data_generated_from_other_templates":
-        X_train, Y_train = utils.read_data(dir+'data_generated_from_other_templates.txt')
-
-    elif training_set.lower() == "balanced_train+other_templates":
+    elif training_set == "balanced_train+other_templates":
         X_train, Y_train = utils.read_data(dir+'balanced_train+other_templates.txt')
 
-    X_dev, Y_dev = utils.read_data(dir+'dev_shared_template.txt')
+    elif training_set == "balanced_train+other_templates_large":
+        X_train, Y_train = utils.read_data(dir+'balanced_train+other_templates_large.txt')
+
+    elif training_set == "data_generated_from_other_templates":
+        X_train, Y_train = utils.read_data(dir+'data_generated_from_other_templates.txt')
+
+    # balanced devset
+    X_dev, Y_dev = utils.read_data(dir+'dev.txt')
+
+    # shuffle data
+    X_train, Y_train = utils.shuffle_dependent_lists(X_train, Y_train)
+    X_dev, Y_dev = utils.shuffle_dependent_lists(X_dev, Y_dev)
 
     return X_train, Y_train, X_dev, Y_dev
 
@@ -146,21 +154,29 @@ def main():
     # if len(physical_devices) > 0:
     #     tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
+    try:
+        config_location = sys.argv[1]
+    except IndexError:
+        print("config not given!")
+        sys.exit(1)
+
+    if not Path(config_location).exists():
+        print(f"does not exist: {config_location}")
+        sys.exit(2)
+
     # get parameters for experiments
-    config, model_name = utils.get_config()
+    config, model_name = utils.get_config(config_location)
 
     set_log(model_name)
 
     # load data from train-test-dev folder
     X_train, Y_train, X_dev, Y_dev = load_data(utils.DATA_DIR, config)
 
-    # print(f'X_train: {X_train}')
+    # pprint(X_train)
     # print(f'X_dev: {X_dev}')
 
     # print(f'Y_dev: {Y_dev}')
     # print(f'Y_train: {Y_train}')
-
-    # return
 
     # run model
     classifier(X_train, X_dev, Y_train, Y_dev, config, model_name)

@@ -8,7 +8,7 @@ from nltk.corpus import wordnet as wn
 
 DATA_DIR = '../Data/split_dataset/'
 NOUNS = list(wn.all_synsets("n"))
-RANGE = 50
+RANGE = 100
 
 def get_hypernym(word):
     """Retrieve hypernym of an input word from WordNet."""
@@ -433,7 +433,7 @@ def main():
 
     random.shuffle(cleaned_sentences)
 
-    outfile_path = DATA_DIR + "data_generated_from_other_templates.txt"
+    outfile_path = DATA_DIR + "data_generated_from_other_templates_large.txt"
     with open(outfile_path,"w") as outfile:
         for sent in cleaned_sentences:
             outfile.write(sent.capitalize() + "\n")
