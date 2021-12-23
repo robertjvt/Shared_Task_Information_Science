@@ -1,0 +1,16 @@
+{
+
+
+    "model": "BERT",
+    "max_length" : 50,
+    "learning_rate": 3e-4,
+    "epochs": 20,
+    "patience": 5,
+    "batch_size": 16,
+    "loss": "category",
+    "optimizer": "sgd",
+    "training-set": "balanced_train+other_templates_large",
+    "seed": 1234
+
+
+}
