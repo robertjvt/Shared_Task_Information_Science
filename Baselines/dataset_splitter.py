@@ -32,21 +32,15 @@ def main():
     t3 = re.compile(r"I like [\w'-]+ more than [\w'-]+ .")
     t4 = re.compile(r"I do not like [\w'-]+ , I prefer [\w'-]+ .")
     t5 = re.compile(r"I use [\w'-]+ , except [\w'-]+ .")
-    t6 = re.compile(r"He likes [\w'-]+ , and [\w'-]+ too .")
     t7 = re.compile(r"He trusts his [\w'-]+ , except [\w'-]+ .")
     t8 = re.compile(r"I like [\w'-]+ , except [\w'-]+ .")
     t9 = re.compile(r"I use [\w'-]+ , and [\w'-]+ too .")
     t10 = re.compile(r"He does not trust [\w'-]+ , he prefers his [\w'-]+ .")
-    t11 = re.compile(r"He does not like [\w'-]+ , he prefers [\w'-]+ .")
     t12 = re.compile(r"He trusts his [\w'-]+ more than [\w'-]+ .")
     t13 = re.compile(r"He trusts his [\w'-]+ , but not [\w'-]+ .")
     t14 = re.compile(r"I use [\w'-]+ more than [\w'-]+ .")
-    t15 = re.compile(r"I use [\w'-]+ , but not [\w'-]+ .")
     t16 = re.compile(r"I met [\w'-]+ , and [\w'-]+ too .")
-    t17 = re.compile(r"He likes [\w'-]+ more than [\w'-]+ .")
     t18 = re.compile(r"He does not trust his [\w'-]+ , he prefers [\w'-]+ .")
-    t19 = re.compile(r"I met [\w'-]+ , except [\w'-]+ .")
-    t20 = re.compile(r"I met [\w'-]+ , but not [\w'-]+ .")
     t21 = re.compile(r"He trusts his [\w'-]+ , and [\w'-]+ too .")
     t22 = re.compile(r"He likes [\w'-]+ , but not [\w'-]+ .")
     t23 = re.compile(r"He trusts [\w'-]+ , except his [\w'-]+ .")   
@@ -55,7 +49,16 @@ def main():
     t26 = re.compile(r"He trusts [\w'-]+ , but not his [\w'-]+ .")
     t27 = re.compile(r"He trusts his [\w'-]+ , and his [\w'-]+ too .")
     t28 = re.compile(r"He trusts [\w'-]+ , and his [\w'-]+ too .")
-    
+
+    # New dev
+    t15 = re.compile(r"I use [\w'-]+ , but not [\w'-]+ .")
+    t17 = re.compile(r"He likes [\w'-]+ more than [\w'-]+ .")
+    t20 = re.compile(r"I met [\w'-]+ , but not [\w'-]+ .")
+    t6 = re.compile(r"He likes [\w'-]+ , and [\w'-]+ too .")
+    t19 = re.compile(r"I met [\w'-]+ , except [\w'-]+ .")
+    t11 = re.compile(r"He does not like [\w'-]+ , he prefers [\w'-]+ .")
+
+    # Dev
     t29 = re.compile(r"I like [\w'-]+ , an interesting type of [\w'-]+ .")
     t30 = re.compile(r"He trusts his [\w'-]+ , an interesting type of [\w'-]+ .")
     t31 = re.compile(r"He likes [\w'-]+ , an interesting type of [\w'-]+ .")
@@ -63,6 +66,7 @@ def main():
     t33 = re.compile(r"He trusts [\w'-]+ , an interesting type of [\w'-]+ .")
     t34 = re.compile(r"I use [\w'-]+ , an interesting type of [\w'-]+ .")
 
+    # Test
     t35 = re.compile(r"I like [\w'-]+ , and more specifically [\w'-]+ .")
     t36 = re.compile(r"I use [\w'-]+ , and more specifically [\w'-]+ .")
     t37 = re.compile(r"I met [\w'-]+ , and more specifically [\w'-]+ .")
@@ -72,8 +76,8 @@ def main():
 
     y = 0
     for s in X_full:
-        if t29.match(s) or t30.match(s) or t31.match(s) or t32.match(s) or t33.match(s) or t34.match(s):
-            f = open("dev.txt", "a+")
+        if t29.match(s) or t30.match(s) or t31.match(s) or t32.match(s) or t33.match(s) or t34.match(s) or t15.match(s) or t17.match(s) or t20.match(s) or t6.match(s) or t19.match(s) or t11.match(s):
+            f = open("new_dev.txt", "a+")
             f.write("{} {}\n".format(s, Y_full[y]))
         elif t35.match(s) or t36.match(s) or t37.match(s) or t38.match(s) or t39.match(s) or t40.match(s):
             f = open("test.txt", "a+")

@@ -1,0 +1,1099 @@
+I use glass , but not PVC . 1
+I like dogs , an interesting type of giraffe . 0
+I use PVC , an interesting type of plastic . 1
+I like documentaries , an interesting type of textbook . 0
+He likes joy more than logic . 1
+I like motorcycles , an interesting type of bicycle . 0
+I like birds , an interesting type of hamster . 0
+He likes logic , and love too . 1
+He likes stupidity more than joy . 1
+I met waiters , but not geneticists . 1
+He likes joy more than stupidity . 1
+He likes emotions more than sadness . 0
+I use cotton , an interesting type of nylon . 0
+I like wardrobes , an interesting type of parquet . 0
+I use leather , but not polyester . 1
+He trusts his touch , an interesting type of report . 0
+He does not like emotions , he prefers love . 0
+I like jazz , an interesting type of necklace . 0
+I like pork , an interesting type of carrot . 0
+I like Harley-Davidson , an interesting type of ship . 0
+He likes sadness more than calculations . 1
+I like wine , an interesting type of Merlot . 0
+I use wood , an interesting type of nylon . 0
+He trusts his senses , an interesting type of sight . 0
+I like videogames , an interesting type of comedy . 0
+I met waiters , an interesting type of geneticist . 0
+He does not like sadness , he prefers emotions . 0
+I met caretakers , but not biologists . 1
+I like beer , an interesting type of Chardonnay . 0
+I like rabbits , an interesting type of bear . 0
+I like shirts , an interesting type of pet . 0
+I like motorcycles , an interesting type of Suzuki . 0
+I met physicists , except clerks . 0
+I met caretakers , an interesting type of astronomer . 0
+I like hamsters , an interesting type of bobtail . 0
+He likes stupidity , an interesting type of love . 0
+I like books , an interesting type of textbook . 0
+I like dogs , an interesting type of sparrow . 0
+I like cats , an interesting type of sparrow . 0
+I use nylon , an interesting type of plastic . 1
+I like thrillers , an interesting type of videogame . 0
+He likes calculations , an interesting type of love . 0
+I like chicken , an interesting type of caviar . 0
+I like rabbits , an interesting type of bulldog . 0
+I like trees , an interesting type of shrub . 0
+I like techno , an interesting type of necklace . 0
+I like veal , an interesting type of oysters . 0
+I like rabbits , an interesting type of husky . 0
+I like waiters , an interesting type of school . 0
+I like offices , an interesting type of professor . 0
+He likes calculations more than fear . 1
+I like music , an interesting type of jazz . 0
+He likes fear more than emotions . 0
+I like turkey , an interesting type of caviar . 0
+I like Suzukis , an interesting type of ship . 0
+I met astronomers , an interesting type of clerk . 0
+I like handbags , an interesting type of bracelet . 0
+I met scientists , an interesting type of janitor . 0
+I use PVC , but not plastic . 0
+I use nylon , an interesting type of leather . 0
+I like trains , an interesting type of Harley-Davidson . 0
+He trusts his touch , an interesting type of sense . 1
+I like dogs , an interesting type of whale . 0
+I like waiters , an interesting type of restaurant . 0
+I like caviar , an interesting type of veal . 0
+I like lard , an interesting type of pork . 1
+I like ships , an interesting type of Kawasaki . 0
+He trusts his sight , an interesting type of sense . 1
+I like ducks , an interesting type of bird . 1
+I like firs , an interesting type of tree . 1
+I like necklaces , an interesting type of glasses . 0
+I like Chardonnay , an interesting type of beer . 0
+I like music , an interesting type of food . 0
+I like rock , an interesting type of sport . 0
+I like offices , an interesting type of clerk . 0
+He likes logic , an interesting type of fear . 0
+I like parquet , an interesting type of bed . 0
+I like documentaries , an interesting type of essay . 0
+I met biologists , an interesting type of waiter . 0
+I like whales , an interesting type of cat . 0
+I like films , an interesting type of novel . 0
+He likes calculations more than love . 1
+He does not like love , he prefers calculations . 1
+I like wine , an interesting type of Chianti . 0
+I like firs , an interesting type of animal . 0
+He likes logic , and joy too . 1
+I like boardgames , an interesting type of thriller . 0
+I met scientists , except caretakers . 0
+He does not like fear , he prefers calculations . 1
+He likes emotions more than calculations . 1
+I use polyester , but not cotton . 1
+I like shoes , an interesting type of necklace . 0
+I like essays , an interesting type of thriller . 0
+He likes love more than calculations . 1
+I like necklaces , an interesting type of jewelry . 1
+He likes joy , an interesting type of logic . 0
+I like workers , an interesting type of school . 0
+I met astronomers , but not clerks . 1
+I like furniture , an interesting type of bed . 0
+I like Chianti , an interesting type of beer . 0
+I like jewelry , an interesting type of skirt . 0
+I like parrots , an interesting type of beagle . 0
+I like workers , an interesting type of restaurant . 0
+I like Suzukis , an interesting type of bicycle . 0
+I met biologists , an interesting type of scientist . 1
+I met geneticists , an interesting type of scientist . 1
+He trusts guesses , an interesting type of taste . 0
+I like rabbits , an interesting type of pet . 1
+I like scarfs , an interesting type of bracelet . 0
+He likes sadness , an interesting type of emotion . 1
+I met geneticists , except waiters . 0
+I like grass , an interesting type of oak . 0
+I like birches , an interesting type of bush . 0
+I use cotton , but not nylon . 1
+He likes logic , and fear too . 1
+I like bears , an interesting type of dog . 0
+I like jewelry , an interesting type of techno . 0
+I like skirts , an interesting type of earring . 0
+I use vinyl , an interesting type of cotton . 0
+I like Kawasakis , an interesting type of airplane . 0
+I like handbooks , an interesting type of film . 0
+I like textbooks , an interesting type of comedy . 0
+He likes love , and emotions too . 0
+I like pork , an interesting type of broccoli . 0
+I like cats , an interesting type of beagle . 0
+I like cats , an interesting type of giraffe . 0
+I like ducks , an interesting type of pig . 0
+I met scientists , an interesting type of astronomer . 0
+I like salmon , an interesting type of veal . 0
+I like essays , an interesting type of comedy . 0
+I like wine , an interesting type of beer . 0
+He does not like fear , he prefers emotions . 0
+He likes joy , and logic too . 1
+I like jewelry , an interesting type of rock . 0
+I met waiters , an interesting type of biologist . 0
+I like cats , an interesting type of bulldog . 0
+I like wardrobes , an interesting type of cutlery . 0
+I like dogs , an interesting type of beagle . 0
+He does not like wisdom , he prefers fear . 1
+I like boardgames , an interesting type of western . 0
+I met physicists , except janitors . 0
+He trusts guesses , an interesting type of sight . 0
+I like bacon , an interesting type of fish . 0
+I use vinyl , an interesting type of plastic . 1
+I met astronomers , but not caretakers . 1
+I like books , an interesting type of painting . 0
+I like sparrows , an interesting type of cat . 0
+He does not like stupidity , he prefers sadness . 1
+I like enduros , an interesting type of train . 0
+I like bulldogs , an interesting type of hamster . 0
+I like wallpaper , an interesting type of table . 0
+He likes calculations , and joy too . 1
+I met janitors , an interesting type of physicist . 0
+I like seafood , an interesting type of oyster . 0
+I like Chianti , an interesting type of water . 0
+He trusts his sight , an interesting type of reconstruction . 0
+He does not like calculations , he prefers love . 1
+He trusts his sight , an interesting type of report . 0
+I like ducks , an interesting type of cat . 0
+I like food , an interesting type of blues . 0
+I met scientists , but not caretakers . 1
+I like schools , an interesting type of waiter . 0
+I like jazz , an interesting type of sport . 0
+I like music , an interesting type of techno . 0
+He trusts his hearing , an interesting type of guess . 0
+I like beef , an interesting type of crabs . 0
+I like bracelets , an interesting type of handbag . 0
+I like rabbits , an interesting type of jellyfish . 0
+I met clerks , an interesting type of geneticist . 0
+I like blues , an interesting type of necklace . 0
+He trusts his senses , an interesting type of hearing . 0
+I like comedies , an interesting type of textbook . 0
+I like textbooks , an interesting type of book . 1
+I like seafood , an interesting type of chicken . 0
+I like socks , an interesting type of earring . 0
+I like necklaces , an interesting type of shoe . 0
+He does not like sadness , he prefers wisdom . 1
+I like jewelry , an interesting type of glasses . 0
+I like caviar , an interesting type of beef . 0
+I like jazz , an interesting type of food . 0
+I use leather , but not nylon . 1
+I like movies , an interesting type of thriller . 0
+I like westerns , an interesting type of boardgame . 0
+He likes logic , an interesting type of love . 0
+He does not like calculations , he prefers fear . 1
+I like shirts , an interesting type of earring . 0
+I like trees , an interesting type of fir . 0
+He does not like fear , he prefers stupidity . 1
+I like huskies , an interesting type of rabbit . 0
+I like Harley-Davidson , an interesting type of airplane . 0
+I use wood , but not vinyl . 1
+I like planes , an interesting type of Harley-Davidson . 0
+I like seafood , an interesting type of turkey . 0
+I like pets , an interesting type of shirt . 0
+I like textbooks , an interesting type of film . 0
+I like bicycles , an interesting type of Kawasaki . 0
+I like pets , an interesting type of giraffe . 0
+I like pines , an interesting type of tree . 1
+I like rock , an interesting type of music . 1
+I like westerns , an interesting type of textbook . 0
+I like workers , an interesting type of caretaker . 0
+I met caretakers , an interesting type of physicist . 0
+I like huskies , an interesting type of hamster . 0
+I like seafood , an interesting type of caviar . 0
+I met waiters , but not physicists . 1
+I like professors , an interesting type of school . 0
+I met physicists , except waiters . 0
+He likes sadness , and emotions too . 0
+He likes sadness , an interesting type of stupidity . 0
+I like trains , an interesting type of enduro . 0
+I like paintings , an interesting type of novel . 0
+I use plastic , an interesting type of glass . 0
+I like ships , an interesting type of Suzuki . 0
+I like fish , an interesting type of bacon . 0
+I use plastic , but not nylon . 1
+I met janitors , an interesting type of astronomer . 0
+I like bushes , an interesting type of birch . 0
+He likes calculations , and love too . 1
+I like glasses , an interesting type of earring . 0
+I like Merlot , an interesting type of coca-cola . 0
+He does not like joy , he prefers calculations . 1
+I like birds , an interesting type of pig . 0
+I met waiters , but not biologists . 1
+I like jewelry , an interesting type of blues . 0
+I like offices , an interesting type of caretaker . 0
+I like Kawasakis , an interesting type of train . 0
+He likes logic , an interesting type of joy . 0
+I like beds , an interesting type of wallpaper . 0
+I like bacon , an interesting type of broccoli . 0
+I like music , an interesting type of novel . 0
+I like broccoli , an interesting type of prosciutto . 0
+I like firs , an interesting type of grass . 0
+He does not like calculations , he prefers sadness . 1
+I like rings , an interesting type of scarf . 0
+He does not like joy , he prefers stupidity . 1
+I met geneticists , but not caretakers . 1
+He does not like logic , he prefers joy . 1
+I met caretakers , except astronomers . 0
+I like Merlot , an interesting type of water . 0
+I like pets , an interesting type of trouser . 0
+I like cats , an interesting type of husky . 0
+He likes calculations , an interesting type of joy . 0
+I use nylon , an interesting type of glass . 0
+I like bulldogs , an interesting type of dog . 1
+I like clothes , an interesting type of skirt . 0
+I like grass , an interesting type of pine . 0
+I like cats , an interesting type of parrot . 0
+He likes wisdom more than love . 1
+I like clerks , an interesting type of worker . 1
+I met biologists , but not caretakers . 1
+He likes emotions , and calculations too . 1
+I use leather , an interesting type of nylon . 0
+I met biologists , except caretakers . 0
+I like tables , an interesting type of wallpaper . 0
+He does not like stupidity , he prefers love . 1
+I like coca-cola , an interesting type of Chardonnay . 0
+I met caretakers , but not astronomers . 1
+He does not like wisdom , he prefers joy . 1
+I like chicken , an interesting type of oysters . 0
+I like oaks , an interesting type of shrub . 0
+I like cats , an interesting type of pet . 1
+He likes love , an interesting type of emotion . 1
+I like jewelry , an interesting type of scarf . 0
+I like planes , an interesting type of Suzuki . 0
+I use glass , but not nylon . 1
+I like lard , an interesting type of broccoli . 0
+I like essays , an interesting type of book . 1
+I like trains , an interesting type of Kawasaki . 0
+I like shrubs , an interesting type of birch . 0
+I like glasses , an interesting type of bracelet . 0
+He likes love more than wisdom . 1
+I like Suzukis , an interesting type of airplane . 0
+I like animals , an interesting type of fir . 0
+I met geneticists , an interesting type of janitor . 0
+I like motorcycles , an interesting type of Kawasaki . 0
+I use PVC , but not cotton . 1
+I like huskies , an interesting type of parrot . 0
+I like music , an interesting type of blues . 0
+He likes sadness , an interesting type of calculation . 0
+I like pork , an interesting type of bacon . 0
+He likes emotions , an interesting type of logic . 0
+He likes emotions , and wisdom too . 1
+I use polyester , but not wood . 1
+I like schools , an interesting type of clerk . 0
+I like dogs , an interesting type of cat . 0
+I like essays , an interesting type of documentary . 0
+I like socks , an interesting type of glass . 0
+I met physicists , but not scientists . 0
+I like bobtails , an interesting type of parrot . 0
+I like clothes , an interesting type of jewelry . 0
+I use polyester , but not leather . 1
+I like westerns , an interesting type of essay . 0
+I like seafood , an interesting type of beef . 0
+He trusts his sight , an interesting type of rumor . 0
+I like bracelets , an interesting type of jewelry . 1
+He likes sadness , and stupidity too . 1
+I met astronomers , except scientists . 0
+I like Chianti , an interesting type of coca-cola . 0
+He trusts his senses , an interesting type of rumor . 0
+I like books , an interesting type of music . 0
+I like Kawasakis , an interesting type of bicycle . 0
+I use glass , an interesting type of polyester . 0
+I like lard , an interesting type of carrots . 0
+I like crabs , an interesting type of seafood . 1
+I like boardgames , an interesting type of blues . 0
+I like ham , an interesting type of broccoli . 0
+He likes joy , and wisdom too . 1
+He likes fear , an interesting type of stupidity . 0
+I use plastic , an interesting type of vinyl . 0
+I like tables , an interesting type of painting . 0
+I like prosciutto , an interesting type of apples . 0
+I use plastic , but not PVC . 1
+I like boardgames , an interesting type of rock . 0
+I like beds , an interesting type of furniture . 1
+I use plastic , but not glass . 1
+He likes sadness more than emotions . 0
+I like thrillers , an interesting type of movie . 1
+He likes joy , an interesting type of wisdom . 0
+I met clerks , except astronomers . 0
+I like Harley-Davidson , an interesting type of bicycle . 0
+He likes wisdom , and fear too . 1
+I like pigs , an interesting type of parrot . 0
+I met janitors , except geneticists . 0
+He does not like calculations , he prefers joy . 1
+I like birches , an interesting type of tree . 1
+I like pines , an interesting type of animal . 0
+I like cartoons , an interesting type of novel . 0
+I use nylon , an interesting type of cotton . 0
+I like oysters , an interesting type of seafood . 1
+I like videogames , an interesting type of documentary . 0
+I like professors , an interesting type of worker . 1
+I like rock , an interesting type of food . 0
+I like shirts , an interesting type of jewelry . 0
+He does not like wisdom , he prefers sadness . 1
+I like glasses , an interesting type of necklace . 0
+I like motorcycles , an interesting type of train . 0
+I met clerks , but not astronomers . 1
+I like beds , an interesting type of parquet . 0
+He likes wisdom , and joy too . 1
+I like clothes , an interesting type of pet . 0
+I like huskies , an interesting type of dog . 1
+I met janitors , an interesting type of biologist . 0
+I like enduros , an interesting type of bicycle . 0
+I use vinyl , an interesting type of leather . 0
+He likes stupidity , an interesting type of fear . 0
+I like techno , an interesting type of boardgame . 0
+He trusts reconstructions , an interesting type of taste . 0
+I met physicists , but not waiters . 1
+I like comedies , an interesting type of videogame . 0
+I use cotton , an interesting type of polyester . 0
+I met clerks , but not geneticists . 1
+I like broccoli , an interesting type of bacon . 0
+I met scientists , an interesting type of clerk . 0
+I like sparrows , an interesting type of hamster . 0
+I like rabbits , an interesting type of bobtail . 0
+I like chicken , an interesting type of crabs . 0
+I like paintings , an interesting type of wardrobe . 0
+I like sports , an interesting type of jazz . 0
+I like earrings , an interesting type of shirt . 0
+I like bracelets , an interesting type of glasses . 0
+I met astronomers , but not waiters . 1
+I like oysters , an interesting type of beef . 0
+I like techno , an interesting type of music . 1
+I like paintings , an interesting type of bed . 0
+I like boardgames , an interesting type of documentary . 0
+He likes emotions more than joy . 0
+I like textbooks , an interesting type of thriller . 0
+I met scientists , but not astronomers . 1
+I like beef , an interesting type of oysters . 0
+I like beds , an interesting type of cutlery . 0
+I like pets , an interesting type of jellyfish . 0
+He likes love , an interesting type of calculation . 0
+I use plastic , an interesting type of polyester . 0
+He does not like love , he prefers wisdom . 1
+He likes emotions more than wisdom . 1
+I like bears , an interesting type of hamster . 0
+I like books , an interesting type of film . 0
+I like wallpaper , an interesting type of wardrobe . 0
+I like parrots , an interesting type of dog . 0
+I like shoes , an interesting type of ring . 0
+He likes stupidity , an interesting type of sadness . 0
+I met geneticists , except scientists . 0
+I like shoes , an interesting type of earring . 0
+I like wardrobes , an interesting type of furniture . 1
+I like workers , an interesting type of office . 0
+I like furniture , an interesting type of table . 0
+I like movies , an interesting type of essay . 0
+I like parrots , an interesting type of hamster . 0
+I use plastic , but not vinyl . 1
+I like movies , an interesting type of western . 0
+I like essays , an interesting type of western . 0
+I like sparrows , an interesting type of pig . 0
+I met scientists , but not janitors . 1
+He likes wisdom , an interesting type of joy . 0
+I met biologists , except scientists . 0
+I like Chianti , an interesting type of sprite . 0
+I like socks , an interesting type of clothes . 1
+I like prosciutto , an interesting type of carrots . 0
+I like movies , an interesting type of boardgame . 0
+I like ham , an interesting type of apples . 0
+I like caretakers , an interesting type of worker . 1
+I like clothes , an interesting type of trousers . 0
+I like shrubs , an interesting type of fir . 0
+He trusts his taste , an interesting type of reconstruction . 0
+I like dogs , an interesting type of bulldog . 0
+I like beagles , an interesting type of cat . 0
+I like dogs , an interesting type of husky . 0
+I like rings , an interesting type of shoe . 0
+I like hamsters , an interesting type of sparrow . 0
+I use polyester , but not plastic . 0
+I like wine , an interesting type of Chardonnay . 0
+I met waiters , an interesting type of physicist . 0
+I use polyester , an interesting type of plastic . 1
+I met caretakers , an interesting type of geneticist . 0
+He likes fear , and calculations too . 1
+I like bears , an interesting type of cat . 0
+I use nylon , but not leather . 1
+I like textbooks , an interesting type of music . 0
+I met clerks , an interesting type of physicist . 0
+I like boardgames , an interesting type of techno . 0
+He likes emotions more than stupidity . 1
+I like birches , an interesting type of shrub . 0
+I like techno , an interesting type of food . 0
+He likes logic more than fear . 1
+I like chairs , an interesting type of parquet . 0
+I like factories , an interesting type of caretaker . 0
+He likes calculations more than sadness . 1
+He does not like sadness , he prefers calculations . 1
+I like trousers , an interesting type of glass . 0
+I use cotton , but not PVC . 1
+I like novels , an interesting type of music . 0
+I met geneticists , except clerks . 0
+I met biologists , but not scientists . 0
+He likes emotions , and stupidity too . 1
+I like skirts , an interesting type of pet . 0
+I like apples , an interesting type of ham . 0
+I like ham , an interesting type of fish . 0
+I met scientists , except waiters . 0
+I like parrots , an interesting type of husky . 0
+I like scarfs , an interesting type of earring . 0
+I like pets , an interesting type of sock . 0
+I like socks , an interesting type of jewelry . 0
+I like parrots , an interesting type of pig . 0
+He likes love , an interesting type of logic . 0
+I like furniture , an interesting type of chair . 0
+I like clothes , an interesting type of socks . 0
+I like food , an interesting type of jazz . 0
+I like crabs , an interesting type of chicken . 0
+I like caretakers , an interesting type of office . 0
+I like skirts , an interesting type of clothes . 1
+I like shirts , an interesting type of glass . 0
+I like blues , an interesting type of music . 1
+I like Chardonnay , an interesting type of sprite . 0
+I like furniture , an interesting type of wardrobe . 0
+I met physicists , an interesting type of caretaker . 0
+I use wood , an interesting type of polyester . 0
+I use PVC , but not glass . 1
+He likes stupidity more than sadness . 1
+He trusts reports , an interesting type of sight . 0
+I use vinyl , an interesting type of glass . 0
+He likes joy , and calculations too . 1
+I met caretakers , but not physicists . 1
+I like Suzukis , an interesting type of train . 0
+He trusts his hearing , an interesting type of reconstruction . 0
+He likes sadness more than wisdom . 1
+I like professors , an interesting type of office . 0
+He likes fear , an interesting type of calculation . 0
+I like bulldogs , an interesting type of parrot . 0
+I like sports , an interesting type of blues . 0
+I like salmon , an interesting type of seafood . 1
+I met physicists , an interesting type of janitor . 0
+I use plastic , but not cotton . 1
+I met physicists , but not janitors . 1
+I like beagles , an interesting type of parrot . 0
+I like bushes , an interesting type of pine . 0
+I like bacon , an interesting type of apples . 0
+I like trees , an interesting type of animal . 0
+I met biologists , an interesting type of janitor . 0
+I like trees , an interesting type of oak . 0
+He does not like logic , he prefers fear . 1
+I met waiters , except geneticists . 0
+I like blackbirds , an interesting type of pig . 0
+He does not like emotions , he prefers stupidity . 1
+He likes emotions more than love . 0
+I use cotton , but not polyester . 1
+I like hamsters , an interesting type of parrot . 0
+I use plastic , an interesting type of wood . 0
+I like prosciutto , an interesting type of fish . 0
+I like bobtails , an interesting type of hamster . 0
+He does not like wisdom , he prefers love . 1
+I met caretakers , but not geneticists . 1
+I met geneticists , but not scientists . 0
+I like jellyfish , an interesting type of hamster . 0
+I like cats , an interesting type of jellyfish . 0
+I like cartoons , an interesting type of essay . 0
+I like wallpaper , an interesting type of bed . 0
+I like sports , an interesting type of rock . 0
+He likes joy , an interesting type of calculation . 0
+I met scientists , except clerks . 0
+I use leather , but not vinyl . 1
+He likes love more than stupidity . 1
+I like clerks , an interesting type of office . 0
+I like caretakers , an interesting type of factory . 0
+He likes love , and stupidity too . 1
+I met biologists , an interesting type of clerk . 0
+I like factories , an interesting type of professor . 0
+I met waiters , except astronomers . 0
+I met scientists , except geneticists . 1
+I use nylon , but not glass . 1
+I met clerks , an interesting type of astronomer . 0
+I like music , an interesting type of boardgame . 0
+He likes stupidity , and love too . 1
+I like clerks , an interesting type of school . 0
+I like novels , an interesting type of film . 0
+I met scientists , but not clerks . 1
+I like whales , an interesting type of hamster . 0
+I met biologists , but not clerks . 1
+I like glasses , an interesting type of shirt . 0
+He trusts his hearing , an interesting type of report . 0
+I like whales , an interesting type of dog . 0
+I like huskies , an interesting type of cat . 0
+I met astronomers , an interesting type of waiter . 0
+I like salmon , an interesting type of turkey . 0
+I like rabbits , an interesting type of beagle . 0
+He likes sadness , an interesting type of logic . 0
+I like books , an interesting type of handbook . 0
+I like jazz , an interesting type of boardgame . 0
+He does not like emotions , he prefers sadness . 0
+He likes emotions , an interesting type of sadness . 0
+I like Kawasakis , an interesting type of motorcycle . 1
+I use leather , an interesting type of PVC . 0
+I met janitors , but not biologists . 1
+I like trains , an interesting type of Suzuki . 0
+I like seafood , an interesting type of salmon . 0
+He likes fear , and wisdom too . 1
+I like earrings , an interesting type of handbag . 0
+He likes fear , and stupidity too . 1
+I use cotton , an interesting type of PVC . 0
+I met caretakers , except biologists . 0
+I like westerns , an interesting type of videogame . 0
+He likes joy more than emotions . 0
+I met biologists , except janitors . 0
+I met janitors , an interesting type of geneticist . 0
+He trusts his senses , an interesting type of reconstruction . 0
+He likes logic , an interesting type of sadness . 0
+I met biologists , but not janitors . 1
+He likes wisdom , and sadness too . 1
+I use plastic , but not leather . 1
+I like bobtails , an interesting type of cat . 0
+I like rabbits , an interesting type of whale . 0
+I met biologists , except waiters . 0
+I use leather , an interesting type of polyester . 0
+He likes sadness , and calculations too . 1
+I met astronomers , but not janitors . 1
+I use cotton , an interesting type of vinyl . 0
+I like beer , an interesting type of Zinfandel . 0
+He likes love , an interesting type of wisdom . 0
+I like earrings , an interesting type of glasses . 0
+I like shoes , an interesting type of bracelet . 0
+I like pines , an interesting type of shrub . 0
+I use polyester , an interesting type of leather . 0
+I like pets , an interesting type of cat . 0
+I like workers , an interesting type of professor . 0
+I like paintings , an interesting type of essay . 0
+I like earrings , an interesting type of jewelry . 1
+I like videogames , an interesting type of thriller . 0
+I met geneticists , an interesting type of caretaker . 0
+He likes calculations , an interesting type of sadness . 0
+I like clerks , an interesting type of restaurant . 0
+He likes wisdom more than joy . 1
+I like apples , an interesting type of prosciutto . 0
+I like giraffes , an interesting type of dog . 0
+I like ducks , an interesting type of dog . 0
+I like coca-cola , an interesting type of Merlot . 0
+I met scientists , except janitors . 0
+He likes calculations , and fear too . 1
+I like shirts , an interesting type of clothes . 1
+He likes fear , and logic too . 1
+I like cutlery , an interesting type of bed . 0
+I like caviar , an interesting type of turkey . 0
+I met geneticists , an interesting type of clerk . 0
+I like giraffes , an interesting type of rabbit . 0
+I like bracelets , an interesting type of shoe . 0
+He does not like sadness , he prefers logic . 1
+I like documentaries , an interesting type of videogame . 0
+He trusts guesses , an interesting type of hearing . 0
+I use wood , but not nylon . 1
+I use PVC , an interesting type of wood . 0
+He does not like logic , he prefers sadness . 1
+I met scientists , an interesting type of physicist . 0
+He likes joy , and emotions too . 0
+I like handbooks , an interesting type of book . 1
+I like glasses , an interesting type of ring . 0
+I like skirts , an interesting type of jewelry . 0
+I like giraffes , an interesting type of hamster . 0
+I like handbooks , an interesting type of music . 0
+I met janitors , except biologists . 0
+I use plastic , but not polyester . 1
+I use wood , but not polyester . 1
+I met astronomers , except janitors . 0
+He likes stupidity , an interesting type of joy . 0
+He likes fear , an interesting type of emotion . 1
+He trusts reports , an interesting type of hearing . 0
+I like books , an interesting type of cartoon . 0
+I like Merlot , an interesting type of beer . 0
+I like essays , an interesting type of music . 0
+He trusts rumors , an interesting type of hearing . 0
+He likes calculations , and sadness too . 1
+I use vinyl , an interesting type of wood . 0
+He does not like logic , he prefers love . 1
+He likes joy , an interesting type of emotion . 1
+I like motorcycles , an interesting type of enduro . 0
+I like hamsters , an interesting type of jellyfish . 0
+I like waiters , an interesting type of office . 0
+I like earrings , an interesting type of sock . 0
+I met waiters , an interesting type of astronomer . 0
+I like food , an interesting type of rock . 0
+I like beef , an interesting type of caviar . 0
+I like earrings , an interesting type of scarf . 0
+He likes emotions , an interesting type of calculation . 0
+I like factories , an interesting type of waiter . 0
+I met astronomers , except clerks . 0
+I like handbags , an interesting type of necklace . 0
+I like thrillers , an interesting type of essay . 0
+I like glasses , an interesting type of sock . 0
+I like books , an interesting type of essay . 0
+I like jewelry , an interesting type of trouser . 0
+I like earrings , an interesting type of skirt . 0
+I like books , an interesting type of novel . 0
+I like workers , an interesting type of factory . 0
+He likes love more than emotions . 0
+I like water , an interesting type of Chianti . 0
+I met astronomers , except caretakers . 0
+I like pets , an interesting type of rabbit . 0
+He likes logic more than love . 1
+He likes fear more than stupidity . 1
+I like carrots , an interesting type of ham . 0
+I like jazz , an interesting type of music . 1
+He likes emotions , and love too . 0
+I use wood , but not PVC . 1
+I like carrots , an interesting type of bacon . 0
+I like films , an interesting type of handbook . 0
+I use PVC , an interesting type of glass . 0
+I like bulldogs , an interesting type of rabbit . 0
+He trusts reconstructions , an interesting type of hearing . 0
+He likes emotions , and logic too . 1
+I like cats , an interesting type of whale . 0
+I met janitors , except astronomers . 0
+He likes emotions more than logic . 1
+I like films , an interesting type of essay . 0
+I like earrings , an interesting type of trouser . 0
+I like trousers , an interesting type of clothes . 1
+I like cats , an interesting type of duck . 0
+I like veal , an interesting type of crabs . 0
+I like glasses , an interesting type of skirt . 0
+I like paintings , an interesting type of textbook . 0
+I met scientists , except biologists . 1
+I like oysters , an interesting type of veal . 0
+I like blackbirds , an interesting type of dog . 0
+I met biologists , an interesting type of caretaker . 0
+He likes stupidity , and fear too . 1
+I met biologists , except clerks . 0
+I like wine , an interesting type of coca-cola . 0
+He likes emotions , an interesting type of stupidity . 0
+I use polyester , an interesting type of wood . 0
+I like crabs , an interesting type of veal . 0
+I like essays , an interesting type of film . 0
+I like fish , an interesting type of ham . 0
+He likes sadness more than stupidity . 1
+I like movies , an interesting type of documentary . 0
+I like dogs , an interesting type of blackbird . 0
+I like ham , an interesting type of carrots . 0
+I like blues , an interesting type of sport . 0
+I like chairs , an interesting type of painting . 0
+I met janitors , but not geneticists . 1
+I like coca-cola , an interesting type of Zinfandel . 0
+He likes logic more than joy . 1
+I use plastic , an interesting type of nylon . 0
+I like videogames , an interesting type of western . 0
+He likes wisdom , and love too . 1
+I like seafood , an interesting type of veal . 0
+I like hamsters , an interesting type of husky . 0
+I like hamsters , an interesting type of bear . 0
+I use glass , an interesting type of vinyl . 0
+He likes emotions , and joy too . 0
+I like glasses , an interesting type of trouser . 0
+I like restaurants , an interesting type of clerk . 0
+I like lard , an interesting type of apples . 0
+I like textbooks , an interesting type of western . 0
+I like comedies , an interesting type of essay . 0
+I like carrots , an interesting type of lard . 0
+I like water , an interesting type of Zinfandel . 0
+I like wardrobes , an interesting type of wallpaper . 0
+I use PVC , but not wood . 1
+I like bicycles , an interesting type of enduro . 0
+He likes stupidity more than fear . 1
+I use polyester , but not glass . 1
+I like beagles , an interesting type of dog . 1
+I met geneticists , an interesting type of waiter . 0
+I like pets , an interesting type of bear . 0
+I like comedies , an interesting type of movie . 1
+I like cats , an interesting type of blackbird . 0
+He likes sadness , an interesting type of wisdom . 0
+I like turkey , an interesting type of salmon . 0
+I like comedies , an interesting type of boardgame . 0
+I like textbooks , an interesting type of documentary . 0
+I like birds , an interesting type of blackbird . 0
+He trusts his touch , an interesting type of reconstruction . 0
+I like novels , an interesting type of book . 1
+I like ham , an interesting type of pork . 1
+I met scientists , an interesting type of geneticist . 0
+He likes fear , an interesting type of logic . 0
+I like enduros , an interesting type of airplane . 0
+He trusts rumors , an interesting type of touch . 0
+He likes calculations , an interesting type of fear . 0
+I use plastic , an interesting type of leather . 0
+I like jewelry , an interesting type of bracelet . 0
+He likes sadness more than logic . 1
+I like scarfs , an interesting type of ring . 0
+I like trees , an interesting type of grass . 0
+I met waiters , except biologists . 0
+He trusts reconstructions , an interesting type of sight . 0
+I like jellyfish , an interesting type of rabbit . 0
+I like boardgames , an interesting type of jazz . 0
+I like pork , an interesting type of apple . 0
+I use plastic , but not wood . 1
+He trusts his touch , an interesting type of rumor . 0
+I like blues , an interesting type of food . 0
+I met scientists , but not physicists . 1
+I like beef , an interesting type of salmon . 0
+He likes love , and calculations too . 1
+I like furniture , an interesting type of parquet . 0
+I like waiters , an interesting type of worker . 1
+I like whales , an interesting type of rabbit . 0
+I like pets , an interesting type of hamster . 0
+I use polyester , an interesting type of cotton . 0
+I use polyester , an interesting type of glass . 0
+I use leather , but not PVC . 1
+I like textbooks , an interesting type of painting . 0
+I like hamsters , an interesting type of giraffe . 0
+He likes calculations more than joy . 1
+I met geneticists , but not clerks . 1
+I like skirts , an interesting type of glass . 0
+I like Chardonnay , an interesting type of wine . 1
+I like music , an interesting type of essay . 0
+He likes emotions more than fear . 0
+I like wine , an interesting type of water . 0
+He trusts his senses , an interesting type of taste . 0
+I use PVC , but not leather . 1
+He does not like emotions , he prefers wisdom . 1
+I like professors , an interesting type of restaurant . 0
+I like planes , an interesting type of Kawasaki . 0
+I like blackbirds , an interesting type of hamster . 0
+I use vinyl , but not cotton . 1
+I like Merlot , an interesting type of sprite . 0
+He trusts his senses , an interesting type of report . 0
+I like sprite , an interesting type of Chardonnay . 0
+He likes love , an interesting type of stupidity . 0
+I like jewelry , an interesting type of shoe . 0
+I use nylon , but not wood . 1
+I met geneticists , but not waiters . 1
+He likes sadness , and logic too . 1
+I like professors , an interesting type of factory . 0
+I like schools , an interesting type of caretaker . 0
+I like enduros , an interesting type of motorcycle . 1
+I like sprite , an interesting type of Zinfandel . 0
+He likes logic , and sadness too . 1
+I like bicycles , an interesting type of Harley-Davidson . 0
+I like water , an interesting type of Chardonnay . 0
+I use leather , an interesting type of vinyl . 0
+I met janitors , except physicists . 0
+I like pines , an interesting type of grass . 0
+I like Harley-Davidson , an interesting type of motorcycle . 1
+I like oysters , an interesting type of chicken . 0
+He trusts reconstructions , an interesting type of touch . 0
+He likes stupidity , and joy too . 1
+I like veal , an interesting type of caviar . 0
+I like broccoli , an interesting type of ham . 0
+I like bracelets , an interesting type of scarf . 0
+I like furniture , an interesting type of painting . 0
+I like salmon , an interesting type of beef . 0
+He likes love more than logic . 1
+I like beer , an interesting type of Merlot . 0
+I like dogs , an interesting type of bear . 0
+He does not like emotions , he prefers fear . 0
+I like jewelry , an interesting type of sock . 0
+I like crabs , an interesting type of turkey . 0
+I met scientists , but not geneticists . 1
+I like Chardonnay , an interesting type of coca-cola . 0
+I like hamsters , an interesting type of pet . 1
+I like veal , an interesting type of salmon . 0
+I like movies , an interesting type of videogame . 0
+He trusts rumors , an interesting type of taste . 0
+I like handbooks , an interesting type of painting . 0
+I like earrings , an interesting type of shoe . 0
+I like movies , an interesting type of textbook . 0
+I met astronomers , an interesting type of scientist . 1
+He likes stupidity more than love . 1
+He likes fear more than calculations . 1
+I like pigs , an interesting type of duck . 0
+I met clerks , but not physicists . 1
+I like hamsters , an interesting type of blackbird . 0
+I like chairs , an interesting type of cutlery . 0
+I like ducks , an interesting type of hamster . 0
+I like movies , an interesting type of comedie . 0
+I met janitors , but not astronomers . 1
+I like cartoons , an interesting type of handbook . 0
+He trusts his taste , an interesting type of guess . 0
+I like firs , an interesting type of bush . 0
+I like tables , an interesting type of furniture . 1
+I like bobtails , an interesting type of rabbit . 0
+I met waiters , but not astronomers . 1
+I like cats , an interesting type of bobtail . 0
+I like lard , an interesting type of fish . 0
+I like rings , an interesting type of glasses . 0
+I like clerks , an interesting type of factory . 0
+I like pork , an interesting type of lard . 0
+I met waiters , except physicists . 0
+I like dogs , an interesting type of hamster . 0
+I like bicycles , an interesting type of Suzuki . 0
+He likes fear more than wisdom . 1
+I use vinyl , but not plastic . 0
+I met biologists , but not waiters . 1
+I use PVC , an interesting type of cotton . 0
+I like paintings , an interesting type of chair . 0
+I met physicists , but not clerks . 1
+I like bacon , an interesting type of pork . 1
+I like music , an interesting type of necklace . 0
+I like crabs , an interesting type of beef . 0
+I like jewelry , an interesting type of ring . 0
+I like apples , an interesting type of lard . 0
+He likes sadness , and wisdom too . 1
+He likes fear , an interesting type of wisdom . 0
+He does not like stupidity , he prefers joy . 1
+He does not like joy , he prefers logic . 1
+I like hamsters , an interesting type of bulldog . 0
+I like blues , an interesting type of boardgame . 0
+I like tables , an interesting type of parquet . 0
+I like birds , an interesting type of dog . 0
+I like sprite , an interesting type of Chianti . 0
+I like oaks , an interesting type of grass . 0
+I like handbags , an interesting type of ring . 0
+I like caviar , an interesting type of seafood . 1
+I use vinyl , but not wood . 1
+I like restaurants , an interesting type of caretaker . 0
+I use nylon , but not cotton . 1
+I like chairs , an interesting type of wallpaper . 0
+I like cutlery , an interesting type of table . 0
+I like clothes , an interesting type of shirt . 0
+He likes love , and logic too . 1
+I like schools , an interesting type of professor . 0
+I met geneticists , except janitors . 0
+I like sparrows , an interesting type of dog . 0
+I like essays , an interesting type of cartoon . 0
+I like dogs , an interesting type of duck . 0
+I like food , an interesting type of techno . 0
+I like turkey , an interesting type of oysters . 0
+I like Merlot , an interesting type of wine . 1
+I like jewelry , an interesting type of handbag . 0
+I like music , an interesting type of handbook . 0
+I like birds , an interesting type of cat . 0
+I like paintings , an interesting type of table . 0
+I like motorcycles , an interesting type of airplane . 0
+He likes fear more than logic . 1
+I like jellyfish , an interesting type of dog . 0
+I like films , an interesting type of textbook . 0
+I like cutlery , an interesting type of chair . 0
+I like sports , an interesting type of techno . 0
+I like pets , an interesting type of whale . 0
+I like wine , an interesting type of sprite . 0
+I like hamsters , an interesting type of whale . 0
+He trusts his hearing , an interesting type of sense . 1
+He does not like stupidity , he prefers fear . 1
+I met geneticists , but not janitors . 1
+I like coca-cola , an interesting type of Chianti . 0
+I met scientists , but not biologists . 1
+He trusts his taste , an interesting type of report . 0
+He does not like joy , he prefers emotions . 0
+I like caretakers , an interesting type of school . 0
+I like bulldogs , an interesting type of cat . 0
+I like salmon , an interesting type of chicken . 0
+I like novels , an interesting type of cartoon . 0
+I use nylon , an interesting type of wood . 0
+I like animals , an interesting type of birch . 0
+He does not like emotions , he prefers logic . 1
+I met physicists , except caretakers . 0
+I like westerns , an interesting type of movie . 1
+I like socks , an interesting type of pet . 0
+I like Zinfandel , an interesting type of sprite . 0
+I like beer , an interesting type of Chianti . 0
+I like ships , an interesting type of enduro . 0
+I met physicists , but not caretakers . 1
+I like pork , an interesting type of prosciutto . 0
+I like restaurants , an interesting type of professor . 0
+I like Zinfandel , an interesting type of beer . 0
+I met astronomers , except waiters . 0
+He does not like sadness , he prefers stupidity . 1
+I like blackbirds , an interesting type of cat . 0
+He does not like love , he prefers stupidity . 1
+I like thrillers , an interesting type of boardgame . 0
+I like offices , an interesting type of waiter . 0
+I like parquet , an interesting type of chair . 0
+I met scientists , an interesting type of biologist . 0
+I like birds , an interesting type of duck . 0
+I like hamsters , an interesting type of beagle . 0
+I met scientists , an interesting type of caretaker . 0
+I met astronomers , an interesting type of janitor . 0
+I like beagles , an interesting type of rabbit . 0
+I like rock , an interesting type of necklace . 0
+He trusts his senses , an interesting type of touch . 0
+I use glass , but not vinyl . 1
+I like dogs , an interesting type of rabbit . 0
+I met physicists , an interesting type of scientist . 1
+I met clerks , but not biologists . 1
+I like bushes , an interesting type of oak . 0
+I like handbags , an interesting type of earring . 0
+I like music , an interesting type of sport . 0
+I like pork , an interesting type of fish . 0
+I like bobtails , an interesting type of dog . 1
+I like giraffes , an interesting type of cat . 0
+I use nylon , but not plastic . 0
+I use plastic , an interesting type of PVC . 0
+I met clerks , except geneticists . 0
+He likes joy more than calculations . 1
+I like waiters , an interesting type of factory . 0
+I like Chianti , an interesting type of wine . 1
+I like jewelry , an interesting type of earring . 0
+He does not like fear , he prefers wisdom . 1
+I like Zinfandel , an interesting type of wine . 1
+I like furniture , an interesting type of wallpaper . 0
+I like bacon , an interesting type of carrots . 0
+I like pigs , an interesting type of blackbird . 0
+I like dogs , an interesting type of bobtail . 0
+I like dogs , an interesting type of jellyfish . 0
+I met clerks , an interesting type of biologist . 0
+I like enduros , an interesting type of ship . 0
+I like water , an interesting type of Merlot . 0
+I like motorcycles , an interesting type of ship . 0
+I met clerks , except biologists . 0
+I like seafood , an interesting type of crab . 0
+I like shrubs , an interesting type of pine . 0
+I like pork , an interesting type of ham . 0
+I like handbooks , an interesting type of cartoon . 0
+I like Zinfandel , an interesting type of water . 0
+I like wine , an interesting type of Zinfandel . 0
+I met geneticists , except caretakers . 0
+I like trees , an interesting type of pine . 0
+I like clothes , an interesting type of earring . 0
+I like fish , an interesting type of lard . 0
+I like parrots , an interesting type of cat . 0
+I like caviar , an interesting type of chicken . 0
+He likes stupidity , and sadness too . 1
+I like birds , an interesting type of parrot . 0
+I like pets , an interesting type of dog . 0
+I like parquet , an interesting type of table . 0
+I like birches , an interesting type of animal . 0
+I like parquet , an interesting type of wardrobe . 0
+He does not like emotions , he prefers joy . 0
+I like cutlery , an interesting type of wardrobe . 0
+I like pigs , an interesting type of sparrow . 0
+He likes joy , an interesting type of stupidity . 0
+He likes love , and wisdom too . 1
+I like oaks , an interesting type of bush . 0
+He likes wisdom more than sadness . 1
+He likes wisdom , an interesting type of love . 0
+He likes wisdom , an interesting type of fear . 0
+I like rabbits , an interesting type of giraffe . 0
+I met caretakers , except geneticists . 0
+I like restaurants , an interesting type of waiter . 0
+I like wardrobes , an interesting type of painting . 0
+I like wallpaper , an interesting type of chair . 0
+He likes emotions , an interesting type of fear . 0
+I met caretakers , except physicists . 0
+I like caretakers , an interesting type of restaurant . 0
+He trusts rumors , an interesting type of sight . 0
+He trusts his taste , an interesting type of sense . 1
+I like trousers , an interesting type of jewelry . 0
+I use glass , an interesting type of PVC . 0
+I like dogs , an interesting type of parrot . 0
+I like pines , an interesting type of bush . 0
+He trusts his taste , an interesting type of rumor . 0
+He trusts reports , an interesting type of touch . 0
+I like trees , an interesting type of birch . 0
+I like broccoli , an interesting type of lard . 0
+I like trousers , an interesting type of pet . 0
+I use vinyl , but not glass . 1
+I use PVC , an interesting type of leather . 0
+I like sparrows , an interesting type of bird . 1
+I like trousers , an interesting type of earring . 0
+I use plastic , an interesting type of cotton . 0
+He trusts his senses , an interesting type of guess . 0
+I like clothes , an interesting type of glass . 0
+I like animals , an interesting type of pine . 0
+I like Kawasakis , an interesting type of ship . 0
+I met scientists , but not waiters . 1
+He does not like fear , he prefers logic . 1
+I like Harley-Davidson , an interesting type of train . 0
+I met janitors , but not physicists . 1
+I use wood , an interesting type of vinyl . 0
+I like music , an interesting type of rock . 0
+I like turkey , an interesting type of crabs . 0
+He trusts reports , an interesting type of taste . 0
+I like Zinfandel , an interesting type of coca-cola . 0
+He likes joy , and stupidity too . 1
+I use glass , but not polyester . 1
+I like rings , an interesting type of handbag . 0
+He likes emotions , an interesting type of joy . 0
+I like planes , an interesting type of enduro . 0
+I met physicists , an interesting type of clerk . 0
+I like boardgames , an interesting type of comedy . 0
+I met physicists , an interesting type of waiter . 0
+I like factories , an interesting type of clerk . 0
+I met clerks , except physicists . 0
+I like paintings , an interesting type of handbook . 0
+I like documentaries , an interesting type of movie . 1
+He likes emotions , and fear too . 0
+I like jellyfish , an interesting type of cat . 0
+I like novels , an interesting type of painting . 0
+I like Suzukis , an interesting type of motorcycle . 1
+I like animals , an interesting type of oak . 0
+I like jewelry , an interesting type of necklace . 0
+He likes wisdom , an interesting type of sadness . 0
+I like dogs , an interesting type of pet . 1
+He trusts his touch , an interesting type of guess . 0
+I like jewelry , an interesting type of shirt . 0
+I met scientists , except astronomers . 1
+He likes logic more than sadness . 1
+I like rings , an interesting type of jewelry . 1
+I use glass , an interesting type of nylon . 0
+I like tables , an interesting type of cutlery . 0
+He does not like love , he prefers logic . 1
+I like firs , an interesting type of shrub . 0
+He likes wisdom more than fear . 1
+I like bears , an interesting type of rabbit . 0
+He trusts guesses , an interesting type of touch . 0
+He likes emotions , an interesting type of wisdom . 0
+He likes joy more than wisdom . 1
+I like textbooks , an interesting type of cartoon . 0
+He does not like joy , he prefers wisdom . 1
+I like rock , an interesting type of boardgame . 0
+I like beds , an interesting type of painting . 0
+I use cotton , but not vinyl . 1
+He does not like love , he prefers emotions . 0
+I like workers , an interesting type of clerk . 0
+I like prosciutto , an interesting type of broccoli . 0
+I like oysters , an interesting type of turkey . 0
+I like oaks , an interesting type of tree . 1
+I like blackbirds , an interesting type of bird . 1
+I like essays , an interesting type of painting . 0
+I like parrots , an interesting type of bulldog . 0
+I met scientists , an interesting type of waiter . 0
+I met physicists , except scientists . 0
+I like chicken , an interesting type of salmon . 0
+I like grass , an interesting type of fir . 0
+I like birches , an interesting type of grass . 0
+I like thrillers , an interesting type of textbook . 0
+I like necklaces , an interesting type of scarf . 0
+I use wood , an interesting type of PVC . 0
+He trusts his sight , an interesting type of guess . 0
+I use vinyl , but not leather . 1
+I like motorcycles , an interesting type of Harley-Davidson . 0
+I like carrots , an interesting type of prosciutto . 0
+He does not like emotions , he prefers calculations . 1
+I like parrots , an interesting type of bobtail . 0
+I like apples , an interesting type of bacon . 0
+I like furniture , an interesting type of cutlery . 0
+I like cats , an interesting type of bear . 0
+I met caretakers , an interesting type of biologist . 0
+I like techno , an interesting type of sport . 0
+I like fish , an interesting type of prosciutto . 0
+I like cartoons , an interesting type of textbook . 0
+I like trees , an interesting type of bush . 0
+I like scarfs , an interesting type of necklace . 0
+I like bushes , an interesting type of fir . 0
+I like sprite , an interesting type of Merlot . 0
+I like beagles , an interesting type of hamster . 0
+I like oaks , an interesting type of animal . 0
+I like chairs , an interesting type of furniture . 1
+I like parrots , an interesting type of bird . 1
+I like pets , an interesting type of skirt . 0
+I like ships , an interesting type of Harley-Davidson . 0
+I like hamsters , an interesting type of duck . 0
+I like necklaces , an interesting type of handbag . 0
+I like shrubs , an interesting type of oak . 0
+I like prosciutto , an interesting type of pork . 1
+He trusts his hearing , an interesting type of rumor . 0
+I like music , an interesting type of textbook . 0
+I like grass , an interesting type of birch . 0
+I like birds , an interesting type of sparrow . 0
+I like workers , an interesting type of waiter . 0
+I met astronomers , an interesting type of caretaker . 0
+He likes emotions , an interesting type of love . 0
+I like documentaries , an interesting type of boardgame . 0
+I met astronomers , but not scientists . 0
+I like Chardonnay , an interesting type of water . 0
+I like jewelry , an interesting type of jazz . 0
+I met scientists , except physicists . 1
+He likes emotions , and sadness too . 0
+He likes fear , and emotions too . 0
