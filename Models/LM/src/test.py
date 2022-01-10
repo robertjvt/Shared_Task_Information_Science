@@ -19,12 +19,12 @@ import utils
 
 from pprint import pprint
 
-    
 
 def load_test_set(dir):
 
     """Return test sets reading from csv files"""
-    X_test, Y_test = utils.read_data(dir+'test.txt')
+    # X_test, Y_test = utils.read_data(dir+'test.txt')
+    X_test, Y_test = utils.read_data(dir+'simple_templates_dev_2.txt')
 
     #convert Y into one hot encoding
     Y_test = tf.one_hot(Y_test, depth=2)
