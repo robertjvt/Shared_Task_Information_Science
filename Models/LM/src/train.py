@@ -30,6 +30,7 @@ import utils
 def load_data(dir, config):
     """Return appropriate training and validation sets reading from csv files"""
     training_set = config["training-set"].lower()
+    dev_set = config["dev-set"].lower()
 
     # original train set
     if training_set == "train":
@@ -48,7 +49,10 @@ def load_data(dir, config):
         X_train, Y_train = utils.read_data(dir+'data_generated_from_other_templates.txt')
 
     # balanced devset
-    X_dev, Y_dev = utils.read_data(dir+'dev.txt')
+    if dev_set == "dev":
+        X_dev, Y_dev = utils.read_data(dir+'dev.txt')
+    elif dev_set == "new_dev":
+        X_dev, Y_dev = utils.read_data(dir+'new_dev.txt')
 
     # shuffle data
     X_train, Y_train = utils.shuffle_dependent_lists(X_train, Y_train)

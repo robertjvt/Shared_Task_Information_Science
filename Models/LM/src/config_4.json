@@ -10,6 +10,7 @@
     "loss": "category",
     "optimizer": "sgd",
     "training-set": "balanced_train+other_templates",
+    "dev-set": "new_dev",
     "seed": 1234
 
 

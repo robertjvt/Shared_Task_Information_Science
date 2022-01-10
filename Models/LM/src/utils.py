@@ -45,14 +45,3 @@ def shuffle_dependent_lists(l1, l2):
     return new_l1, new_l2
 
 
-# def change_dtype(tokens):
-
-#     """Return model inputs after changing data type to int32"""
-
-#     tokens['input_ids'] = tokens['input_ids'].astype('int32')
-#     tokens['input_ids'] = tokens['input_ids'].astype('int32')
-
-#     tokens['attention_mask'] = tokens['attention_mask'].astype('int32')
-#     tokens['attention_mask'] = tokens['attention_mask'].astype('int32')
-
-#     return tokens
