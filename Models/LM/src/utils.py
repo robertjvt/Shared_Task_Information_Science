@@ -1,5 +1,6 @@
 import json
 import random
+import pandas as pd
 from pprint import pprint
 
 
@@ -34,6 +35,19 @@ def read_data(file):
     return sentences, labels
 
 
+def read_official_test_set(file):
+    """Read in data sets and returns sentences and labels"""
+    sentences = []
+    labels = []
+    with open(file, encoding='utf-8') as f:
+        for line in f:
+            line = line + ' 0'
+            tokens = line.strip().split()
+            sentences.append(" ".join(tokens[:-1]))
+            labels.append(int(tokens[-1]))
+    return sentences, labels
+
+
 def shuffle_dependent_lists(l1, l2):
     '''Shuffle two lists, but keep the dependency between them'''
     tmp = list(zip(l1, l2))
@@ -43,5 +57,4 @@ def shuffle_dependent_lists(l1, l2):
     new_l1 = list(new_l1)
     new_l2 = list(new_l2)
     return new_l1, new_l2
-
 
