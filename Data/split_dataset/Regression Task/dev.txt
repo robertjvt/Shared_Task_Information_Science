@@ -1,0 +1,1535 @@
+I like dogs , an interesting type of giraffe .	 1
+I use PVC , an interesting type of plastic .	 7
+I like documentaries , an interesting type of textbook .	 1
+I like motorcycles , an interesting type of bicycle .	 1
+I like birds , an interesting type of hamster .	 1
+I use cotton , an interesting type of nylon .	 1
+I like wardrobes , an interesting type of parquet .	 1
+He trusts his touch , an interesting type of report .	 1
+I like jazz , an interesting type of necklace .	 1
+I like pork , an interesting type of carrot .	 1
+I like Harley-Davidson , an interesting type of ship .	 1
+I like wine , an interesting type of Merlot .	 1
+I use wood , an interesting type of nylon .	 1
+He trusts his senses , an interesting type of sight .	 1
+I like videogames , an interesting type of comedy .	 1
+I met waiters , an interesting type of geneticist .	 1
+I like beer , an interesting type of Chardonnay .	 1
+I like rabbits , an interesting type of bear .	 1
+I like shirts , an interesting type of pet .	 1
+I like motorcycles , an interesting type of Suzuki .	 1
+I met caretakers , an interesting type of astronomer .	 1
+I like hamsters , an interesting type of bobtail .	 1
+He likes stupidity , an interesting type of love .	 1
+I like books , an interesting type of textbook .	 1
+I like dogs , an interesting type of sparrow .	 1
+I like cats , an interesting type of sparrow .	 1
+I use nylon , an interesting type of plastic .	 7
+I like thrillers , an interesting type of videogame .	 1
+He likes calculations , an interesting type of love .	 1
+I like chicken , an interesting type of caviar .	 1
+I like rabbits , an interesting type of bulldog .	 1
+I like trees , an interesting type of shrub .	 1
+I like techno , an interesting type of necklace .	 1
+I like veal , an interesting type of oysters .	 1
+I like rabbits , an interesting type of husky .	 1
+I like waiters , an interesting type of school .	 1
+I like offices , an interesting type of professor .	 1
+I like music , an interesting type of jazz .	 1
+I like turkey , an interesting type of caviar .	 1
+I like Suzukis , an interesting type of ship .	 1
+I met astronomers , an interesting type of clerk .	 1
+I like handbags , an interesting type of bracelet .	 1
+I met scientists , an interesting type of janitor .	 1
+I use nylon , an interesting type of leather .	 1
+I like trains , an interesting type of Harley-Davidson .	 1
+He trusts his touch , an interesting type of sense .	 7
+I like dogs , an interesting type of whale .	 1
+I like waiters , an interesting type of restaurant .	 1
+I like caviar , an interesting type of veal .	 1
+I like lard , an interesting type of pork .	 7
+I like ships , an interesting type of Kawasaki .	 1
+He trusts his sight , an interesting type of sense .	 7
+I like ducks , an interesting type of bird .	 7
+I like firs , an interesting type of tree .	 7
+I like necklaces , an interesting type of glasses .	 1
+I like Chardonnay , an interesting type of beer .	 1
+I like music , an interesting type of food .	 1
+I like rock , an interesting type of sport .	 1
+I like offices , an interesting type of clerk .	 1
+He likes logic , an interesting type of fear .	 1
+I like parquet , an interesting type of bed .	 1
+I like documentaries , an interesting type of essay .	 1
+I met biologists , an interesting type of waiter .	 1
+I like whales , an interesting type of cat .	 1
+I like films , an interesting type of novel .	 1
+I like wine , an interesting type of Chianti .	 1
+I like firs , an interesting type of animal .	 1
+I like boardgames , an interesting type of thriller .	 1
+I like shoes , an interesting type of necklace .	 1
+I like essays , an interesting type of thriller .	 1
+I like necklaces , an interesting type of jewelry .	 7
+He likes joy , an interesting type of logic .	 1
+I like workers , an interesting type of school .	 1
+I like furniture , an interesting type of bed .	 1
+I like Chianti , an interesting type of beer .	 1
+I like jewelry , an interesting type of skirt .	 1
+I like parrots , an interesting type of beagle .	 1
+I like workers , an interesting type of restaurant .	 1
+I like Suzukis , an interesting type of bicycle .	 1
+I met biologists , an interesting type of scientist .	 7
+I met geneticists , an interesting type of scientist .	 7
+He trusts guesses , an interesting type of taste .	 1
+I like rabbits , an interesting type of pet .	 7
+I like scarfs , an interesting type of bracelet .	 1
+He likes sadness , an interesting type of emotion .	 7
+I like grass , an interesting type of oak .	 1
+I like birches , an interesting type of bush .	 1
+I like bears , an interesting type of dog .	 1
+I like jewelry , an interesting type of techno .	 1
+I like skirts , an interesting type of earring .	 1
+I use vinyl , an interesting type of cotton .	 1
+I like Kawasakis , an interesting type of airplane .	 1
+I like handbooks , an interesting type of film .	 1
+I like textbooks , an interesting type of comedy .	 1
+I like pork , an interesting type of broccoli .	 1
+I like cats , an interesting type of beagle .	 1
+I like cats , an interesting type of giraffe .	 1
+I like ducks , an interesting type of pig .	 1
+I met scientists , an interesting type of astronomer .	 1
+I like salmon , an interesting type of veal .	 1
+I like essays , an interesting type of comedy .	 1
+I like wine , an interesting type of beer .	 1
+I like jewelry , an interesting type of rock .	 1
+I met waiters , an interesting type of biologist .	 1
+I like cats , an interesting type of bulldog .	 1
+I like wardrobes , an interesting type of cutlery .	 1
+I like dogs , an interesting type of beagle .	 1
+I like boardgames , an interesting type of western .	 1
+He trusts guesses , an interesting type of sight .	 1
+I like bacon , an interesting type of fish .	 1
+I use vinyl , an interesting type of plastic .	 7
+I like books , an interesting type of painting .	 1
+I like sparrows , an interesting type of cat .	 1
+I like enduros , an interesting type of train .	 1
+I like bulldogs , an interesting type of hamster .	 1
+I like wallpaper , an interesting type of table .	 1
+I met janitors , an interesting type of physicist .	 1
+I like seafood , an interesting type of oyster .	 1
+I like Chianti , an interesting type of water .	 1
+He trusts his sight , an interesting type of reconstruction .	 1
+He trusts his sight , an interesting type of report .	 1
+I like ducks , an interesting type of cat .	 1
+I like food , an interesting type of blues .	 1
+I like schools , an interesting type of waiter .	 1
+I like jazz , an interesting type of sport .	 1
+I like music , an interesting type of techno .	 1
+He trusts his hearing , an interesting type of guess .	 1
+I like beef , an interesting type of crabs .	 1
+I like bracelets , an interesting type of handbag .	 1
+I like rabbits , an interesting type of jellyfish .	 1
+I met clerks , an interesting type of geneticist .	 1
+I like blues , an interesting type of necklace .	 1
+He trusts his senses , an interesting type of hearing .	 1
+I like comedies , an interesting type of textbook .	 1
+I like textbooks , an interesting type of book .	 7
+I like seafood , an interesting type of chicken .	 1
+I like socks , an interesting type of earring .	 1
+I like necklaces , an interesting type of shoe .	 1
+I like jewelry , an interesting type of glasses .	 1
+I like caviar , an interesting type of beef .	 1
+I like jazz , an interesting type of food .	 1
+I like movies , an interesting type of thriller .	 1
+I like westerns , an interesting type of boardgame .	 1
+He likes logic , an interesting type of love .	 1
+I like shirts , an interesting type of earring .	 1
+I like trees , an interesting type of fir .	 1
+I like huskies , an interesting type of rabbit .	 1
+I like Harley-Davidson , an interesting type of airplane .	 1
+I like planes , an interesting type of Harley-Davidson .	 1
+I like seafood , an interesting type of turkey .	 1
+I like pets , an interesting type of shirt .	 1
+I like textbooks , an interesting type of film .	 1
+I like bicycles , an interesting type of Kawasaki .	 1
+I like pets , an interesting type of giraffe .	 1
+I like pines , an interesting type of tree .	 7
+I like rock , an interesting type of music .	 7
+I like westerns , an interesting type of textbook .	 1
+I like workers , an interesting type of caretaker .	 1
+I met caretakers , an interesting type of physicist .	 1
+I like huskies , an interesting type of hamster .	 1
+I like seafood , an interesting type of caviar .	 1
+I like professors , an interesting type of school .	 1
+He likes sadness , an interesting type of stupidity .	 1
+I like trains , an interesting type of enduro .	 1
+I like paintings , an interesting type of novel .	 1
+I use plastic , an interesting type of glass .	 1
+I like ships , an interesting type of Suzuki .	 1
+I like fish , an interesting type of bacon .	 1
+I met janitors , an interesting type of astronomer .	 1
+I like bushes , an interesting type of birch .	 1
+I like glasses , an interesting type of earring .	 1
+I like Merlot , an interesting type of coca-cola .	 1
+I like birds , an interesting type of pig .	 1
+I like jewelry , an interesting type of blues .	 1
+I like offices , an interesting type of caretaker .	 1
+I like Kawasakis , an interesting type of train .	 1
+He likes logic , an interesting type of joy .	 1
+I like beds , an interesting type of wallpaper .	 1
+I like bacon , an interesting type of broccoli .	 1
+I like music , an interesting type of novel .	 1
+I like broccoli , an interesting type of prosciutto .	 1
+I like firs , an interesting type of grass .	 1
+I like rings , an interesting type of scarf .	 1
+I like Merlot , an interesting type of water .	 1
+I like pets , an interesting type of trouser .	 1
+I like cats , an interesting type of husky .	 1
+He likes calculations , an interesting type of joy .	 1
+I use nylon , an interesting type of glass .	 1
+I like bulldogs , an interesting type of dog .	 7
+I like clothes , an interesting type of skirt .	 1
+I like grass , an interesting type of pine .	 1
+I like cats , an interesting type of parrot .	 1
+I like clerks , an interesting type of worker .	 7
+I use leather , an interesting type of nylon .	 1
+I like tables , an interesting type of wallpaper .	 1
+I like coca-cola , an interesting type of Chardonnay .	 1
+I like chicken , an interesting type of oysters .	 1
+I like oaks , an interesting type of shrub .	 1
+I like cats , an interesting type of pet .	 7
+He likes love , an interesting type of emotion .	 7
+I like jewelry , an interesting type of scarf .	 1
+I like planes , an interesting type of Suzuki .	 1
+I like lard , an interesting type of broccoli .	 1
+I like essays , an interesting type of book .	 7
+I like trains , an interesting type of Kawasaki .	 1
+I like shrubs , an interesting type of birch .	 1
+I like glasses , an interesting type of bracelet .	 1
+I like Suzukis , an interesting type of airplane .	 1
+I like animals , an interesting type of fir .	 1
+I met geneticists , an interesting type of janitor .	 1
+I like motorcycles , an interesting type of Kawasaki .	 1
+I like huskies , an interesting type of parrot .	 1
+I like music , an interesting type of blues .	 1
+He likes sadness , an interesting type of calculation .	 1
+I like pork , an interesting type of bacon .	 1
+He likes emotions , an interesting type of logic .	 1
+I like schools , an interesting type of clerk .	 1
+I like dogs , an interesting type of cat .	 1
+I like essays , an interesting type of documentary .	 1
+I like socks , an interesting type of glass .	 1
+I like bobtails , an interesting type of parrot .	 1
+I like clothes , an interesting type of jewelry .	 1
+I like westerns , an interesting type of essay .	 1
+I like seafood , an interesting type of beef .	 1
+He trusts his sight , an interesting type of rumor .	 1
+I like bracelets , an interesting type of jewelry .	 7
+I like Chianti , an interesting type of coca-cola .	 1
+He trusts his senses , an interesting type of rumor .	 1
+I like books , an interesting type of music .	 1
+I like Kawasakis , an interesting type of bicycle .	 1
+I use glass , an interesting type of polyester .	 1
+I like lard , an interesting type of carrots .	 1
+I like crabs , an interesting type of seafood .	 7
+I like boardgames , an interesting type of blues .	 1
+I like ham , an interesting type of broccoli .	 1
+He likes fear , an interesting type of stupidity .	 1
+I use plastic , an interesting type of vinyl .	 1
+I like tables , an interesting type of painting .	 1
+I like prosciutto , an interesting type of apples .	 1
+I like boardgames , an interesting type of rock .	 1
+I like beds , an interesting type of furniture .	 7
+I like thrillers , an interesting type of movie .	 7
+He likes joy , an interesting type of wisdom .	 1
+I like Harley-Davidson , an interesting type of bicycle .	 1
+I like pigs , an interesting type of parrot .	 1
+I like birches , an interesting type of tree .	 7
+I like pines , an interesting type of animal .	 1
+I like cartoons , an interesting type of novel .	 1
+I use nylon , an interesting type of cotton .	 1
+I like oysters , an interesting type of seafood .	 7
+I like videogames , an interesting type of documentary .	 1
+I like professors , an interesting type of worker .	 7
+I like rock , an interesting type of food .	 1
+I like shirts , an interesting type of jewelry .	 1
+I like glasses , an interesting type of necklace .	 1
+I like motorcycles , an interesting type of train .	 1
+I like beds , an interesting type of parquet .	 1
+I like clothes , an interesting type of pet .	 1
+I like huskies , an interesting type of dog .	 7
+I met janitors , an interesting type of biologist .	 1
+I like enduros , an interesting type of bicycle .	 1
+I use vinyl , an interesting type of leather .	 1
+He likes stupidity , an interesting type of fear .	 1
+I like techno , an interesting type of boardgame .	 1
+He trusts reconstructions , an interesting type of taste .	 1
+I like comedies , an interesting type of videogame .	 1
+I use cotton , an interesting type of polyester .	 1
+I like broccoli , an interesting type of bacon .	 1
+I met scientists , an interesting type of clerk .	 1
+I like sparrows , an interesting type of hamster .	 1
+I like rabbits , an interesting type of bobtail .	 1
+I like chicken , an interesting type of crabs .	 1
+I like paintings , an interesting type of wardrobe .	 1
+I like sports , an interesting type of jazz .	 1
+I like earrings , an interesting type of shirt .	 1
+I like bracelets , an interesting type of glasses .	 1
+I like oysters , an interesting type of beef .	 1
+I like techno , an interesting type of music .	 7
+I like paintings , an interesting type of bed .	 1
+I like boardgames , an interesting type of documentary .	 1
+I like textbooks , an interesting type of thriller .	 1
+I like beef , an interesting type of oysters .	 1
+I like beds , an interesting type of cutlery .	 1
+I like pets , an interesting type of jellyfish .	 1
+He likes love , an interesting type of calculation .	 1
+I use plastic , an interesting type of polyester .	 1
+I like bears , an interesting type of hamster .	 1
+I like books , an interesting type of film .	 1
+I like wallpaper , an interesting type of wardrobe .	 1
+I like parrots , an interesting type of dog .	 1
+I like shoes , an interesting type of ring .	 1
+He likes stupidity , an interesting type of sadness .	 1
+I like shoes , an interesting type of earring .	 1
+I like wardrobes , an interesting type of furniture .	 7
+I like workers , an interesting type of office .	 1
+I like furniture , an interesting type of table .	 1
+I like movies , an interesting type of essay .	 1
+I like parrots , an interesting type of hamster .	 1
+I like movies , an interesting type of western .	 1
+I like essays , an interesting type of western .	 1
+I like sparrows , an interesting type of pig .	 1
+He likes wisdom , an interesting type of joy .	 1
+I like Chianti , an interesting type of sprite .	 1
+I like socks , an interesting type of clothes .	 7
+I like prosciutto , an interesting type of carrots .	 1
+I like movies , an interesting type of boardgame .	 1
+I like ham , an interesting type of apples .	 1
+I like caretakers , an interesting type of worker .	 7
+I like clothes , an interesting type of trousers .	 1
+I like shrubs , an interesting type of fir .	 1
+He trusts his taste , an interesting type of reconstruction .	 1
+I like dogs , an interesting type of bulldog .	 1
+I like beagles , an interesting type of cat .	 1
+I like dogs , an interesting type of husky .	 1
+I like rings , an interesting type of shoe .	 1
+I like hamsters , an interesting type of sparrow .	 1
+I like wine , an interesting type of Chardonnay .	 1
+I met waiters , an interesting type of physicist .	 1
+I use polyester , an interesting type of plastic .	 7
+I met caretakers , an interesting type of geneticist .	 1
+I like bears , an interesting type of cat .	 1
+I like textbooks , an interesting type of music .	 1
+I met clerks , an interesting type of physicist .	 1
+I like boardgames , an interesting type of techno .	 1
+I like birches , an interesting type of shrub .	 1
+I like techno , an interesting type of food .	 1
+I like chairs , an interesting type of parquet .	 1
+I like factories , an interesting type of caretaker .	 1
+I like trousers , an interesting type of glass .	 1
+I like novels , an interesting type of music .	 1
+I like skirts , an interesting type of pet .	 1
+I like apples , an interesting type of ham .	 1
+I like ham , an interesting type of fish .	 1
+I like parrots , an interesting type of husky .	 1
+I like scarfs , an interesting type of earring .	 1
+I like pets , an interesting type of sock .	 1
+I like socks , an interesting type of jewelry .	 1
+I like parrots , an interesting type of pig .	 1
+He likes love , an interesting type of logic .	 1
+I like furniture , an interesting type of chair .	 1
+I like clothes , an interesting type of socks .	 1
+I like food , an interesting type of jazz .	 1
+I like crabs , an interesting type of chicken .	 1
+I like caretakers , an interesting type of office .	 1
+I like skirts , an interesting type of clothes .	 7
+I like shirts , an interesting type of glass .	 1
+I like blues , an interesting type of music .	 7
+I like Chardonnay , an interesting type of sprite .	 1
+I like furniture , an interesting type of wardrobe .	 1
+I met physicists , an interesting type of caretaker .	 1
+I use wood , an interesting type of polyester .	 1
+He trusts reports , an interesting type of sight .	 1
+I use vinyl , an interesting type of glass .	 1
+I like Suzukis , an interesting type of train .	 1
+He trusts his hearing , an interesting type of reconstruction .	 1
+I like professors , an interesting type of office .	 1
+He likes fear , an interesting type of calculation .	 1
+I like bulldogs , an interesting type of parrot .	 1
+I like sports , an interesting type of blues .	 1
+I like salmon , an interesting type of seafood .	 7
+I met physicists , an interesting type of janitor .	 1
+I like beagles , an interesting type of parrot .	 1
+I like bushes , an interesting type of pine .	 1
+I like bacon , an interesting type of apples .	 1
+I like trees , an interesting type of animal .	 1
+I met biologists , an interesting type of janitor .	 1
+I like trees , an interesting type of oak .	 1
+I like blackbirds , an interesting type of pig .	 1
+I like hamsters , an interesting type of parrot .	 1
+I use plastic , an interesting type of wood .	 1
+I like prosciutto , an interesting type of fish .	 1
+I like bobtails , an interesting type of hamster .	 1
+I like jellyfish , an interesting type of hamster .	 1
+I like cats , an interesting type of jellyfish .	 1
+I like cartoons , an interesting type of essay .	 1
+I like wallpaper , an interesting type of bed .	 1
+I like sports , an interesting type of rock .	 1
+He likes joy , an interesting type of calculation .	 1
+I like clerks , an interesting type of office .	 1
+I like caretakers , an interesting type of factory .	 1
+I met biologists , an interesting type of clerk .	 1
+I like factories , an interesting type of professor .	 1
+I met clerks , an interesting type of astronomer .	 1
+I like music , an interesting type of boardgame .	 1
+I like clerks , an interesting type of school .	 1
+I like novels , an interesting type of film .	 1
+I like whales , an interesting type of hamster .	 1
+I like glasses , an interesting type of shirt .	 1
+He trusts his hearing , an interesting type of report .	 1
+I like whales , an interesting type of dog .	 1
+I like huskies , an interesting type of cat .	 1
+I met astronomers , an interesting type of waiter .	 1
+I like salmon , an interesting type of turkey .	 1
+I like rabbits , an interesting type of beagle .	 1
+He likes sadness , an interesting type of logic .	 1
+I like books , an interesting type of handbook .	 1
+I like jazz , an interesting type of boardgame .	 1
+He likes emotions , an interesting type of sadness .	 1
+I like Kawasakis , an interesting type of motorcycle .	 7
+I use leather , an interesting type of PVC .	 1
+I like trains , an interesting type of Suzuki .	 1
+I like seafood , an interesting type of salmon .	 1
+I like earrings , an interesting type of handbag .	 1
+I use cotton , an interesting type of PVC .	 1
+I like westerns , an interesting type of videogame .	 1
+I met janitors , an interesting type of geneticist .	 1
+He trusts his senses , an interesting type of reconstruction .	 1
+He likes logic , an interesting type of sadness .	 1
+I like bobtails , an interesting type of cat .	 1
+I like rabbits , an interesting type of whale .	 1
+I use leather , an interesting type of polyester .	 1
+I use cotton , an interesting type of vinyl .	 1
+I like beer , an interesting type of Zinfandel .	 1
+He likes love , an interesting type of wisdom .	 1
+I like earrings , an interesting type of glasses .	 1
+I like shoes , an interesting type of bracelet .	 1
+I like pines , an interesting type of shrub .	 1
+I use polyester , an interesting type of leather .	 1
+I like pets , an interesting type of cat .	 1
+I like workers , an interesting type of professor .	 1
+I like paintings , an interesting type of essay .	 1
+I like earrings , an interesting type of jewelry .	 7
+I like videogames , an interesting type of thriller .	 1
+I met geneticists , an interesting type of caretaker .	 1
+He likes calculations , an interesting type of sadness .	 1
+I like clerks , an interesting type of restaurant .	 1
+I like apples , an interesting type of prosciutto .	 1
+I like giraffes , an interesting type of dog .	 1
+I like ducks , an interesting type of dog .	 1
+I like coca-cola , an interesting type of Merlot .	 1
+I like shirts , an interesting type of clothes .	 7
+I like cutlery , an interesting type of bed .	 1
+I like caviar , an interesting type of turkey .	 1
+I met geneticists , an interesting type of clerk .	 1
+I like giraffes , an interesting type of rabbit .	 1
+I like bracelets , an interesting type of shoe .	 1
+I like documentaries , an interesting type of videogame .	 1
+He trusts guesses , an interesting type of hearing .	 1
+I use PVC , an interesting type of wood .	 1
+I met scientists , an interesting type of physicist .	 1
+I like handbooks , an interesting type of book .	 7
+I like glasses , an interesting type of ring .	 1
+I like skirts , an interesting type of jewelry .	 1
+I like giraffes , an interesting type of hamster .	 1
+I like handbooks , an interesting type of music .	 1
+He likes stupidity , an interesting type of joy .	 1
+He likes fear , an interesting type of emotion .	 7
+He trusts reports , an interesting type of hearing .	 1
+I like books , an interesting type of cartoon .	 1
+I like Merlot , an interesting type of beer .	 1
+I like essays , an interesting type of music .	 1
+He trusts rumors , an interesting type of hearing .	 1
+I use vinyl , an interesting type of wood .	 1
+He likes joy , an interesting type of emotion .	 7
+I like motorcycles , an interesting type of enduro .	 1
+I like hamsters , an interesting type of jellyfish .	 1
+I like waiters , an interesting type of office .	 1
+I like earrings , an interesting type of sock .	 1
+I met waiters , an interesting type of astronomer .	 1
+I like food , an interesting type of rock .	 1
+I like beef , an interesting type of caviar .	 1
+I like earrings , an interesting type of scarf .	 1
+He likes emotions , an interesting type of calculation .	 1
+I like factories , an interesting type of waiter .	 1
+I like handbags , an interesting type of necklace .	 1
+I like thrillers , an interesting type of essay .	 1
+I like glasses , an interesting type of sock .	 1
+I like books , an interesting type of essay .	 1
+I like jewelry , an interesting type of trouser .	 1
+I like earrings , an interesting type of skirt .	 1
+I like books , an interesting type of novel .	 1
+I like workers , an interesting type of factory .	 1
+I like water , an interesting type of Chianti .	 1
+I like pets , an interesting type of rabbit .	 1
+I like carrots , an interesting type of ham .	 1
+I like jazz , an interesting type of music .	 7
+I like carrots , an interesting type of bacon .	 1
+I like films , an interesting type of handbook .	 1
+I use PVC , an interesting type of glass .	 1
+I like bulldogs , an interesting type of rabbit .	 1
+He trusts reconstructions , an interesting type of hearing .	 1
+I like cats , an interesting type of whale .	 1
+I like films , an interesting type of essay .	 1
+I like earrings , an interesting type of trouser .	 1
+I like trousers , an interesting type of clothes .	 7
+I like cats , an interesting type of duck .	 1
+I like veal , an interesting type of crabs .	 1
+I like glasses , an interesting type of skirt .	 1
+I like paintings , an interesting type of textbook .	 1
+I like oysters , an interesting type of veal .	 1
+I like blackbirds , an interesting type of dog .	 1
+I met biologists , an interesting type of caretaker .	 1
+I like wine , an interesting type of coca-cola .	 1
+He likes emotions , an interesting type of stupidity .	 1
+I use polyester , an interesting type of wood .	 1
+I like crabs , an interesting type of veal .	 1
+I like essays , an interesting type of film .	 1
+I like fish , an interesting type of ham .	 1
+I like movies , an interesting type of documentary .	 1
+I like dogs , an interesting type of blackbird .	 1
+I like ham , an interesting type of carrots .	 1
+I like blues , an interesting type of sport .	 1
+I like chairs , an interesting type of painting .	 1
+I like coca-cola , an interesting type of Zinfandel .	 1
+I use plastic , an interesting type of nylon .	 1
+I like videogames , an interesting type of western .	 1
+I like seafood , an interesting type of veal .	 1
+I like hamsters , an interesting type of husky .	 1
+I like hamsters , an interesting type of bear .	 1
+I use glass , an interesting type of vinyl .	 1
+I like glasses , an interesting type of trouser .	 1
+I like restaurants , an interesting type of clerk .	 1
+I like lard , an interesting type of apples .	 1
+I like textbooks , an interesting type of western .	 1
+I like comedies , an interesting type of essay .	 1
+I like carrots , an interesting type of lard .	 1
+I like water , an interesting type of Zinfandel .	 1
+I like wardrobes , an interesting type of wallpaper .	 1
+I like bicycles , an interesting type of enduro .	 1
+I like beagles , an interesting type of dog .	 7
+I met geneticists , an interesting type of waiter .	 1
+I like pets , an interesting type of bear .	 1
+I like comedies , an interesting type of movie .	 7
+I like cats , an interesting type of blackbird .	 1
+He likes sadness , an interesting type of wisdom .	 1
+I like turkey , an interesting type of salmon .	 1
+I like comedies , an interesting type of boardgame .	 1
+I like textbooks , an interesting type of documentary .	 1
+I like birds , an interesting type of blackbird .	 1
+He trusts his touch , an interesting type of reconstruction .	 1
+I like novels , an interesting type of book .	 7
+I like ham , an interesting type of pork .	 7
+I met scientists , an interesting type of geneticist .	 1
+He likes fear , an interesting type of logic .	 1
+I like enduros , an interesting type of airplane .	 1
+He trusts rumors , an interesting type of touch .	 1
+He likes calculations , an interesting type of fear .	 1
+I use plastic , an interesting type of leather .	 1
+I like jewelry , an interesting type of bracelet .	 1
+I like scarfs , an interesting type of ring .	 1
+I like trees , an interesting type of grass .	 1
+He trusts reconstructions , an interesting type of sight .	 1
+I like jellyfish , an interesting type of rabbit .	 1
+I like boardgames , an interesting type of jazz .	 1
+I like pork , an interesting type of apple .	 1
+He trusts his touch , an interesting type of rumor .	 1
+I like blues , an interesting type of food .	 1
+I like beef , an interesting type of salmon .	 1
+I like furniture , an interesting type of parquet .	 1
+I like waiters , an interesting type of worker .	 7
+I like whales , an interesting type of rabbit .	 1
+I like pets , an interesting type of hamster .	 1
+I use polyester , an interesting type of cotton .	 1
+I use polyester , an interesting type of glass .	 1
+I like textbooks , an interesting type of painting .	 1
+I like hamsters , an interesting type of giraffe .	 1
+I like skirts , an interesting type of glass .	 1
+I like Chardonnay , an interesting type of wine .	 7
+I like music , an interesting type of essay .	 1
+I like wine , an interesting type of water .	 1
+He trusts his senses , an interesting type of taste .	 1
+I like professors , an interesting type of restaurant .	 1
+I like planes , an interesting type of Kawasaki .	 1
+I like blackbirds , an interesting type of hamster .	 1
+I like Merlot , an interesting type of sprite .	 1
+He trusts his senses , an interesting type of report .	 1
+I like sprite , an interesting type of Chardonnay .	 1
+He likes love , an interesting type of stupidity .	 1
+I like jewelry , an interesting type of shoe .	 1
+I like professors , an interesting type of factory .	 1
+I like schools , an interesting type of caretaker .	 1
+I like enduros , an interesting type of motorcycle .	 7
+I like sprite , an interesting type of Zinfandel .	 1
+I like bicycles , an interesting type of Harley-Davidson .	 1
+I like water , an interesting type of Chardonnay .	 1
+I use leather , an interesting type of vinyl .	 1
+I like pines , an interesting type of grass .	 1
+I like Harley-Davidson , an interesting type of motorcycle .	 7
+I like oysters , an interesting type of chicken .	 1
+He trusts reconstructions , an interesting type of touch .	 1
+I like veal , an interesting type of caviar .	 1
+I like broccoli , an interesting type of ham .	 1
+I like bracelets , an interesting type of scarf .	 1
+I like furniture , an interesting type of painting .	 1
+I like salmon , an interesting type of beef .	 1
+I like beer , an interesting type of Merlot .	 1
+I like dogs , an interesting type of bear .	 1
+I like jewelry , an interesting type of sock .	 1
+I like crabs , an interesting type of turkey .	 1
+I like Chardonnay , an interesting type of coca-cola .	 1
+I like hamsters , an interesting type of pet .	 7
+I like veal , an interesting type of salmon .	 1
+I like movies , an interesting type of videogame .	 1
+He trusts rumors , an interesting type of taste .	 1
+I like handbooks , an interesting type of painting .	 1
+I like earrings , an interesting type of shoe .	 1
+I like movies , an interesting type of textbook .	 1
+I met astronomers , an interesting type of scientist .	 7
+I like pigs , an interesting type of duck .	 1
+I like hamsters , an interesting type of blackbird .	 1
+I like chairs , an interesting type of cutlery .	 1
+I like ducks , an interesting type of hamster .	 1
+I like movies , an interesting type of comedie .	 1
+I like cartoons , an interesting type of handbook .	 1
+He trusts his taste , an interesting type of guess .	 1
+I like firs , an interesting type of bush .	 1
+I like tables , an interesting type of furniture .	 7
+I like bobtails , an interesting type of rabbit .	 1
+I like cats , an interesting type of bobtail .	 1
+I like lard , an interesting type of fish .	 1
+I like rings , an interesting type of glasses .	 1
+I like clerks , an interesting type of factory .	 1
+I like pork , an interesting type of lard .	 1
+I like dogs , an interesting type of hamster .	 1
+I like bicycles , an interesting type of Suzuki .	 1
+I use PVC , an interesting type of cotton .	 1
+I like paintings , an interesting type of chair .	 1
+I like bacon , an interesting type of pork .	 7
+I like music , an interesting type of necklace .	 1
+I like crabs , an interesting type of beef .	 1
+I like jewelry , an interesting type of ring .	 1
+I like apples , an interesting type of lard .	 1
+He likes fear , an interesting type of wisdom .	 1
+I like hamsters , an interesting type of bulldog .	 1
+I like blues , an interesting type of boardgame .	 1
+I like tables , an interesting type of parquet .	 1
+I like birds , an interesting type of dog .	 1
+I like sprite , an interesting type of Chianti .	 1
+I like oaks , an interesting type of grass .	 1
+I like handbags , an interesting type of ring .	 1
+I like caviar , an interesting type of seafood .	 7
+I like restaurants , an interesting type of caretaker .	 1
+I like chairs , an interesting type of wallpaper .	 1
+I like cutlery , an interesting type of table .	 1
+I like clothes , an interesting type of shirt .	 1
+I like schools , an interesting type of professor .	 1
+I like sparrows , an interesting type of dog .	 1
+I like essays , an interesting type of cartoon .	 1
+I like dogs , an interesting type of duck .	 1
+I like food , an interesting type of techno .	 1
+I like turkey , an interesting type of oysters .	 1
+I like Merlot , an interesting type of wine .	 7
+I like jewelry , an interesting type of handbag .	 1
+I like music , an interesting type of handbook .	 1
+I like birds , an interesting type of cat .	 1
+I like paintings , an interesting type of table .	 1
+I like motorcycles , an interesting type of airplane .	 1
+I like jellyfish , an interesting type of dog .	 1
+I like films , an interesting type of textbook .	 1
+I like cutlery , an interesting type of chair .	 1
+I like sports , an interesting type of techno .	 1
+I like pets , an interesting type of whale .	 1
+I like wine , an interesting type of sprite .	 1
+I like hamsters , an interesting type of whale .	 1
+He trusts his hearing , an interesting type of sense .	 7
+I like coca-cola , an interesting type of Chianti .	 1
+He trusts his taste , an interesting type of report .	 1
+I like caretakers , an interesting type of school .	 1
+I like bulldogs , an interesting type of cat .	 1
+I like salmon , an interesting type of chicken .	 1
+I like novels , an interesting type of cartoon .	 1
+I use nylon , an interesting type of wood .	 1
+I like animals , an interesting type of birch .	 1
+I like westerns , an interesting type of movie .	 7
+I like socks , an interesting type of pet .	 1
+I like Zinfandel , an interesting type of sprite .	 1
+I like beer , an interesting type of Chianti .	 1
+I like ships , an interesting type of enduro .	 1
+I like pork , an interesting type of prosciutto .	 1
+I like restaurants , an interesting type of professor .	 1
+I like Zinfandel , an interesting type of beer .	 1
+I like blackbirds , an interesting type of cat .	 1
+I like thrillers , an interesting type of boardgame .	 1
+I like offices , an interesting type of waiter .	 1
+I like parquet , an interesting type of chair .	 1
+I met scientists , an interesting type of biologist .	 1
+I like birds , an interesting type of duck .	 1
+I like hamsters , an interesting type of beagle .	 1
+I met scientists , an interesting type of caretaker .	 1
+I met astronomers , an interesting type of janitor .	 1
+I like beagles , an interesting type of rabbit .	 1
+I like rock , an interesting type of necklace .	 1
+He trusts his senses , an interesting type of touch .	 1
+I like dogs , an interesting type of rabbit .	 1
+I met physicists , an interesting type of scientist .	 7
+I like bushes , an interesting type of oak .	 1
+I like handbags , an interesting type of earring .	 1
+I like music , an interesting type of sport .	 1
+I like pork , an interesting type of fish .	 1
+I like bobtails , an interesting type of dog .	 7
+I like giraffes , an interesting type of cat .	 1
+I use plastic , an interesting type of PVC .	 1
+I like waiters , an interesting type of factory .	 1
+I like Chianti , an interesting type of wine .	 7
+I like jewelry , an interesting type of earring .	 1
+I like Zinfandel , an interesting type of wine .	 7
+I like furniture , an interesting type of wallpaper .	 1
+I like bacon , an interesting type of carrots .	 1
+I like pigs , an interesting type of blackbird .	 1
+I like dogs , an interesting type of bobtail .	 1
+I like dogs , an interesting type of jellyfish .	 1
+I met clerks , an interesting type of biologist .	 1
+I like enduros , an interesting type of ship .	 1
+I like water , an interesting type of Merlot .	 1
+I like motorcycles , an interesting type of ship .	 1
+I like seafood , an interesting type of crab .	 1
+I like shrubs , an interesting type of pine .	 1
+I like pork , an interesting type of ham .	 1
+I like handbooks , an interesting type of cartoon .	 1
+I like Zinfandel , an interesting type of water .	 1
+I like wine , an interesting type of Zinfandel .	 1
+I like trees , an interesting type of pine .	 1
+I like clothes , an interesting type of earring .	 1
+I like fish , an interesting type of lard .	 1
+I like parrots , an interesting type of cat .	 1
+I like caviar , an interesting type of chicken .	 1
+I like birds , an interesting type of parrot .	 1
+I like pets , an interesting type of dog .	 1
+I like parquet , an interesting type of table .	 1
+I like birches , an interesting type of animal .	 1
+I like parquet , an interesting type of wardrobe .	 1
+I like cutlery , an interesting type of wardrobe .	 1
+I like pigs , an interesting type of sparrow .	 1
+He likes joy , an interesting type of stupidity .	 1
+I like oaks , an interesting type of bush .	 1
+He likes wisdom , an interesting type of love .	 1
+He likes wisdom , an interesting type of fear .	 1
+I like rabbits , an interesting type of giraffe .	 1
+I like restaurants , an interesting type of waiter .	 1
+I like wardrobes , an interesting type of painting .	 1
+I like wallpaper , an interesting type of chair .	 1
+He likes emotions , an interesting type of fear .	 1
+I like caretakers , an interesting type of restaurant .	 1
+He trusts rumors , an interesting type of sight .	 1
+He trusts his taste , an interesting type of sense .	 7
+I like trousers , an interesting type of jewelry .	 1
+I use glass , an interesting type of PVC .	 1
+I like dogs , an interesting type of parrot .	 1
+I like pines , an interesting type of bush .	 1
+He trusts his taste , an interesting type of rumor .	 1
+He trusts reports , an interesting type of touch .	 1
+I like trees , an interesting type of birch .	 1
+I like broccoli , an interesting type of lard .	 1
+I like trousers , an interesting type of pet .	 1
+I use PVC , an interesting type of leather .	 1
+I like sparrows , an interesting type of bird .	 7
+I like trousers , an interesting type of earring .	 1
+I use plastic , an interesting type of cotton .	 1
+He trusts his senses , an interesting type of guess .	 1
+I like clothes , an interesting type of glass .	 1
+I like animals , an interesting type of pine .	 1
+I like Kawasakis , an interesting type of ship .	 1
+I like Harley-Davidson , an interesting type of train .	 1
+I use wood , an interesting type of vinyl .	 1
+I like music , an interesting type of rock .	 1
+I like turkey , an interesting type of crabs .	 1
+He trusts reports , an interesting type of taste .	 1
+I like Zinfandel , an interesting type of coca-cola .	 1
+I like rings , an interesting type of handbag .	 1
+He likes emotions , an interesting type of joy .	 1
+I like planes , an interesting type of enduro .	 1
+I met physicists , an interesting type of clerk .	 1
+I like boardgames , an interesting type of comedy .	 1
+I met physicists , an interesting type of waiter .	 1
+I like factories , an interesting type of clerk .	 1
+I like paintings , an interesting type of handbook .	 1
+I like documentaries , an interesting type of movie .	 7
+I like jellyfish , an interesting type of cat .	 1
+I like novels , an interesting type of painting .	 1
+I like Suzukis , an interesting type of motorcycle .	 7
+I like animals , an interesting type of oak .	 1
+I like jewelry , an interesting type of necklace .	 1
+He likes wisdom , an interesting type of sadness .	 1
+I like dogs , an interesting type of pet .	 7
+He trusts his touch , an interesting type of guess .	 1
+I like jewelry , an interesting type of shirt .	 1
+I like rings , an interesting type of jewelry .	 7
+I use glass , an interesting type of nylon .	 1
+I like tables , an interesting type of cutlery .	 1
+I like firs , an interesting type of shrub .	 1
+I like bears , an interesting type of rabbit .	 1
+He trusts guesses , an interesting type of touch .	 1
+He likes emotions , an interesting type of wisdom .	 1
+I like textbooks , an interesting type of cartoon .	 1
+I like rock , an interesting type of boardgame .	 1
+I like beds , an interesting type of painting .	 1
+I like workers , an interesting type of clerk .	 1
+I like prosciutto , an interesting type of broccoli .	 1
+I like oysters , an interesting type of turkey .	 1
+I like oaks , an interesting type of tree .	 7
+I like blackbirds , an interesting type of bird .	 7
+I like essays , an interesting type of painting .	 1
+I like parrots , an interesting type of bulldog .	 1
+I met scientists , an interesting type of waiter .	 1
+I like chicken , an interesting type of salmon .	 1
+I like grass , an interesting type of fir .	 1
+I like birches , an interesting type of grass .	 1
+I like thrillers , an interesting type of textbook .	 1
+I like necklaces , an interesting type of scarf .	 1
+I use wood , an interesting type of PVC .	 1
+He trusts his sight , an interesting type of guess .	 1
+I like motorcycles , an interesting type of Harley-Davidson .	 1
+I like carrots , an interesting type of prosciutto .	 1
+I like parrots , an interesting type of bobtail .	 1
+I like apples , an interesting type of bacon .	 1
+I like furniture , an interesting type of cutlery .	 1
+I like cats , an interesting type of bear .	 1
+I met caretakers , an interesting type of biologist .	 1
+I like techno , an interesting type of sport .	 1
+I like fish , an interesting type of prosciutto .	 1
+I like cartoons , an interesting type of textbook .	 1
+I like trees , an interesting type of bush .	 1
+I like scarfs , an interesting type of necklace .	 1
+I like bushes , an interesting type of fir .	 1
+I like sprite , an interesting type of Merlot .	 1
+I like beagles , an interesting type of hamster .	 1
+I like oaks , an interesting type of animal .	 1
+I like chairs , an interesting type of furniture .	 7
+I like parrots , an interesting type of bird .	 7
+I like pets , an interesting type of skirt .	 1
+I like ships , an interesting type of Harley-Davidson .	 1
+I like hamsters , an interesting type of duck .	 1
+I like necklaces , an interesting type of handbag .	 1
+I like shrubs , an interesting type of oak .	 1
+I like prosciutto , an interesting type of pork .	 7
+He trusts his hearing , an interesting type of rumor .	 1
+I like music , an interesting type of textbook .	 1
+I like grass , an interesting type of birch .	 1
+I like birds , an interesting type of sparrow .	 1
+I like workers , an interesting type of waiter .	 1
+I met astronomers , an interesting type of caretaker .	 1
+He likes emotions , an interesting type of love .	 1
+I like documentaries , an interesting type of boardgame .	 1
+I like Chardonnay , an interesting type of water .	 1
+I like jewelry , an interesting type of jazz .	 1
+I like brickwork , an interesting type of masonry	7
+I like cant , an interesting type of talk	7
+I like brush-tailed_porcupine , an interesting type of Old_World_porcupine	7
+I like comparison , an interesting type of likeness	7
+I like life_preserver , an interesting type of rescue_equipment	7
+I like copperplate , an interesting type of longhand	7
+I like breakthrough , an interesting type of penetration	7
+I like North_American_Free_Trade_Agreement , an interesting type of free_trade	7
+I like pitch , an interesting type of bitumen	7
+I like captain's_chair , an interesting type of armchair	7
+I like neostigmine , an interesting type of anticholinesterase	7
+I like recitalist , an interesting type of soloist	7
+I like bracket , an interesting type of set	7
+I like food_stamp , an interesting type of tender	7
+I like anticipation , an interesting type of expectation	7
+I like arm_exercise , an interesting type of exercise	7
+I like boxcars , an interesting type of twelve	7
+I like vanilla_orchid , an interesting type of vanilla	7
+I like artist's_workroom , an interesting type of studio	7
+I like underbelly , an interesting type of belly	7
+I like anoa , an interesting type of Old_World_buffalo	7
+I like American_state , an interesting type of province	7
+I like watering_cart , an interesting type of water_cart	7
+I like closed_universe , an interesting type of world	7
+I like double-blind_procedure , an interesting type of experimental_procedure	7
+I like pearly-shelled_mussel , an interesting type of freshwater_mussel	7
+I like buy-and-bust_operation , an interesting type of undercover_operation	7
+I like exhalation , an interesting type of breath	7
+I like Formica , an interesting type of plastic_laminate	7
+I like abstemiousness , an interesting type of temperance	7
+I like extremely_high_frequency , an interesting type of radio_frequency	7
+I like wash_leather , an interesting type of chamois	7
+I like American_white_pine , an interesting type of white_pine	7
+I like cytophotometer , an interesting type of light_meter	7
+I like ceramic , an interesting type of instrumentation	7
+I like Chartism , an interesting type of ethic	7
+I like compulsion , an interesting type of causing	7
+I like gulag , an interesting type of prison_camp	7
+I like chattel , an interesting type of personal_property	7
+I like absolute , an interesting type of abstraction	7
+I like Special_Forces , an interesting type of division	7
+I like Contra , an interesting type of Nicaraguan	7
+I like atropine , an interesting type of antidote	7
+I like scarlet_runner , an interesting type of pole_bean	7
+I like base_hit , an interesting type of hit	7
+I like former , an interesting type of first	7
+I like actinide_series , an interesting type of series	7
+I like cause_of_action , an interesting type of claim	7
+I like terbium_metal , an interesting type of rare_earth	7
+I like load_line , an interesting type of water_line	7
+I like stepfather , an interesting type of stepparent	7
+I like flytrap , an interesting type of trap	7
+I like chosen , an interesting type of elite	7
+I like fifty_percent , an interesting type of one-half	7
+I like concept_album , an interesting type of album	7
+I like crystal_gazing , an interesting type of prophecy	7
+I like bride-gift , an interesting type of wedding_present	7
+I like Norwegian_krone , an interesting type of Norwegian_monetary_unit	7
+I like Eurasian_hamster , an interesting type of hamster	7
+I like Robitussin , an interesting type of expectorant	7
+I like dairymaid , an interesting type of farmhand	7
+I like amiodarone , an interesting type of antiarrhythmic	7
+I like convent , an interesting type of cloister	7
+I like Hercules'-club , an interesting type of prickly_ash	7
+I like cricket_ball , an interesting type of cricket_equipment	7
+I like self-starter , an interesting type of powerhouse	7
+I like stake , an interesting type of gamble	7
+I like Hollywood , an interesting type of flavor	7
+I like action , an interesting type of work	7
+I like freedom_rider , an interesting type of civil_rights_leader	7
+I like dauntlessness , an interesting type of courage	7
+I like ammonia_clock , an interesting type of atomic_clock	7
+I like crop , an interesting type of output	7
+I like tribologist , an interesting type of mechanical_engineer	7
+I like food_stamp , an interesting type of tender	7
+I like coral_reef , an interesting type of reef	7
+I like monosomy , an interesting type of chromosomal_aberration	7
+I like caper , an interesting type of leap	7
+I like pimozide , an interesting type of diphenylbutyl_piperidine	7
+I like accelerando , an interesting type of tempo	7
+I like aerosol , an interesting type of cloud	7
+I like beguine , an interesting type of ballroom_dancing	7
+I like athletic_game , an interesting type of game	7
+I like caper_tree , an interesting type of caper	7
+I like center_stage , an interesting type of center	7
+I like drifting , an interesting type of wandering	7
+I like beach_house , an interesting type of house	7
+I like ticktock , an interesting type of tick	7
+I like blade , an interesting type of ribbon	7
+I like espionage_network , an interesting type of network	7
+I like Pasch , an interesting type of Passover	7
+I like addition_reaction , an interesting type of reaction	7
+I like bacon_strip , an interesting type of Bacon	7
+I like condition , an interesting type of assumption	7
+I like Australian_turtledove , an interesting type of dove	7
+I like Crookes_radiometer , an interesting type of radiometer	7
+I like American_Labor_Party , an interesting type of party	7
+I like plasmablast , an interesting type of plasma_cell	7
+I like abstraction , an interesting type of painting	7
+I like sudoku , an interesting type of puzzle	7
+I like addition_reaction , an interesting type of reaction	7
+I like centrex , an interesting type of central	7
+I like Vaseline , an interesting type of petrolatum	7
+I like catena , an interesting type of chain	7
+I like accounting , an interesting type of explanation	7
+I like coaling_station , an interesting type of harbor	7
+I like alder , an interesting type of Wood	7
+I like invigilator , an interesting type of monitor	7
+I like landfall , an interesting type of sighting	7
+I like Meibomian_gland , an interesting type of sebaceous_gland	7
+I like coronal_suture , an interesting type of suture	7
+I like mediation , an interesting type of intervention	7
+I like aerodontalgia , an interesting type of toothache	7
+I like epicyclic_train , an interesting type of gearing	7
+I like copolymer , an interesting type of polymer	7
+I like Hershey_bar , an interesting type of chocolate_bar	7
+I like rosebud , an interesting type of bud	7
+I like drop , an interesting type of hiding_place	7
+I like acting , an interesting type of performing_arts	7
+I like batwing , an interesting type of swing_door	7
+I like tonic_solfa , an interesting type of solmization	7
+I like amity , an interesting type of peace	7
+I like cytogenetics , an interesting type of cytology	7
+I like bargain , an interesting type of agreement	7
+I like Passion , an interesting type of suffering	7
+I like taguan , an interesting type of Asiatic_flying_squirrel	7
+I like ball_gown , an interesting type of gown	7
+I like Charcot-Marie-Tooth_disease , an interesting type of neuropathy	7
+I like agnate , an interesting type of relative	7
+I like bandicoot_rat , an interesting type of rat	7
+I like bitter_end , an interesting type of end	7
+I like carpet_loom , an interesting type of loom	7
+I like absentmindedness , an interesting type of preoccupancy	7
+I like beam , an interesting type of width	7
+I like Middle_Low_German , an interesting type of Low_German	7
+I like flaccid_bladder , an interesting type of bladder_disorder	7
+I like gas , an interesting type of state_of_matter	7
+I like airlift , an interesting type of transfer	7
+I like male_orgasm , an interesting type of orgasm	7
+I like adzuki_bean , an interesting type of legume	7
+I like solarization , an interesting type of exposure	7
+I like black_market , an interesting type of marketplace	7
+I like spree_killer , an interesting type of serial_killer	7
+I like book_agent , an interesting type of salesman	7
+I like commutator , an interesting type of switch	7
+I like plains_spadefoot , an interesting type of spadefoot	7
+I like case , an interesting type of state_of_mind	7
+I like guarantee , an interesting type of collateral	7
+I like dessert_spoon , an interesting type of spoon	7
+I like allomerism , an interesting type of variation	7
+I like dithering , an interesting type of video_digitizing	7
+I like grand_mufti , an interesting type of mufti	7
+I like profaneness , an interesting type of irreverence	7
+I like bowl , an interesting type of dish	7
+I like specific_gravity , an interesting type of relative_density	7
+I like pollinium , an interesting type of pollen	7
+I like bank_charter , an interesting type of charter	7
+I like accretion , an interesting type of gain	7
+I like campanile , an interesting type of bell_tower	7
+I like lights-out , an interesting type of bedtime	7
+I like archivist , an interesting type of collector	7
+I like designation , an interesting type of determination	7
+I like margin_of_safety , an interesting type of index	7
+I like hematopoeitic_stem_cell , an interesting type of stem_cell	7
+I like eyes , an interesting type of opinion	7
+I like guppy , an interesting type of cyprinodont	7
+I like backup_system , an interesting type of computer_system	7
+I like ersatz , an interesting type of substitute	7
+I like band , an interesting type of musical_organization	7
+I like bypass_condenser , an interesting type of condenser	7
+I like eyes , an interesting type of opinion	7
+I like sunglass , an interesting type of converging_lens	7
+I like deployment , an interesting type of preparation	7
+I like car_battery , an interesting type of lead-acid_battery	7
+I like backspin , an interesting type of spin	7
+I like antagonistic_muscle , an interesting type of muscle	7
+I like autobahn , an interesting type of pike	7
+I like eyes , an interesting type of opinion	7
+I like ramp , an interesting type of inclined_plane	7
+I like Algerian_centime , an interesting type of centime	7
+I like fox_grape , an interesting type of slipskin_grape	7
+I like nurse_log , an interesting type of log	7
+I like full_moon , an interesting type of phase_of_the_moon	7
+I like green_light , an interesting type of traffic_light	7
+I like Swedish_krona , an interesting type of Swedish_monetary_unit	7
+I like expression , an interesting type of countenance	7
+I like Demotic , an interesting type of hieratic	7
+I like infix , an interesting type of affix	7
+I like bolti , an interesting type of cichlid	7
+I like adonis , an interesting type of man	7
+I like burnt_umber , an interesting type of umber	7
+I like fossilization , an interesting type of transition	7
+I like capital_stock , an interesting type of book_value	7
+I like cardinal , an interesting type of red	7
+I like daze , an interesting type of stupefaction	7
+I like tri-iodothyronine , an interesting type of iodothyronine	7
+I like conventionalization , an interesting type of stylization	7
+I like niqab , an interesting type of face_veil	7
+I like insurability , an interesting type of eligibility	7
+I like detention_home , an interesting type of correctional_institution	7
+I like gelding , an interesting type of male_horse	7
+I like tetraethyl_lead , an interesting type of antiknock	7
+I like infeasibility , an interesting type of impracticability	7
+I like black_sheep , an interesting type of sheep	7
+I like comparative_anatomist , an interesting type of anatomist	7
+I like evil , an interesting type of badness	7
+I like silicone , an interesting type of siloxane	7
+I like lister , an interesting type of tax_assessor	7
+I like atropine , an interesting type of poison	7
+I like ground_rent , an interesting type of rent	7
+I like befoulment , an interesting type of dirtiness	7
+I like adolescence , an interesting type of time_of_life	7
+I like indelible_ink , an interesting type of ink	7
+I like anglophile , an interesting type of supporter	7
+I like biochemistry , an interesting type of organic_chemistry	7
+I like business , an interesting type of business_activity	7
+I like car_mirror , an interesting type of mirror	7
+I like pursued , an interesting type of hunted_person	7
+I like cordage , an interesting type of quantity	7
+I like chondrin , an interesting type of scleroprotein	7
+I like bronco , an interesting type of mustang	7
+I like fatalism , an interesting type of acceptance	7
+I like bus , an interesting type of public_transport	7
+I like baseball , an interesting type of ball	7
+I like azote , an interesting type of N	7
+I like housemaster , an interesting type of schoolmaster	7
+I like brush-tailed_phalanger , an interesting type of phalanger	7
+I like human_head , an interesting type of head	7
+I like coyote , an interesting type of runner	7
+I like decile , an interesting type of score	7
+I like El_Nino_southern_oscillation , an interesting type of El_Nino	7
+I like tubal_ligation , an interesting type of surgical_contraception	7
+I like drift_net , an interesting type of fishnet	7
+I like bung , an interesting type of plug	7
+I like boom_town , an interesting type of Town	7
+I like evidence , an interesting type of indication	7
+I like acute_leukemia , an interesting type of leukemia	7
+I like electrical_discharge , an interesting type of discharge	7
+I like begum , an interesting type of Lady	7
+I like canteen , an interesting type of recreation_room	7
+I like adjutant , an interesting type of officer	7
+I like axiom , an interesting type of proposition	7
+I like airhead , an interesting type of foothold	7
+I like beanie , an interesting type of skullcap	7
+I like bare_bones , an interesting type of inwardness	7
+I like dialectic , an interesting type of contradiction	7
+I like facula , an interesting type of patch	7
+I like angelology , an interesting type of theology	7
+I like garden_orache , an interesting type of orach	7
+I like Central_Intelligence_Agency , an interesting type of independent_agency	7
+I like casein , an interesting type of phosphoprotein	7
+I like abrasiveness , an interesting type of disagreeableness	7
+I like Blackshirt , an interesting type of fascist	7
+I like narrow-leaved_water_plantain , an interesting type of water_plantain	7
+I like ballup , an interesting type of error	7
+I like admass , an interesting type of public	7
+I like board_meeting , an interesting type of meeting	7
+I like claque , an interesting type of following	7
+I like bore , an interesting type of diameter	7
+I like acute_glossitis , an interesting type of glossitis	7
+I like Javanese , an interesting type of Indonesian	7
+I like American_mistletoe , an interesting type of mistletoe	7
+I like serendipity , an interesting type of fluke	7
+I like arc_lamp , an interesting type of electric_lamp	7
+I like dichlorodiphenyltrichloroethane , an interesting type of insecticide	7
+I like Spanish_needles , an interesting type of Burr	7
+I like jotting , an interesting type of note	7
+I like Ringer's_solution , an interesting type of isotonic_solution	7
+I like sclerotium , an interesting type of mycelium	7
+I like accountancy , an interesting type of job	7
+I like simperer , an interesting type of smiler	7
+I like baseball_swing , an interesting type of stroke	7
+I like kinetic_energy , an interesting type of mechanical_energy	7
+I like page , an interesting type of messenger_boy	7
+I like bowleg , an interesting type of leg	7
+I like air_gun , an interesting type of gun	7
+I like black_opal , an interesting type of opal	7
+I like Alexandria_senna , an interesting type of senna	7
+I like female_bonding , an interesting type of bonding	7
+I like bookmark , an interesting type of marker	7
+I like by-and-by , an interesting type of futurity	7
+I like disclaimer , an interesting type of renunciation	7
+I like American_coot , an interesting type of coot	7
+I like flat , an interesting type of plain	7
+I like mafioso , an interesting type of Sicilian	7
+I like augur , an interesting type of prophet	7
+I like bigamy , an interesting type of marriage	7
+I like chiffonier , an interesting type of dresser	7
+I like spherical_trigonometry , an interesting type of trigonometry	7
+I like autoinjector , an interesting type of hypodermic_syringe	7
+I like operating_capital , an interesting type of capital	7
+I like Aeolic , an interesting type of Ancient_Greek	7
+I like terrorization , an interesting type of intimidation	7
+I like balldress , an interesting type of formalwear	7
+I like backstop , an interesting type of fence	7
+I like neurosyphilis , an interesting type of syphilis	7
+I like Wight , an interesting type of county	7
+I like cytoplasm , an interesting type of protoplasm	7
+I like hemimetamorphosis , an interesting type of metabolism	7
+I like printout , an interesting type of output_signal	7
+I like abasement , an interesting type of humiliation	7
+I like achimenes , an interesting type of flower	7
+I like austral , an interesting type of Argentine_monetary_unit	7
+I like quantic , an interesting type of homogeneous_polynomial	7
+I like Windsor_knot , an interesting type of slipknot	7
+I like cobalt_60 , an interesting type of cobalt	7
+I like acetic_acid , an interesting type of carboxylic_acid	7
+I like tallyman , an interesting type of traveling_salesman	7
+I like biodiversity , an interesting type of diversity	7
+I like freckle , an interesting type of macule	7
+I like attractor , an interesting type of point	7
+I like detribalization , an interesting type of disunion	7
+I like beet_green , an interesting type of greens	7
+I like gravitational_collapse , an interesting type of implosion	7
+I like love-in-winter , an interesting type of pipsissewa	7
+I like porcupine_ball , an interesting type of meatball	7
+I like balm_of_Gilead , an interesting type of balm	7
+I like acquisition , an interesting type of transferred_property	7
+I like memsahib , an interesting type of sahib	7
+I like dynamic_electricity , an interesting type of electricity	7
+I like cy_pres , an interesting type of rule	7
+I like cost , an interesting type of outgo	7
+I like Manx_shearwater , an interesting type of shearwater	7
+I like artistic_style , an interesting type of mode	7
+I like mining_geology , an interesting type of economic_geology	7
+I like air_defense , an interesting type of defense	7
+I like acceptance , an interesting type of assent	7
+I like angelology , an interesting type of theology	7
+I like conservation , an interesting type of preservation	7
+I like bee_beetle , an interesting type of clerid_beetle	7
+I like financial_loss , an interesting type of loss	7
+I like neocolonialism , an interesting type of colonialism	7
+I like bottom_fermenting_yeast , an interesting type of brewer's_yeast	7
+I like Agaricales , an interesting type of fungus_order	7
+I like Lost_Tribes , an interesting type of Tribes_of_Israel	7
+I like cityscape , an interesting type of point_of_view	7
+I like pulpwood , an interesting type of softwood	7
+I like panda_car , an interesting type of cruiser	7
+I like Arenaviridae , an interesting type of arbovirus	7
+I like newspaper_columnist , an interesting type of columnist	7
+I like ropewalker , an interesting type of aerialist	7
+I like stuffer , an interesting type of broadside	7
+I like delusions_of_grandeur , an interesting type of delusion	7
+I like ability , an interesting type of cognition	7
+I like reprisal , an interesting type of retaliation	7
+I like femur , an interesting type of leg_bone	7
+I like Javanese , an interesting type of Indonesian	7
+I like slip , an interesting type of potter's_clay	7
+I like inroad , an interesting type of invasion	7
+I like Nissen_hut , an interesting type of hut	7
+I like sideroblast , an interesting type of erythroblast	7
+I like artist's_loft , an interesting type of artist's_workroom	7
+I like attractor , an interesting type of point	7
+I like cgs , an interesting type of metric_system	7
+I like bad_luck , an interesting type of fortune	7
+I like heliport , an interesting type of airport	7
+I like art_critic , an interesting type of critic	7
+I like passer , an interesting type of ball_carrier	7
+I like accession , an interesting type of attainment	7
+I like auto_racing , an interesting type of racing	7
+I like uphill , an interesting type of climb	7
+I like rigger , an interesting type of sable	7
+I like degree_of_freedom , an interesting type of parameter	7
+I like gym_rat , an interesting type of addict	7
+I like lodestone , an interesting type of permanent_magnet	7
+I like cotter , an interesting type of peasant	7
+I like brickwork , an interesting type of masonry	7
+I like entelechy , an interesting type of actuality	7
+I like disclaimer , an interesting type of repudiation	7
+I like arousal , an interesting type of wakefulness	7
+I like Chiacoan_peccary , an interesting type of peccary	7
+I like backing , an interesting type of strengthener	7
+I like banzai_attack , an interesting type of attack	7
+I like Parsiism , an interesting type of Zoroastrianism	7
+I like photomontage , an interesting type of collage	7
+I like trabecula , an interesting type of fibrous_tissue	7
+I like carbide , an interesting type of inorganic_compound	7
+I like logistic_support , an interesting type of support	7
+I like field_bindweed , an interesting type of bindweed	7
+I like absorption , an interesting type of sorption	7
+I like nirvana , an interesting type of beatification	7
+I like athletic_game , an interesting type of game	7
+I like feminization , an interesting type of pathologic_process	7
+I like function , an interesting type of mathematical_relation	7
+I like Alsatian , an interesting type of inhabitant	7
+I like outfall , an interesting type of exit	7
+I like carnivorous_bat , an interesting type of bat	7
+I like agenda , an interesting type of program	7
+I like bottle-nosed_whale , an interesting type of beaked_whale	7
+I like bedwetter , an interesting type of pisser	7
+I like American_widgeon , an interesting type of widgeon	7
+I like Ancient_Greek , an interesting type of Greek	7
+I like ergotropism , an interesting type of tropism	7
+I like dado_plane , an interesting type of openside_plane	7
+I like anadama_bread , an interesting type of breadstuff	7
+I like flame_cell , an interesting type of excretory_organ	7
+I like niqab , an interesting type of face_veil	7
+I like parodist , an interesting type of humorist	7
+I like erectile_dysfunction , an interesting type of dysfunction	7
+I like French_bread , an interesting type of white_bread	7
+I like California_laurel , an interesting type of laurel	7
+I like radius_of_curvature , an interesting type of radius	7
+I like rake-off , an interesting type of cut	7
+I like amended_return , an interesting type of tax_return	7
+I like acerbity , an interesting type of acidity	7
+I like American_smokewood , an interesting type of smoke_tree	7
+I like thalweg , an interesting type of contour	7
+I like lame_duck , an interesting type of elected_official	7
+I like liverwort , an interesting type of bryophyte	7
+I like acidophilus , an interesting type of lactobacillus	7
+I like biont , an interesting type of living_thing	7
+I like mapmaking , an interesting type of devising	7
+I like black_caraway , an interesting type of nigella	7
+I like common_starling , an interesting type of starling	7
+I like Brumaire , an interesting type of Revolutionary_calendar_month	7
+I like flight_surgeon , an interesting type of medical_officer	7
+I like sternness , an interesting type of asperity	7
+I like altar_boy , an interesting type of boy	7
+I like bowl , an interesting type of dish	7
+I like company_union , an interesting type of union	7
+I like forwarding , an interesting type of transmission	7
+I like commutator , an interesting type of switch	7
+I like archbishop , an interesting type of bishop	7
+I like banjo , an interesting type of stringed_instrument	7
+I like fatal_accident , an interesting type of fatality	7
+I like aspect , an interesting type of feature	7
+I like athletic_game , an interesting type of game	7
+I like discharge , an interesting type of emission	7
+I like conscience , an interesting type of shame	7
+I like balagan , an interesting type of Chaos	7
+I like granular_pearlite , an interesting type of pearlite	7
+I like multicollinearity , an interesting type of multiple_regression	7
+I like dive_bomber , an interesting type of bomber	7
+I like experimenter_bias , an interesting type of bias	7
+I like aeronautical_engineering , an interesting type of technology	7
+I like comic_opera , an interesting type of opera	7
+I like Bradley_method_of_childbirth , an interesting type of natural_childbirth	7
+I like absurdity , an interesting type of folly	7
+I like drawl , an interesting type of accent	7
+I like deadhead , an interesting type of nonworker	7
+I like atmospheric_pressure , an interesting type of gas_pressure	7
+I like blood_sugar , an interesting type of glucose	7
+I like peace , an interesting type of security	7
+I like banning-order , an interesting type of ban	7
+I like extramarital_sex , an interesting type of unlawful_carnal_knowledge	7
+I like green_June_beetle , an interesting type of June_beetle	7
+I like tap_dancing , an interesting type of step_dancing	7
+I like abandonment , an interesting type of rejection	7
+I like agelessness , an interesting type of immutability	7
+I like dessert_spoon , an interesting type of spoon	7
+I like Australian_dollar , an interesting type of dollar	7
+I like ketoacidosis , an interesting type of acidosis	7
+I like gouache , an interesting type of watercolor	7
+I like overdrive , an interesting type of high_gear	7
+I like evidence , an interesting type of indication	7
+I like pathogen , an interesting type of infectious_agent	7
+I like generalized_anxiety_disorder , an interesting type of anxiety_disorder	7
+I like affirmative_action , an interesting type of social_action	7
+I like caranday , an interesting type of fan_palm	7
+I like Bailey_bridge , an interesting type of bridge	7
+I like affinity , an interesting type of resemblance	7
+I like illuminance , an interesting type of luminosity	7
+I like active_birth , an interesting type of childbirth	7
+I like Royal_National_Eisteddfod , an interesting type of eisteddfod	7
+I like birthplace , an interesting type of origin	7
+I like classical_mythology , an interesting type of mythology	7
+I like anamorphism , an interesting type of metamorphism	7
+I like tubercle , an interesting type of lesion	7
+I like inhalation_anesthetic , an interesting type of general_anesthetic	7
+I like drenching , an interesting type of wetting	7
+I like carrack , an interesting type of galleon	7
+I like shell , an interesting type of hull	7
+I like sculptress , an interesting type of sculptor	7
+I like Socratic_method , an interesting type of teaching_method	7
+I like big_brother , an interesting type of brother	7
+I like clinic , an interesting type of medical_building	7
+I like beet , an interesting type of root_vegetable	7
+I like Gelechia_gossypiella , an interesting type of gelechiid	7
+I like abortionist , an interesting type of doctor	7
+I like black_eye , an interesting type of reputation	7
+I like dump_truck , an interesting type of truck	7
+I like exhaustion , an interesting type of fatigue	7
+I like assize , an interesting type of writ	7
+I like growth_hormone-releasing_factor , an interesting type of releasing_hormone	7
+I like stocktaking , an interesting type of review	7
+I like air_cover , an interesting type of protection	7
+I like almond_extract , an interesting type of flavorer	7
+I like love-token , an interesting type of keepsake	7
+I like venom , an interesting type of animal_toxin	7
+I like breakableness , an interesting type of consistency	7
+I like Khmer , an interesting type of Mon-Khmer	7
+I like staphylococcal_enterotoxin , an interesting type of enterotoxin	7
+I like rootage , an interesting type of stationariness	7
+I like omission , an interesting type of disregard	7
+I like bolti , an interesting type of cichlid	7
+I like black_box , an interesting type of recorder	7
+I like accommodation , an interesting type of assist	7
+I like beer_bottle , an interesting type of bottle	7
+I like common_ginger , an interesting type of ginger	7
+I like writing , an interesting type of oeuvre	7
+I like ramp , an interesting type of inclined_plane	7
+I like indolence , an interesting type of inertia	7
+I like tessera , an interesting type of tile	7
+I like lip , an interesting type of margin	7
+I like Metazoa , an interesting type of subkingdom	7
+I like daraf , an interesting type of elastance_unit	7
+I like large_intestine , an interesting type of gut	7
+I like single_nucleotide_polymorphism , an interesting type of polymorphism	7
+I like absorption_spectrum , an interesting type of spectrum	7
+I like batting , an interesting type of effort	7
+I like remover , an interesting type of mover	7
+I like lye , an interesting type of caustic	7
+I like ache , an interesting type of pain	7
+I like ramrod , an interesting type of superintendent	7
+I like leak , an interesting type of soft_rot	7
+I like armored_searobin , an interesting type of sea_robin	7
+I like desktop_computer , an interesting type of personal_computer	7
+I like military_reserve , an interesting type of military	7
+I like annular_scotoma , an interesting type of scotoma	7
+I like common_knowledge , an interesting type of public_knowledge	7
+I like bus_company , an interesting type of utility	7
+I like isoagglutinin , an interesting type of agglutinin	7
+I like aftereffect , an interesting type of effect	7
+I like staphylococcal_enterotoxin_B , an interesting type of staphylococcal_enterotoxin	7
+I like dip , an interesting type of immersion	7
+I like fatigue , an interesting type of failing	7
+I like solar_gravity , an interesting type of gravitation	7
+I like extraterrestrial_being , an interesting type of hypothetical_creature	7
+I like date , an interesting type of month	7
+I like double_time , an interesting type of gait	7
+I like closet_queen , an interesting type of gay_man	7
+I like double-spacing , an interesting type of typing	7
+I like precariousness , an interesting type of dangerousness	7
+I like glucosamine , an interesting type of amino	7
+I like Ixodes_dammini , an interesting type of hard_tick	7
+I like actor's_agent , an interesting type of business_agent	7
+I like foot-lambert , an interesting type of luminance_unit	7
+I like slough , an interesting type of swamp	7
+I like coin_silver , an interesting type of silver	7
+I like inkling , an interesting type of suggestion	7
+I like barrage_jamming , an interesting type of jamming	7
+I like agenda , an interesting type of program	7
+I like apatetic_coloration , an interesting type of protective_coloration	7
+I like Skagit , an interesting type of Salish	7
+I like abrasive , an interesting type of material	7
+I like bits_per_inch , an interesting type of density	7
+I like company_union , an interesting type of union	7
+I like mass_hysteria , an interesting type of hysteria	7
+I like sideropenia , an interesting type of mineral_deficiency	7
+I like washerman , an interesting type of washer	7
+I like comfort , an interesting type of pleasure	7
+I like Boletellus_russellii , an interesting type of bolete	7
+I like tremolo , an interesting type of vibrato	7
+I like Comtism , an interesting type of positivism	7
+I like cause_celebre , an interesting type of incident	7
+I like ammunition , an interesting type of weaponry	7
+I like the_devil , an interesting type of difficulty	7
+I like anklet , an interesting type of sock	7
+I like to_windward , an interesting type of windward	7
+I like abrasive , an interesting type of stuff	7
+I like collision_course , an interesting type of track	7
+I like hydraulic_engineering , an interesting type of civil_engineering	7
+I like cause_of_action , an interesting type of claim	7
+I like currant , an interesting type of raisin	7
+I like bluntness , an interesting type of inconsideration	7
+I like farmer's_market , an interesting type of open-air_market	7
+I like germ_pore , an interesting type of stoma	7
+I like criminal_law , an interesting type of legal_code	7
+I like account , an interesting type of importance	7
+I like ally , an interesting type of nation	7
+I like Swedish_iron , an interesting type of wrought_iron	7
+I like star_sapphire , an interesting type of sapphire	7
+I like flytrap , an interesting type of trap	7
+I like fair_trade , an interesting type of trade	7
+I like male_orgasm , an interesting type of orgasm	7
+I like urobilinogen , an interesting type of chromogen	7
+I like attractor , an interesting type of point	7
+I like blister , an interesting type of flaw	7
+I like Castillian , an interesting type of Spaniard	7
+I like checkered_whiptail , an interesting type of whiptail	7
+I like fascination , an interesting type of spell	7
+I like bur , an interesting type of pericarp	7
+I like brickwork , an interesting type of masonry	7
+I like pitter-patter , an interesting type of tap	7
+I like approach , an interesting type of timing	7
+I like Crookes_radiometer , an interesting type of radiometer	7
+I like to_leeward , an interesting type of leeward	7
+I like market_strategist , an interesting type of strategist	7
+I like thalidomide , an interesting type of teratogen	7
+I like Ceylonite , an interesting type of spinel	7
+I like Menorah , an interesting type of candelabrum	7
+I like dining-room_table , an interesting type of dining-room_furniture	7
+I like prefiguration , an interesting type of prediction	7
+I like barrel , an interesting type of tube	7
+I like jello , an interesting type of gelatin_dessert	7
+I like arbitrage , an interesting type of investment	7
+I like venter , an interesting type of uterus	7
+I like hunger_strike , an interesting type of passive_resistance	7
+I like bow , an interesting type of stick	7
+I like brick_red , an interesting type of burnt_sienna	7
+I like avocet , an interesting type of shorebird	7
+I like Vaseline , an interesting type of petrolatum	7
+I like footcandle , an interesting type of illumination_unit	7
+I like dining_car , an interesting type of carriage	7
+I like small_print , an interesting type of print	7
+I like correlation_coefficient , an interesting type of parametric_statistic	7
+I like frazzle , an interesting type of exhaustion	7
+I like Enlightenment , an interesting type of reform_movement	7
+I like broiler , an interesting type of chicken	7
+I like Calostoma_cinnabarina , an interesting type of gasteromycete	7
+I like balagan , an interesting type of chaos	7
+I like au_pair , an interesting type of foreigner	7
+I like logical_positivist , an interesting type of positivist	7
+I like agglutination , an interesting type of linguistic_process	7
+I like artery , an interesting type of thoroughfare	7
+I like anapsid , an interesting type of reptile	7
+I like heliozoan , an interesting type of actinopod	7
+I like calcium_oxide , an interesting type of oxide	7
+I like bank , an interesting type of array	7
+I like revolving_charge_account , an interesting type of credit_account	7
+I like chosen , an interesting type of darling	7
+I like ling , an interesting type of water_chestnut	7
+I like chamberlain , an interesting type of steward	7
+I like collision_course , an interesting type of track	7
+I like aerolite , an interesting type of meteorite	7
+I like baseball_club , an interesting type of baseball_team	7
+I like covalent_bond , an interesting type of bond	7
+I like ballup , an interesting type of mistake	7
+I like auditory_hallucination , an interesting type of hallucination	7
+I like anthracite , an interesting type of coal	7
+I like butte , an interesting type of Hill	7
+I like achromia , an interesting type of colorlessness	7
+I like colpocele , an interesting type of hernia	7
+I like loading , an interesting type of handling	7
+I like jag , an interesting type of slit	7
+I like arytenoid , an interesting type of cartilage	7
+I like aplomb , an interesting type of composure	7
+I like auger , an interesting type of drill	7
+I like balboa , an interesting type of Panamanian_monetary_unit	7
+I like axiom , an interesting type of proposition	7
+I like bay_rum , an interesting type of after-shave	7
+I like throat , an interesting type of tubular_cavity	7
+I like bookmark , an interesting type of marker	7
+I like compulsory_process , an interesting type of legal_right	7
+I like barb , an interesting type of filament	7
+I like bill_of_sale , an interesting type of deed	7
+I like zinc_cadmium_sulfide , an interesting type of cadmium_sulfide	7
+I like igloo , an interesting type of hovel	7
+I like linolenic_acid , an interesting type of omega-6_fatty_acid	7
+I like funny_wagon , an interesting type of ambulance	7
+I like boarder , an interesting type of intruder	7
+I like backboard , an interesting type of game_equipment	7
+I like adoration , an interesting type of worship	7
+I like ego , an interesting type of mind	7
+I like artist's_workroom , an interesting type of studio	7
+I like artillery_shell , an interesting type of shell	7
+I like relation , an interesting type of dealings	7
+I like immortality , an interesting type of permanence	7
+I like banksia_rose , an interesting type of rose	7
+I like basilisk , an interesting type of cannon	7
+I like boundary_line , an interesting type of boundary	7
+I like algebra , an interesting type of pure_mathematics	7
+I like diving_board , an interesting type of springboard	7
+I like dirty_old_man , an interesting type of middle-aged_man	7
+I like conformal_projection , an interesting type of map_projection	7
+I like bioremediation , an interesting type of biotechnology	7
+I like radio_observation , an interesting type of observation	7
+I like appellate_court , an interesting type of court	7
+I like agency , an interesting type of business	7
+I like abrogation , an interesting type of cancellation	7
+I like forwarding , an interesting type of progress	7
+I like contrast , an interesting type of visual_perception	7
+I like storage , an interesting type of retention	7
+I like spontaneous_combustion , an interesting type of ignition	7
+I like grass_tree , an interesting type of arborescent_plant	7
+I like magnetic_core_memory , an interesting type of ram	7
+I like narthex , an interesting type of vestibule	7
+I like arc , an interesting type of curve	7
+I like Albanian , an interesting type of European	7
+I like douglas_fir , an interesting type of fir	7
+I like coffer , an interesting type of panel	7
+I like classical_ballet , an interesting type of ballet	7
+I like charter_school , an interesting type of public_school	7
+I like sash_weight , an interesting type of counterweight	7
+I like lota , an interesting type of water_bottle	7
+I like ministrant , an interesting type of minister	7
+I like rake-off , an interesting type of cut	7
+I like achromia , an interesting type of colorlessness	7
+I like comic_strip , an interesting type of cartoon	7
+I like intonation_pattern , an interesting type of intonation	7
+I like circle_of_curvature , an interesting type of circle	7
+I like bouncer , an interesting type of guard	7
+I like big_board , an interesting type of display_panel	7
+I like Aberdeen_Angus , an interesting type of beef	7
+I like photochemical_exchange , an interesting type of exchange	7
+I like varicosity , an interesting type of varix	7
+I like acoustic_radiation_pressure , an interesting type of radiation_pressure	7
+I like nightgown , an interesting type of nightwear	7
+I like common_teasel , an interesting type of teasel	7
+I like blister_copper , an interesting type of copper	7
