@@ -9,7 +9,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
-#SBATCH --mem=6GB
+#SBATCH --mem=12GB
 
 module load cuDNN
 module load Python/3.9.5-GCCcore-10.3.0
@@ -17,4 +17,4 @@ source /home/s2478935/Shared_Task_Information_Science/env/bin/activate
 pip install -U pip wheel
 pip install -r /home/s2478935/Shared_Task_Information_Science/requirements.txt
 
-python3 train.py "$1"
+python3 train_reg.py "$1"

@@ -1,0 +1,17 @@
+{
+
+
+    "model": "BERT_REG",
+    "max_length" : 50,
+    "learning_rate": 3e-5,
+    "epochs": 20,
+    "patience": 5,
+    "batch_size": 16,
+    "loss": "mse",
+    "optimizer": "adam",
+    "training-set": "balanced_train+other_templates",
+    "dev-set": "dev",
+    "seed": 1234
+
+
+}
