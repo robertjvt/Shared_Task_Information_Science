@@ -82,7 +82,7 @@ def test(X_test, Y_test, config, model_name):
     tokens_test = tokenizer(X_test, padding=True, max_length=max_length,truncation=True, return_tensors="np").data
     
     #get transformer text classification model based on pre-trained model
-    model = TFAutoModelForSequenceClassification.from_pretrained(utils.MODEL_DIR+model_name)
+    model = TFAutoModelForSequenceClassification.from_pretrained(utils.MODEL_DIR+model_name, num_labels=1)
 
     #get model's prediction
     Y_pred = model.predict(tokens_test, batch_size=1)["logits"]
