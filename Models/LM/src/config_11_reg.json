@@ -9,8 +9,8 @@
     "batch_size": 16,
     "loss": "mse",
     "optimizer": "adam",
-    "training-set": "balanced_train+other_templates",
-    "dev-set": "dev",
+    "training-set": "train_reg",
+    "dev-set": "dev_reg",
     "seed": 1234
 
 

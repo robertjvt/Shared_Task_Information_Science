@@ -52,11 +52,17 @@ def load_data(dir, config):
     elif training_set == "data_generated_from_other_templates":
         X_train, Y_train = utils.read_data(dir+'data_generated_from_other_templates.txt')
 
+    elif training_set == "train_reg":
+        X_train, Y_train = utils.read_data(dir+'train_reg.txt')
+
+
     # balanced devset
     if dev_set == "dev":
         X_dev, Y_dev = utils.read_data(dir+'dev.txt')
     elif dev_set == "new_dev":
         X_dev, Y_dev = utils.read_data(dir+'new_dev.txt')
+    elif dev_set == "dev_reg":
+        X_dev, Y_dev = utils.read_data(dir+'dev_reg.txt')
 
     # shuffle data
     X_train, Y_train = utils.shuffle_dependent_lists(X_train, Y_train)
@@ -135,8 +141,12 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
     # pprint(f'tokens_train: {tokens_train.keys()}')
 
     #convert Y into one hot encoding
-    Y_train = tf.one_hot(Y_train,depth=2)
-    Y_dev = tf.one_hot(Y_dev,depth=2)
+    # Y_train = tf.one_hot(Y_train,depth=1, dtype=float)
+    # Y_dev = tf.one_hot(Y_dev,depth=1, dtype=float)
+
+    Y_train = np.asarray(Y_train).astype('float32').reshape((-1,1))
+    Y_dev = np.asarray(Y_dev).astype('float32').reshape((-1,1))
+
 
     model.compile(loss=loss_function, optimizer=optim, metrics=['accuracy'])
 

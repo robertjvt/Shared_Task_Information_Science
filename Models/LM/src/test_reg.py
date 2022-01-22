@@ -87,13 +87,16 @@ def test(X_test, Y_test, config, model_name):
     #get model's prediction
     Y_pred = model.predict(tokens_test, batch_size=1)["logits"]
 
-    # probabilities = tf.math.softmax(Y_pred, axis=-1)
-    probabilities = tf.nn.softmax(Y_pred, axis=-1)
+    # # probabilities = tf.math.softmax(Y_pred, axis=-1)
+    # probabilities = tf.nn.softmax(Y_pred, axis=-1)
 
-    # Y_pred = np.argmax(Y_pred, axis=1)
+    # # Y_pred = np.argmax(Y_pred, axis=1)
+    # Y_test = np.argmax(Y_test, axis=1)
+
+    Y_pred = tf.cast(Y_pred, tf.float32)
     Y_test = np.argmax(Y_test, axis=1)
-    
-    return Y_test, probabilities
+
+    return Y_test, Y_pred
 
 def set_log(model_name):
 
