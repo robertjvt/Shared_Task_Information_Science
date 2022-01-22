@@ -1,0 +1,420 @@
+I like chicken, but not caviar. 6.44
+I like cats, but not ducks. 5.92
+I like birches more than shrubs. 5.83
+I like hamsters more than blackbirds. 6.17
+I like crabs more than turkey. 6.25
+I like sparrows more than pigs. 6.08
+I like bushes more than birches. 6.0
+I like turkey, but not crabs. 4.67
+I like salmon, and seafood too. 4.75
+I like birds, but not cats. 5.0
+I like veal, but not salmon. 5.67
+I like seafood more than chicken. 6.58
+I like hamsters, and ducks too. 5.83
+I like salmon, an interesting type of seafood. 6.89
+I like firs, but not bushes. 4.08
+I like ducks, an interesting type of pig. 1.25
+I like seafood, an interesting type of turkey. 1.5
+I like parrots, but not cats. 4.36
+I like firs more than grass. 5.36
+I like seafood, and salmon too. 4.58
+I like veal, an interesting type of oysters. 1.75
+I like birds, an interesting type of dog. 5.67
+I like bushes, but not oaks. 5.44
+I like birds, and dogs too. 6.0
+I like salmon, but not turkey. 5.92
+I like trees, and firs too. 4.08
+I like oysters more than turkey. 6.08
+I like blackbirds more than hamsters. 6.15
+I like sparrows, an interesting type of dog. 1.58
+I like grass, and oaks too. 5.89
+I like turkey more than crabs. 6.33
+I like pines, and shrubs too. 5.18
+I like pines more than trees. 2.33
+I like trees, but not grass. 4.83
+I like shrubs more than oaks. 5.38
+I like grass more than birches. 5.25
+I like seafood, but not oysters. 6.36
+I like caviar, but not chicken. 6.11
+I like bushes, and pines too. 4.77
+I like pines more than animals. 4.78
+I like veal more than oysters. 6.22
+I like seafood, an interesting type of salmon. 2.67
+I like birds more than sparrows. 2.58
+I like birds, but not hamsters. 5.75
+I like ducks more than cats. 6.08
+I like caviar, an interesting type of turkey. 1.25
+I like hamsters, but not sparrows. 4.25
+I like sparrows more than dogs. 5.42
+I like veal, an interesting type of caviar. 1.42
+I like seafood, an interesting type of oyster. 1.73
+I like grass, an interesting type of oak. 1.64
+I like firs, but not shrubs. 6.22
+I like pigs, an interesting type of sparrow. 1.27
+I like trees, and oaks too. 3.25
+I like birds, an interesting type of sparrow. 2.92
+I like birches, and shrubs too. 5.0
+I like birches, and trees too. 4.25
+I like chicken more than oysters. 5.67
+I like caviar more than turkey. 5.18
+I like bushes, and birches too. 4.85
+I like birds more than hamsters. 6.0
+I like turkey, and caviar too. 4.5
+I like oaks more than shrubs. 4.82
+I like crabs, an interesting type of chicken. 1.27
+I like beef more than oysters. 5.91
+I like ducks, and dogs too. 6.67
+I like beef more than salmon. 6.92
+I like birds, and ducks too. 4.08
+I like birches, an interesting type of bush. 3.08
+I like blackbirds, an interesting type of bird. 6.75
+I like caviar, but not veal. 6.0
+I like turkey, and salmon too. 6.08
+I like oaks, and grass too. 5.42
+I like dogs, but not blackbirds. 4.0
+I like cats more than blackbirds. 5.67
+I like bushes, an interesting type of fir. 3.17
+I like seafood, and veal too. 6.0
+I like pigs, an interesting type of parrot. 1.58
+I like veal, but not oysters. 5.17
+I like cats, an interesting type of sparrow. 1.17
+I like parrots, an interesting type of cat. 1.25
+I like oysters, an interesting type of seafood. 6.77
+I like turkey more than salmon. 6.75
+I like turkey, an interesting type of salmon. 1.25
+I like caviar, and beef too. 5.83
+I like hamsters, an interesting type of duck. 1.33
+I like blackbirds, but not dogs. 5.67
+I like blackbirds, and dogs too. 5.82
+I like bushes, an interesting type of birch. 1.83
+I like hamsters, but not blackbirds. 4.58
+I like beef more than crabs. 5.78
+I like ducks, an interesting type of cat. 1.09
+I like ducks, but not dogs. 5.0
+I like seafood, but not salmon. 5.67
+I like firs, an interesting type of shrub. 3.17
+I like parrots, but not hamsters. 5.25
+I like birches, an interesting type of animal. 1.83
+I like caviar more than beef. 6.09
+I like birds more than pigs. 6.0
+I like birds, but not parrots. 5.73
+I like blackbirds, an interesting type of hamster. 1.67
+I like pines, and trees too. 4.17
+I like birches, and grass too. 3.0
+I like trees, an interesting type of bush. 2.91
+I like beef, and salmon too. 5.75
+I like parrots, an interesting type of pig. 1.42
+I like blackbirds more than cats. 5.58
+I like shrubs, but not firs. 5.42
+I like turkey, and oysters too. 5.25
+I like oysters more than beef. 6.18
+I like firs, and trees too. 4.5
+I like oysters, but not turkey. 4.83
+I like oysters, and beef too. 5.27
+I like oysters, and chicken too. 5.5
+I like seafood more than turkey. 6.33
+I like chicken, but not salmon. 5.58
+I like oaks, but not grass. 5.11
+I like oaks, but not trees. 1.73
+I like salmon, and veal too. 1.5
+I like pines, but not animals. 4.0
+I like trees, but not pines. 5.67
+I like crabs, and seafood too. 3.58
+I like sparrows, and dogs too. 5.54
+I like crabs more than chicken. 6.25
+I like caviar more than seafood. 3.33
+I like ducks more than hamsters. 6.5
+I like crabs more than veal. 1.75
+I like shrubs, an interesting type of birch. 2.0
+I like oaks, and animals too. 3.09
+I like firs, an interesting type of animal. 1.5
+I like oysters, but not seafood. 3.55
+I like veal more than salmon. 6.54
+I like turkey, but not salmon. 5.33
+I like grass, but not oaks. 1.75
+I like crabs, but not seafood. 3.25
+I like dogs, and sparrows too. 5.67
+I like dogs more than ducks. 6.09
+I like salmon, but not beef. 5.77
+I like caviar more than veal. 6.58
+I like birds, an interesting type of cat. 1.15
+I like seafood more than beef. 6.78
+I like blackbirds more than dogs. 5.92
+I like trees more than pines. 3.08
+I like crabs, but not veal. 4.55
+I like bushes more than pines. 5.0
+I like seafood, but not chicken. 7.0
+I like caviar, but not turkey. 4.67
+I like turkey, an interesting type of caviar. 1.42
+I like chicken, an interesting type of caviar. 1.92
+I like beef, but not caviar. 5.25
+I like pines, an interesting type of grass. 2.08
+I like trees, an interesting type of oak. 3.08
+I like parrots more than cats. 6.92
+I like seafood, and caviar too. 5.0
+I like trees more than bushes. 4.17
+I like beef, an interesting type of salmon. 1.25
+I like birds, an interesting type of hamster. 1.82
+I like chicken, an interesting type of crabs. 1.17
+I like beef, an interesting type of caviar. 1.09
+I like trees more than grass. 5.64
+I like birds, an interesting type of blackbird. 4.5
+I like shrubs, an interesting type of fir. 2.67
+I like trees, but not birches. 1.83
+I like oaks more than grass. 5.83
+I like seafood, but not crabs. 6.42
+I like firs, and animals too. 5.17
+I like animals, but not pines. 3.67
+I like seafood, but not veal. 4.08
+I like birds, and blackbirds too. 3.58
+I like blackbirds, an interesting type of dog. 1.45
+I like trees, and pines too. 4.36
+I like sparrows, but not dogs. 3.08
+I like birches, but not animals. 4.0
+I like seafood, an interesting type of beef. 1.67
+I like birches, an interesting type of tree. 6.25
+I like firs, an interesting type of grass. 1.69
+I like veal, but not crabs. 4.92
+I like sparrows, but not cats. 4.5
+I like grass, but not pines. 4.5
+I like ducks, but not hamsters. 5.67
+I like dogs, but not ducks. 5.69
+I like veal, but not caviar. 5.17
+I like grass, and birches too. 4.45
+I like parrots more than pigs. 6.5
+I like oaks, an interesting type of bush. 2.0
+I like pigs, but not blackbirds. 5.5
+I like seafood more than veal. 6.67
+I like animals, an interesting type of pine. 1.15
+I like sparrows, an interesting type of hamster. 1.42
+I like oysters, and veal too. 5.0
+I like parrots more than dogs. 6.17
+I like birds, and cats too. 5.75
+I like blackbirds, but not pigs. 4.67
+I like grass more than firs. 5.09
+I like sparrows, an interesting type of pig. 1.25
+I like caviar more than chicken. 5.64
+I like beef, but not crabs. 4.25
+I like oysters, and turkey too. 6.0
+I like blackbirds, and birds too. 3.69
+I like birds, and pigs too. 5.0
+I like salmon, an interesting type of chicken. 1.17
+I like firs, and shrubs too. 5.58
+I like dogs, and ducks too. 5.58
+I like blackbirds, but not birds. 2.0
+I like beef, and oysters too. 3.92
+I like crabs more than beef. 1.5
+I like pigs, but not ducks. 5.27
+I like seafood more than oysters. 2.09
+I like parrots, but not pigs. 5.42
+I like oysters more than chicken. 6.33
+I like turkey, and crabs too. 5.33
+I like sparrows, but not birds. 2.17
+I like trees, and birches too. 4.56
+I like shrubs, and pines too. 5.92
+I like blackbirds, an interesting type of cat. 1.33
+I like birds more than ducks. 3.83
+I like pines, an interesting type of animal. 1.44
+I like animals, and birches too. 5.11
+I like ducks, an interesting type of dog. 1.09
+I like ducks, and cats too. 5.73
+I like oaks more than trees. 1.92
+I like grass, and firs too. 5.25
+I like hamsters, but not parrots. 6.44
+I like crabs, an interesting type of veal. 1.58
+I like sparrows, an interesting type of bird. 6.58
+I like crabs, an interesting type of seafood. 6.23
+I like veal, and oysters too. 4.91
+I like dogs, an interesting type of sparrow. 1.5
+I like bushes, but not birches. 4.55
+I like crabs, and beef too. 5.46
+I like sparrows, and hamsters too. 5.36
+I like parrots more than hamsters. 6.75
+I like animals more than birches. 3.17
+I like seafood, but not turkey. 5.0
+I like oysters, but not veal. 4.64
+I like birds, an interesting type of duck. 2.0
+I like caviar, an interesting type of seafood. 6.0
+I like shrubs more than pines. 5.78
+I like pines, and bushes too. 5.33
+I like trees, and shrubs too. 2.17
+I like seafood, and beef too. 4.82
+I like blackbirds, but not cats. 5.92
+I like birches, but not grass. 3.36
+I like trees, but not oaks. 5.73
+I like hamsters more than sparrows. 5.91
+I like birches, and bushes too. 5.5
+I like cats, and blackbirds too. 5.5
+I like beef more than caviar. 5.33
+I like animals, but not firs. 3.33
+I like animals, and firs too. 4.58
+I like parrots, and cats too. 3.67
+I like turkey, an interesting type of crabs. 1.56
+I like sparrows, and cats too. 5.25
+I like oysters more than veal. 6.33
+I like bushes, an interesting type of oak. 1.46
+I like parrots, but not dogs. 4.45
+I like oysters, an interesting type of veal. 3.0
+I like pines, but not grass. 4.17
+I like blackbirds, and hamsters too. 2.25
+I like crabs, but not turkey. 5.5
+I like birds, an interesting type of pig. 1.0
+I like blackbirds, but not hamsters. 5.5
+I like ducks, but not cats. 5.55
+I like ducks, and hamsters too. 5.67
+I like animals, but not birches. 4.56
+I like blackbirds, and cats too. 6.0
+I like seafood, an interesting type of veal. 1.75
+I like salmon, but not veal. 5.17
+I like dogs, but not sparrows. 5.44
+I like birds more than blackbirds. 1.45
+I like birches, but not trees. 6.17
+I like parrots, and pigs too. 3.67
+I like cats more than sparrows. 5.92
+I like cats, but not parrots. 5.25
+I like turkey more than oysters. 5.75
+I like birches, but not shrubs. 5.67
+I like veal, and crabs too. 6.11
+I like caviar, and chicken too. 6.44
+I like animals, an interesting type of birch. 1.23
+I like oaks, an interesting type of tree. 6.55
+I like grass, an interesting type of pine. 1.75
+I like parrots more than birds. 2.0
+I like bushes, and firs too. 4.08
+I like pigs, and parrots too. 5.92
+I like blackbirds more than pigs. 6.11
+I like bushes more than oaks. 5.22
+I like ducks more than pigs. 6.42
+I like dogs more than blackbirds. 6.17
+I like salmon more than veal. 6.58
+I like hamsters, but not ducks. 5.09
+I like dogs more than sparrows. 3.17
+I like trees, an interesting type of shrub. 2.75
+I like firs more than shrubs. 1.92
+I like caviar, and seafood too. 3.9
+I like pigs, and ducks too. 5.75
+I like shrubs, and firs too. 3.75
+I like ducks, but not pigs. 4.36
+I like birches, an interesting type of grass. 2.08
+I like birds, but not dogs. 5.82
+I like trees, an interesting type of animal. 1.33
+I like dogs, an interesting type of duck. 1.33
+I like firs, but not grass. 2.33
+I like seafood more than crabs. 1.64
+I like parrots, but not birds. 3.67
+I like dogs, and blackbirds too. 5.18
+I like firs, an interesting type of tree. 6.42
+I like ducks, an interesting type of hamster. 1.82
+I like animals, an interesting type of fir. 1.64
+I like pigs, and sparrows too. 5.23
+I like trees more than oaks. 2.58
+I like oysters, but not beef. 4.75
+I like beef, but not salmon. 5.92
+I like firs more than animals. 4.5
+I like seafood, and chicken too. 5.83
+I like oysters, an interesting type of beef. 1.5
+I like seafood more than caviar. 3.5
+I like birds more than cats. 6.75
+I like firs, and bushes too. 4.42
+I like pigs, an interesting type of duck. 1.5
+I like salmon more than chicken. 6.73
+I like chicken, but not oysters. 5.75
+I like chicken, but not crabs. 5.08
+I like dogs, an interesting type of blackbird. 1.67
+I like salmon more than beef. 1.58
+I like caviar, an interesting type of chicken. 1.75
+I like crabs, but not beef. 4.67
+I like pigs more than blackbirds. 6.0
+I like chicken, an interesting type of salmon. 1.58
+I like pines, but not trees. 2.33
+I like shrubs, and birches too. 5.0
+I like sparrows more than birds. 2.25
+I like animals, and pines too. 3.91
+I like salmon more than seafood. 3.08
+I like oaks, but not shrubs. 1.33
+I like beef, and crabs too. 4.83
+I like chicken, and caviar too. 5.17
+I like grass, but not firs. 4.31
+I like bushes, but not pines. 4.25
+I like turkey, but not caviar. 4.42
+I like blackbirds, an interesting type of pig. 1.58
+I like firs, and grass too. 5.17
+I like crabs, an interesting type of beef. 1.25
+I like trees, but not animals. 5.33
+I like seafood, and turkey too. 5.5
+I like cats, an interesting type of blackbird. 1.67
+I like chicken more than salmon. 6.54
+I like trees, and grass too. 5.67
+I like trees, but not bushes. 5.83
+I like firs, an interesting type of bush. 2.44
+I like animals more than pines. 4.92
+I like grass, an interesting type of birch. 1.23
+I like crabs, an interesting type of turkey. 1.25
+I like chicken, an interesting type of oysters. 1.15
+I like firs, but not animals. 4.08
+I like pines, an interesting type of tree. 6.83
+I like pines more than bushes. 5.75
+I like trees more than birches. 3.83
+I like grass, but not birches. 4.89
+I like parrots, an interesting type of dog. 1.58
+I like animals, but not oaks. 4.44
+I like salmon, but not chicken. 5.45
+I like birches more than animals. 4.92
+I like parrots, and hamsters too. 4.92
+I like hamsters more than parrots. 5.85
+I like pigs, but not parrots. 5.33
+I like oaks more than animals. 5.08
+I like bushes, but not firs. 3.83
+I like veal, an interesting type of crabs. 1.33
+I like firs, but not trees. 3.33
+I like caviar, but not seafood. 3.5
+I like sparrows more than hamsters. 5.25
+I like trees more than firs. 4.08
+I like shrubs, and oaks too. 5.33
+I like cats more than parrots. 6.17
+I like firs more than trees. 2.75
+I like birches, but not bushes. 5.0
+I like beef, an interesting type of oysters. 1.25
+I like salmon, an interesting type of veal. 1.58
+I like shrubs more than firs. 3.5
+I like ducks, and pigs too. 6.0
+I like hamsters, and parrots too. 4.83
+I like pines more than shrubs. 5.75
+I like chicken, and oysters too. 4.83
+I like blackbirds more than birds. 1.5
+I like salmon, and turkey too. 6.08
+I like chicken more than caviar. 5.42
+I like salmon more than turkey. 6.42
+I like oaks, and shrubs too. 5.25
+I like caviar, an interesting type of beef. 1.67
+I like oaks, an interesting type of grass. 1.38
+I like oaks, an interesting type of shrub. 2.0
+I like parrots, an interesting type of bird. 6.67
+I like birches more than bushes. 5.89
+I like bushes more than firs. 4.67
+I like oysters, but not chicken. 5.64
+I like birches more than grass. 5.23
+I like pigs, an interesting type of blackbird. 1.33
+I like salmon, an interesting type of turkey. 1.5
+I like caviar, and veal too. 4.92
+I like shrubs, an interesting type of oak. 1.92
+I like beef, but not oysters. 6.0
+I like caviar, but not beef. 6.0
+I like veal, and caviar too. 5.09
+I like animals, an interesting type of oak. 1.25
+I like seafood, and oysters too. 3.75
+I like grass, an interesting type of fir. 1.5
+I like birds, and sparrows too. 3.25
+I like veal more than crabs. 3.83
+I like ducks more than dogs. 6.25
+I like grass more than pines. 5.42
+I like trees, an interesting type of pine. 1.75
+I like animals, and oaks too. 4.25
+I like seafood, but not caviar. 6.17
+I like crabs, and veal too. 5.31
+I like birds, but not ducks. 5.55
+I like oysters, an interesting type of turkey. 1.83
+I like ducks, and birds too. 4.83
+I like seafood, an interesting type of caviar. 1.67
+I like oysters, and seafood too. 4.45
+I like birds more than dogs. 6.5
