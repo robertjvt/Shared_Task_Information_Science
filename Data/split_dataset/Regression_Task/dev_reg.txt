@@ -1,0 +1,52 @@
+I like cats, but not sparrows. 4.77
+I like caviar, an interesting type of veal. 1.83
+I like turkey, but not oysters. 5.42
+I like crabs, and chicken too. 5.75
+I like oaks, and trees too. 4.0
+I like turkey more than caviar. 6.5
+I like birches more than trees. 1.77
+I like salmon, but not seafood. 4.33
+I like pines, and animals too. 4.5
+I like chicken, and crabs too. 5.54
+I like beef, an interesting type of crabs. 1.25
+I like seafood, an interesting type of chicken. 1.75
+I like crabs, but not chicken. 4.58
+I like salmon, and chicken too. 5.25
+I like pigs more than parrots. 6.25
+I like birches, and animals too. 4.83
+I like cats more than ducks. 6.75
+I like shrubs, but not oaks. 5.08
+I like sparrows, but not pigs. 5.5
+I like birches, an interesting type of shrub. 2.67
+I like trees, and animals too. 3.92
+I like veal, and salmon too. 5.67
+I like pines, and grass too. 4.33
+I like seafood, and crabs too. 4.75
+I like oaks more than bushes. 4.75
+I like chicken, and salmon too. 6.17
+I like trees, and bushes too. 1.83
+I like oaks, an interesting type of animal. 1.08
+I like trees, an interesting type of birch. 1.83
+I like pines, an interesting type of bush. 2.17
+I like birds, but not pigs. 5.27
+I like ducks, but not birds. 4.0
+I like firs more than bushes. 5.25
+I like pigs more than ducks. 5.0
+I like bushes, and oaks too. 5.0
+I like trees, but not shrubs. 5.75
+I like grass more than oaks. 5.08
+I like hamsters, an interesting type of blackbird. 1.75
+I like shrubs, but not pines. 4.92
+I like oysters, an interesting type of chicken. 1.58
+I like cats, and ducks too. 5.75
+I like pigs more than sparrows. 5.64
+I like bushes, an interesting type of pine. 2.0
+I like birds, but not blackbirds. 6.0
+I like cats, but not blackbirds. 2.64
+I like pines more than grass. 4.55
+I like salmon, an interesting type of beef. 3.92
+I like shrubs, but not birches. 3.67
+I like crabs more than seafood. 2.27
+I like salmon, and beef too. 5.69
+I like oaks, but not animals. 4.5
+I like pigs, and blackbirds too. 5.08

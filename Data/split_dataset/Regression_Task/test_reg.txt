@@ -1,0 +1,52 @@
+I like parrots, an interesting type of hamster. 1.75
+I like trees, an interesting type of fir. 3.25
+I like seafood, but not beef. 3.82
+I like seafood more than salmon. 3.58
+I like caviar, and turkey too. 4.82
+I like sparrows, but not hamsters. 5.08
+I like birds, and parrots too. 4.17
+I like birds, but not sparrows. 5.75
+I like seafood, an interesting type of crab. 3.75
+I like chicken more than crabs. 6.08
+I like ducks, an interesting type of bird. 6.55
+I like oaks, but not bushes. 4.58
+I like grass, and pines too. 5.33
+I like ducks more than birds. 5.92
+I like hamsters, an interesting type of sparrow. 1.73
+I like cats, and sparrows too. 5.58
+I like pines, but not shrubs. 5.36
+I like pines, but not bushes. 3.58
+I like sparrows, and birds too. 4.17
+I like veal, an interesting type of salmon. 1.55
+I like animals more than firs. 5.0
+I like shrubs more than birches. 6.11
+I like trees more than animals. 5.85
+I like trees more than shrubs. 6.17
+I like hamsters, and sparrows too. 5.75
+I like sparrows more than cats. 5.92
+I like turkey, an interesting type of oysters. 1.33
+I like hamsters, an interesting type of parrot. 1.25
+I like parrots, and dogs too. 6.08
+I like trees, but not firs. 4.58
+I like crabs, and turkey too. 4.83
+I like pigs, but not sparrows. 4.27
+I like birds more than parrots. 1.45
+I like cats, an interesting type of parrot. 1.0
+I like trees, an interesting type of grass. 1.67
+I like beef, and caviar too. 6.22
+I like hamsters more than ducks. 6.11
+I like sparrows, an interesting type of cat. 1.33
+I like oysters more than seafood. 1.85
+I like oaks, and bushes too. 5.45
+I like hamsters, and blackbirds too. 6.22
+I like veal more than caviar. 6.56
+I like cats, an interesting type of duck. 1.15
+I like birds, an interesting type of parrot. 2.75
+I like birds, and hamsters too. 5.83
+I like parrots, and birds too. 4.83
+I like animals more than oaks. 4.83
+I like pines, an interesting type of shrub. 4.58
+I like blackbirds, and pigs too. 5.33
+I like cats, and parrots too. 5.75
+I like sparrows, and pigs too. 5.78
+I like shrubs, an interesting type of pine. 2.0
