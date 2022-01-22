@@ -93,7 +93,8 @@ def test(X_test, Y_test, config, model_name):
     # # Y_pred = np.argmax(Y_pred, axis=1)
     # Y_test = np.argmax(Y_test, axis=1)
 
-    Y_pred = tf.cast(Y_pred, tf.float32)
+    Y_pred = np.asarray(Y_pred).astype('float32').reshape((-1,1))
+    # Y_pred = tf.cast(Y_pred, tf.float32)
     Y_test = np.argmax(Y_test, axis=1)
 
     return Y_test, Y_pred
