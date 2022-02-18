@@ -17,4 +17,4 @@ source /home/s2478935/Shared_Task_Information_Science/env/bin/activate
 pip install -U pip wheel
 pip install -r /home/s2478935/Shared_Task_Information_Science/requirements.txt
 
-python3 train_reg.py "$1"
+python3 train.py "$1"

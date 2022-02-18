@@ -36,6 +36,9 @@ def load_data(dir, config):
     if training_set == "train":
         X_train, Y_train = utils.read_data(dir+'train.txt')
 
+    elif training_set == "label_balanced_train":
+        X_train, Y_train = utils.read_data(dir+'label_balanced_train.txt')
+
     elif training_set == "label_template_balanced_train":
         X_train, Y_train = utils.read_data(dir+'label_template_balanced_train.txt')
 

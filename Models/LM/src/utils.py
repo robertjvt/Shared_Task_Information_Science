@@ -35,6 +35,19 @@ def get_config(location):
 #     return sentences, labels
 
 
+# def read_data(file):
+#     """Read in data sets and returns sentences and labels
+#        for regression task"""
+#     sentences = []
+#     labels = []
+#     with open(file, encoding='utf-8') as f:
+#         for line in f:
+#             tokens = line.strip().split()
+#             sentences.append(" ".join(tokens[:-1]))
+#             labels.append(float(tokens[-1]))
+#     return sentences, labels
+
+
 def read_data(file):
     """Read in data sets and returns sentences and labels"""
     sentences = []
@@ -43,7 +56,7 @@ def read_data(file):
         for line in f:
             tokens = line.strip().split()
             sentences.append(" ".join(tokens[:-1]))
-            labels.append(float(tokens[-1]))
+            labels.append(int(tokens[-1]))
     return sentences, labels
 
 

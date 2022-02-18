@@ -25,7 +25,7 @@ def load_test_set(dir):
 
     """Return test sets reading from csv files"""
     # X_test, Y_test = utils.read_data(dir+'test.txt')
-    X_test, Y_test = utils.read_data(dir+'simple_templates_dev_2.txt')
+    X_test, Y_test = utils.read_data(dir+'test_reg.txt')
 
     #convert Y into one hot encoding
     Y_test = tf.one_hot(Y_test, depth=2)
@@ -36,7 +36,7 @@ def load_test_set(dir):
 def load_official_test_set(dir):
 
     """Return test sets reading from csv files"""
-    X_test, Y_test = utils.read_official_test_set(dir+'official_test_set.txt')
+    X_test, Y_test = utils.read_official_test_set(dir+'test_reg.txt')
 
     #convert Y into one hot encoding
     Y_test = tf.one_hot(Y_test, depth=2)
@@ -96,6 +96,7 @@ def test(X_test, Y_test, config, model_name):
     Y_pred = np.asarray(Y_pred).astype('float32').reshape((-1,1))
     # Y_pred = tf.cast(Y_pred, tf.float32)
     Y_test = np.argmax(Y_test, axis=1)
+    # Y_test = tf.cast(Y_test, tf.float32)
 
     return Y_test, Y_pred
 

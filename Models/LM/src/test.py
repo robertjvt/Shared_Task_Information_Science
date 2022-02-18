@@ -24,7 +24,7 @@ def load_test_set(dir):
 
     """Return test sets reading from csv files"""
     # X_test, Y_test = utils.read_data(dir+'test.txt')
-    X_test, Y_test = utils.read_data(dir+'simple_templates_dev_2.txt')
+    X_test, Y_test = utils.read_data(dir+'test.txt')
 
     #convert Y into one hot encoding
     Y_test = tf.one_hot(Y_test, depth=2)
@@ -145,7 +145,7 @@ def main():
     #load test set
 
     # X_test, Y_test = load_test_set(utils.DATA_DIR)
-    X_test, Y_test = load_official_test_set(utils.DATA_DIR)
+    X_test, Y_test = load_test_set(utils.DATA_DIR)
     # print(len(X_test), len(Y_test))
     Y_test, Y_pred = test(X_test, Y_test, config, model_name)
 
