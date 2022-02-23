@@ -54,15 +54,15 @@ If you want to run the train sets from implementation 1 and 3, first go to the M
 
 * step 1:run 
  ```
-  train.py
+  train.py config_11.json
   ```
   * step 3:run
  ```
-  test.py
+  test.py config_11.json
   ```
   * step 4:run
  ```
-  evaluate.py
+  evaluate.py config_11.json
   ```
   
   ### Training your model (SubTask-B)
