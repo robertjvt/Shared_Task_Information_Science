@@ -8,7 +8,7 @@ Before you can start creating your models we firstly need to generate the traini
 
 ### Prerequisites (only for classification task)
 
-To create a train set using implimentation 1, run the following.
+To create a train set using implimentation 1, go to Baselines/ and run the following.
   ```
   GenerateSentence.py -i1
   ```
