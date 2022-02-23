@@ -1,15 +1,15 @@
 {
 
    
-    "model": "BERT",
+    "model": "ERNIE",
     "max_length" : 100,
     "learning_rate": 1e-5,
-    "epochs": 10,
-    "patience": 3,
-    "batch_size": 64,
-    "loss": "binary",
+    "epochs": 5,
+    "patience": 2,
+    "batch_size": 128,
+    "loss": "BINARY",
     "optimizer": "adam",
-    "training-set": "custom_train_large",
+    "training-set": "custom",
     "seed": 1234
 
 

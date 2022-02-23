@@ -1,5 +1,7 @@
+"""
+This script is utilised to train or models
+"""
 import logging
-
 # get TF logger for pre-trained transformer model
 # envornment = tf_m1  conda activate tf_m1
 log = logging.getLogger('transformers')
@@ -23,39 +25,6 @@ from sklearn.preprocessing import LabelBinarizer
 import utils
 from pprint import pprint
 
-
-def load_data1(dir, config):
-
-    """Return appropriate training and validation sets reading from csv files"""
-
-    training_set = config["training-set"]
-
-    if training_set.lower()=="balanced":
-        df_train = pd.read_csv(dir+'/label_balanced_train.csv')
-    elif training_set.lower()=="resample":
-        df_train = pd.read_csv(dir+'/train_aug.csv')
-    elif training_set.lower()=="resample-balance":
-
-        df_train = pd.read_csv(dir+'/train_down.csv')   
-        if config["model"].upper() =='LONG':
-            df_train = df_train[:-1] #remove one sample to fix longformer's incompatibility with shapes
-    else:
-        df_train = pd.read_csv(dir+'/train.csv')
-    
-    print(df_train)
-    X_train = df_train["Document"].ravel().tolist()
-    Y_train = df_train["Label"]
-
-    df_dev = pd.read_csv(dir+'/dev_shared_template.csv')
-
-    X_dev = df_dev['Document'].ravel().tolist()
-    Y_dev = df_dev['Label']
-
-    #convert Y into one hot encoding
-    Y_train = tf.one_hot(Y_train,depth=2)
-    Y_dev = tf.one_hot(Y_dev,depth=2)
-    
-    return X_train, Y_train, X_dev, Y_dev
     
 def load_data(dir, config):
     """Return appropriate training and validation sets reading from csv files"""
@@ -64,76 +33,21 @@ def load_data(dir, config):
     if training_set.lower() == "train":
         X_train, Y_train = utils.read_data(dir+'/train.txt')
 
-    elif training_set.lower() == "label_balanced_train":
-        X_train, Y_train = utils.read_data(dir+'/label_balanced_train.txt')
+    elif training_set.lower() == "balanced_train+other_templates":
+        X_train, Y_train = utils.read_data(dir+'/balanced_train+other_templates.txt')
     elif training_set.lower() == "label_template_balanced_train":
         X_train, Y_train = utils.read_data(dir+'/label_template_balanced_train.txt')
     elif training_set.lower() == "custom":
-        X_train, Y_train = utils.read_data(dir+'/custom_train.txt')
-    elif training_set.lower() == "custom_train_large":
-        X_train, Y_train = utils.read_data(dir+'/custom_train_large.txt')
+        X_train, Y_train = utils.read_data(dir+'/simple_templates_train_2.txt')
+    elif training_set.lower() == "custom_train_more_template":
+        X_train, Y_train = utils.read_data(dir+'/custom_train_more_template.txt')
+    elif training_set.lower() == "data_generated_from_other_templates":
+        X_train, Y_train = utils.read_data(dir+'/data_generated_from_other_templates.txt')
 
-    X_dev, Y_dev = utils.read_data(dir+'/dev.txt')
+    X_dev, Y_dev = utils.read_data(dir+'/simple_templates_dev_2.txt')
 
     return X_train, Y_train, X_dev, Y_dev
 
-
-
-def read_data():
-    sentences_train = []
-    labels_train = []
-    sentences_dev = []
-    labels_dev = []
-
-    test = False
-    os.chdir('../../Data/split_dataset')
-    for root, dirs, files in os.walk('.', topdown=False):
-        for name in files:
-            if name == 'label_balanced_train.txt':
-                file = open(os.path.join(root, name))
-                text = list(csv.reader(file, delimiter='\t'))
-
-                for row in text:
-
-                    tokens = row[0].strip().split()
-                    tokens = " ".join(tokens)
-                    sentences_train.append(tokens)
-                    labels_train.append(row[1].strip())
-            elif name == 'dev.txt':
-                file = open(os.path.join(root, name))
-                text = list(csv.reader(file, delimiter='.'))
-
-                for row in text:
-                    print(row)
-                    tokens = row[0].strip().split()
-                    tokens.append('.')
-                    tokens = " ".join(tokens)
-                    sentences_dev.append(tokens)
-                    labels_dev.append(row[1].strip())
-    os.chdir('../../../Models/LM_BERT_Balanced_labels')
-    return sentences_train, labels_train, sentences_dev, labels_dev
-
-def read_data_dev():
-    sentences = []
-    labels = []
-
-    test = False
-  #  os.chdir('../Data/split_dataset')
-    for root, dirs, files in os.walk('\t', topdown=False):
-        for name in files:
-            if name == 'dev.txt':
-                file = open(os.path.join(root, name))
-                text = list(csv.reader(file, delimiter='.'))
-
-                for row in text:
-                    print(row)
-                    tokens = row[0].strip().split()
-                    tokens.append('.')
-                    tokens = " ".join(tokens)
-                    sentences.append(tokens)
-                    labels.append(row[1].strip())
-   # os.chdir('../../LM')
-    return sentences, labels
 
 def save_dataset(X, Y, model_name):
 
@@ -180,13 +94,10 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
 
     if config["model"].upper() =='BERT':
         lm = 'bert-base-uncased'
-    elif config["model"].upper() =='WHOLE':
-        lm = 'bert-large-uncased-whole-word-masking'
-        
-
-    # enable if trying with other pre-trained model.
-    # elif config["model"].upper() ==' ':
-    #     lm = ''
+    elif config["model"].upper() =='XLNET':
+        lm = 'xlnet-base-cased'
+    elif config["model"].upper() =='ERNIE':
+        lm = 'nghuyong/ernie-2.0-en'
 
     # set tokenizer according to pre-trained model
     tokenizer = AutoTokenizer.from_pretrained(lm)
@@ -203,19 +114,6 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
     pprint(f'tokens_train: {tokens_train}')
     pprint(f'tokens_train: {tokens_train.keys()}')
 
-    # transform string labels to one-hot encodings
-    # encoder = LabelBinarizer()
-    # Y_train_bin = encoder.fit_transform(Y_train)  # Use encoder.classes_ to find mapping back
-    # Y_dev_bin = encoder.fit_transform(Y_dev)
-
-    # pprint(f'Y_dev_bin: {Y_dev_bin}')
-    # pprint(f'Y_train_bin: {Y_train_bin}')
-
-    # Y_train = np.asarray(Y_train).astype('float32').reshape((-1,1))
-    # Y_dev = np.asarray(Y_dev).astype('float32').reshape((-1,1))
-
-    # pprint(f'Y_dev: {Y_dev}')
-    # pprint(f'Y_train: {Y_train}')
 
     #convert Y into one hot encoding
     Y_train = tf.one_hot(Y_train,depth=2)
@@ -263,11 +161,6 @@ def main():
 
     #enable memory growth for a physical device so that the runtime initialization will not allocate all memory on the device 
     physical_devices = tf.config.experimental.list_physical_devices('GPU')
-    #if len(physical_devices) > 0:
-       # tf.config.experimental.set_memory_growth(physical_devices[0], True)
-    #physical_devices = tf.config.list_physical_devices('GPU')
-    #tf.config.experimental.set_memory_growth(physical_devices[0], enable=True)
-
 
 
     #get parameters for experiments
@@ -277,12 +170,6 @@ def main():
         model_name = model_name+"_"+str(config['seed'])
 
     set_log(model_name)
-
-    #load data from train-test-dev folder
-    #X_train, Y_train = read_data()
-   # X_dev, Y_dev = read_data_dev()
-    #X_train, Y_train, X_dev, Y_dev = read_data()
-    
 
     X_train, Y_train, X_dev, Y_dev = load_data(utils.DATA_DIR, config)
     #run model

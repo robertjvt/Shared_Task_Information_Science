@@ -1,4 +1,6 @@
-
+"""
+This script is created to evaluate our models performance against the GOLD labels
+"""
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
 import pandas as pd
 import matplotlib.pyplot as plt

@@ -1,7 +1,6 @@
 """
 This script is created to test our models
 """
-
 import logging
 # get TF logger
 log = logging.getLogger('transformers')
@@ -50,11 +49,13 @@ def load_data(dir, testset):
         print("#########################################################################\n")
             
     """Return appropriate training and validation sets reading from csv files"""
-    X_test, Y_test = utils.read_data(dir+'/test.txt')
+    Ids, X_test = utils.read_data2(dir+'/official_test.txt')
+    print(Ids[0:5])
+    print(X_test[0:5])
     #convert Y into one hot encoding
-    Y_test = tf.one_hot(Y_test, depth=2)
+    #Y_test = tf.one_hot(Y_test, depth=2)
 
-    return X_test, Y_test
+    return Ids, X_test
 
 def save_output(Y_test, Y_pred, model_name):
 
@@ -62,20 +63,20 @@ def save_output(Y_test, Y_pred, model_name):
 
 
     df = pd.DataFrame()
-    df['Test'] = Y_test
-    df['Predict'] = Y_pred
+    df['ID'] = Y_test
+    df['Labels'] = Y_pred
     print("Writing output")
 
     #save output in directory
     try:
         os.mkdir(utils.OUTPUT_DIR)
-        df.to_csv(utils.OUTPUT_DIR+model_name+".csv", index=False)
+        df.to_csv(utils.OUTPUT_DIR+model_name+".tsv", index=False, sep="\t")
         
     except OSError as error:
-        df.to_csv(utils.OUTPUT_DIR+model_name+".csv", index=False)
+        df.to_csv(utils.OUTPUT_DIR+model_name+".tsv", index=False, sep="\t")
    
 
-def test(X_test, Y_test, config, model_name):
+def test(X_test, config, model_name):
 
     """Return models prediction"""
 
@@ -98,6 +99,7 @@ def test(X_test, Y_test, config, model_name):
         
     #set tokenizer according to pre-trained model
     tokenizer = AutoTokenizer.from_pretrained(lm)
+    print(X_test)
 
     #transform raw texts into model input 
     tokens_test = tokenizer(X_test, padding=True, max_length=max_length,truncation=True, return_tensors="np").data
@@ -107,15 +109,14 @@ def test(X_test, Y_test, config, model_name):
         tokens_test = utils.change_dtype(tokens_test)
 
     #get transformer text classification model based on pre-trained model
-    model = TFAutoModelForSequenceClassification.from_pretrained(utils.MODEL_DIR+model_name+"_1234")
+    model = TFAutoModelForSequenceClassification.from_pretrained(utils.MODEL_DIR+model_name+"_1234", num_labels = 2)
 
     #get model's prediction
     Y_pred = model.predict(tokens_test, batch_size=1)["logits"]
 
     Y_pred = np.argmax(Y_pred, axis=1)
-    Y_test = np.argmax(Y_test, axis=1)
     
-    return Y_test, Y_pred
+    return X_test, Y_pred
 
 def set_log(model_name):
 
@@ -140,6 +141,8 @@ def main():
 
     #enable memory growth for a physical device so that the runtime initialization will not allocate all memory on the device
     physical_devices = tf.config.experimental.list_physical_devices('GPU')
+   # if len(physical_devices) > 0:
+    #    tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
     #get parameters for experiments
     config, model_name = utils.get_config()
@@ -150,8 +153,8 @@ def main():
     args = create_arg_parser()
 
     #load data from train-test-dev folder
-    X_train, Y_train = load_data(utils.DATA_DIR,args.testset)
-    Y_test, Y_pred = test(X_train, Y_train, config, model_name)
+    Ids, X_train = load_data(utils.DATA_DIR,args.testset)
+    Y_test, Y_pred = test(X_train, config, model_name)
     
     #save output in directory
     save_output(Y_test, Y_pred, model_name)
@@ -160,3 +163,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
