@@ -59,7 +59,6 @@ def main():
     config, model_name = utils.get_config()
     
     if config['training-set'] != 'trial':
-       # model_name = model_name+"_"+str(config['seed'])
         model_name = model_name
 
     #read models prediction from csv file
