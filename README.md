@@ -36,8 +36,23 @@ If you want to run the train sets from implementation 1 and 3, first go to the M
 
 * step 1: open config.json
 * for implentation 1: set "training-set" value to "label_template_balanced_train"
-* for implentation 2: set "training-set" value to "custom" and set "model" value to "ERNIE"
+* for implentation 3: set "training-set" value to "custom" and set "model" value to "ERNIE"
 * step 2:run 
+ ```
+  train.py
+  ```
+  * step 3:run
+ ```
+  test.py
+  ```
+  * step 4:run
+ ```
+  evaluate.py
+  ```
+ 
+ If you want to run the train sets from implementation 2, first go to the Models/LM/src directory.
+
+* step 1:run 
  ```
   train.py
   ```
@@ -57,17 +72,30 @@ First go to the Models/REG/ directory.
 * step 1: open config.json
 * for BERT (full dataset): set "model" value to "BERT"
 * for ERNIE (full dataset): set "model" value to "ERNIE"
-* step 1:run
+* step 2:run
  ```
   train_reg.py
   ```
-  * step 1:run
+  * step 3:run
  ```
   test.py
   ```
   Go to Output directory
-  *step 3:run
+  * step 4:run
  ```
   rho.py
   ```
+To run the third BERT model (using only train set), first go to the Models/LM/src directory.
+* step 1:run
+ ```
+  train_reg.py
+  ```
+  * step 3:run
+ ```
+  test_reg.py
+  ```
+  Go to Output directory
+  * step 4:run
+ ```
+  rho.py
 
