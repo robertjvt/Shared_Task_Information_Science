@@ -88,14 +88,14 @@ First go to the Models/REG/ directory.
 To run the third BERT model (using only train set), first go to the Models/LM/src directory.
 * step 1:run
  ```
-  train_reg.py
+  train_reg.py config_11_reg.json
   ```
   * step 3:run
  ```
-  test_reg.py
+  test_reg.py config_11_reg.json
   ```
   Go to Output directory
   * step 4:run
  ```
-  rho.py
+  rho.py 
 
