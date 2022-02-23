@@ -1,3 +1,4 @@
+'''This script tests our model on our own test set'''
 import logging
 # get TF logger
 log = logging.getLogger('transformers')
@@ -11,25 +12,7 @@ import numpy as np
 import tensorflow as tf
 import random as python_random
 import utils
-import argparse
 
-
-
-def create_arg_parser():
-
-    '''Returns a map with commandline parameters taken from the user'''
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-ts",
-        "--testset",
-        default="24",
-        type=str,
-        help="define the test set. By default it uses "
-             "the 24th meeting as test set. Input "
-             " '25' to use the 25th meeting as test set."
-        )
-
-    args = parser.parse_args()
-    return args
     
 
 def load_data(dir, testset):
@@ -47,8 +30,7 @@ def load_data(dir, testset):
             
     """Return appropriate training and validation sets reading from csv files"""
     X_test, Y_test = utils.read_data_reg(dir+'/Regression_Task/test_reg.txt')
-    #convert Y into one hot encoding
-    #Y_test = tf.one_hot(Y_test, depth=2)
+
     Y_test = tf.cast(Y_test, tf.float32)
 
     return X_test, Y_test
@@ -109,8 +91,7 @@ def test(X_test, Y_test, config, model_name):
     #get model's prediction
     print(model.predict(tokens_test, batch_size=1))
     Y_pred = model.predict(tokens_test, batch_size=1)["logits"]
-    #Y_pred = np.argmax(Y_pred, axis=1)
-    #Y_test = np.argmax(Y_test, axis=1)
+
     
     return Y_test, Y_pred
 
@@ -137,8 +118,6 @@ def main():
 
     #enable memory growth for a physical device so that the runtime initialization will not allocate all memory on the device
     physical_devices = tf.config.experimental.list_physical_devices('GPU')
-   # if len(physical_devices) > 0:
-    #    tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
     #get parameters for experiments
     config, model_name = utils.get_config()
@@ -146,10 +125,8 @@ def main():
     #set log settings
     set_log(model_name)
 
-    args = create_arg_parser()
-
-    #load data from train-test-dev folder
-    X_train, Y_train = load_data(utils.DATA_DIR,args.testset)
+    #load data
+    X_train, Y_train = load_data(utils.DATA_DIR)
     Y_test, Y_pred = test(X_train, Y_train, config, model_name)
     
     #save output in directory
