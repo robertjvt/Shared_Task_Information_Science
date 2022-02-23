@@ -1,5 +1,5 @@
 """
-This script is utilised to train or models
+This script is utilised to train our models
 """
 import logging
 # get TF logger for pre-trained transformer model
@@ -50,7 +50,6 @@ def load_data(dir, config):
 
 
 def save_dataset(X, Y, model_name):
-
     """save models prediction as csv file"""
     os.chdir('../Data/split_dataset')
     df = pd.DataFrame()
@@ -84,9 +83,6 @@ def classifier(X_train, X_dev, Y_train, Y_dev, config, model_name):
 
     if config["loss"].upper() == "BINARY":
         loss_function = BinaryCrossentropy(from_logits=True)
-    # elif config["loss"].upper() == "CUSTOM":
-    #     loss_function = weighted_loss_function
-
     if config['optimizer'].upper() == "ADAM":
         optim = Adam(learning_rate=learning_rate)
     elif config['optimizer'].upper() == "SGD":
