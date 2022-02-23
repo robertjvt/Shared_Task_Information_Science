@@ -44,7 +44,7 @@ def read_data(file):
 
 
 def read_data_reg(file):
-    """Read in data sets and returns sentences and labels"""
+    """Read in data sets and returns sentences and scores"""
     sentences = []
     labels = []
     with open(file, encoding='utf-8') as f:
