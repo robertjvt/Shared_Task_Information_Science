@@ -1,5 +1,5 @@
 """
-This script is created to test our models
+This script is created to test our models on the official test set
 """
 import logging
 # get TF logger
@@ -53,7 +53,7 @@ def load_data(dir, testset):
     print(Ids[0:5])
     print(X_test[0:5])
     #convert Y into one hot encoding
-    #Y_test = tf.one_hot(Y_test, depth=2)
+
 
     return Ids, X_test
 
@@ -141,8 +141,7 @@ def main():
 
     #enable memory growth for a physical device so that the runtime initialization will not allocate all memory on the device
     physical_devices = tf.config.experimental.list_physical_devices('GPU')
-   # if len(physical_devices) > 0:
-    #    tf.config.experimental.set_memory_growth(physical_devices[0], True)
+
 
     #get parameters for experiments
     config, model_name = utils.get_config()
