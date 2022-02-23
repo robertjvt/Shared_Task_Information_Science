@@ -10,3 +10,53 @@ The PreTENS shared task hosted at SemEval 2022 aims at focusing on semantic comp
   <li>Add results in a txt file in the results folder! Also add the settings you used to create these results</li>
   <li>Remove redundant files. Only keep the files that currently serve a purpose or are important for reproducibility</li>
 </ul>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Before you can start creating your models we firstly need to generate the training data we utilised for training our models.
+
+### Prerequisites (only for classification task)
+
+To create a train set using implimentation 1, run the following.
+  ```
+  GenerateSentence.py -i1
+  ```
+  
+  To create a train set using implimentation 3, run the following.
+  ```
+  GenerateSentence.py -i3
+  ```
+### Training your model (SubTask-A)
+To create your classification model, follow these steps
+
+*step 1:run
+ ```
+  train.py
+  ```
+  *step 2:run
+ ```
+  test.py
+  ```
+  *step 3:run
+ ```
+  evaluate.py
+  ```
+  
+  ### Training your model (SubTask-B)
+To create your classification model, follow these steps
+
+*step 1:run
+ ```
+  train_reg.py
+  ```
+  *step 2:run
+ ```
+  test.py
+  ```
+  Go to Output directory
+  *step 3:run
+ ```
+  rho.py
+  ```
+
