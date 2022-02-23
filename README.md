@@ -18,7 +18,7 @@ To create a train set using implimentation 1, go to Baselines/ and run the follo
   ```
   These sentences would then need to be manually added the the train set created using implementation 1.
   
-  To create a train set using implimentation 3, run the following.
+  To create a train set using implimentation 3, go back to Baselines/ run the following.
   ```
   GenerateSentence.py -i3
   ```
