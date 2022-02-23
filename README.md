@@ -32,29 +32,36 @@ To create a train set using implimentation 1, run the following.
   GenerateSentence.py -i3
   ```
 ### Training your model (SubTask-A)
-To create your classification model, follow these steps
+If you want to run the train sets from implementation 1 and 3, first go to the Models/LM_BERT_Balanced_labels/ directory.
 
-*step 1:run
+* step 1: open config.json
+* for implentation 1: set "training-set" value to "label_template_balanced_train"
+* for implentation 2: set "training-set" value to "custom" and set "model" value to "ERNIE"
+* step 2:run 
  ```
   train.py
   ```
-  *step 2:run
+  * step 3:run
  ```
   test.py
   ```
-  *step 3:run
+  * step 4:run
  ```
   evaluate.py
   ```
   
   ### Training your model (SubTask-B)
-To create your classification model, follow these steps
+To create your Regression model, follow these steps
 
-*step 1:run
+First go to the Models/REG/ directory.
+* step 1: open config.json
+* for BERT (full dataset): set "model" value to "BERT"
+* for ERNIE (full dataset): set "model" value to "ERNIE"
+* step 1:run
  ```
   train_reg.py
   ```
-  *step 2:run
+  * step 1:run
  ```
   test.py
   ```
