@@ -1,3 +1,4 @@
+'''This script tests our model on the official test set'''
 import logging
 # get TF logger
 log = logging.getLogger('transformers')
@@ -15,42 +16,15 @@ import argparse
 
 
 
-def create_arg_parser():
-
-    '''Returns a map with commandline parameters taken from the user'''
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-ts",
-        "--testset",
-        default="24",
-        type=str,
-        help="define the test set. By default it uses "
-             "the 24th meeting as test set. Input "
-             " '25' to use the 25th meeting as test set."
-        )
-
-    args = parser.parse_args()
-    return args
-    
-
-def load_data(dir, testset):
+def load_data(dir):
 
     """Return test sets reading from csv files"""
-    try:
-        if testset=="24":
-            df_test = pd.read_csv(dir+'/test.csv')
-        elif testset=="25":
-            df_test = pd.read_csv(dir+'/test_25th.csv')
-    except FileNotFoundError as error:
-        print("#########################################################################\n")
-        print("Please ensure that test.csv or test_25th.csv files are present in the train-test-dev folder\n")
-        print("#########################################################################\n")
-            
-    """Return appropriate training and validation sets reading from csv files"""
+
     Ids, X_test = utils.read_data2(dir+'/official_test_reg.txt')
     print(Ids[0:5])
     print(X_test[0:5])
-    #convert Y into one hot encoding
-    #Y_test = tf.one_hot(Y_test, depth=2)
+
+
 
     return Ids, X_test
 
@@ -111,7 +85,6 @@ def test(X_test, config, model_name):
     #get model's prediction
     Y_pred = model.predict(tokens_test, batch_size=1)["logits"]
 
-    #Y_pred = np.argmax(Y_pred, axis=1)
     
     return X_test, Y_pred
 
@@ -138,8 +111,7 @@ def main():
 
     #enable memory growth for a physical device so that the runtime initialization will not allocate all memory on the device
     physical_devices = tf.config.experimental.list_physical_devices('GPU')
-   # if len(physical_devices) > 0:
-    #    tf.config.experimental.set_memory_growth(physical_devices[0], True)
+
 
     #get parameters for experiments
     config, model_name = utils.get_config()
@@ -147,10 +119,8 @@ def main():
     #set log settings
     set_log(model_name)
 
-    args = create_arg_parser()
-
-    #load data from train-test-dev folder
-    Ids, X_train = load_data(utils.DATA_DIR,args.testset)
+    #load data 
+    Ids, X_train = load_data(utils.DATA_DIR)
     Y_test, Y_pred = test(X_train, config, model_name)
     
     #save output in directory
