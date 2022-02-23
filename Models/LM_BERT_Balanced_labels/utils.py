@@ -41,3 +41,26 @@ def read_data(file):
             sentences.append(" ".join(tokens[:-1]))
             labels.append(int(tokens[-1]))
     return sentences, labels
+
+
+def read_data_reg(file):
+    """Read in data sets and returns sentences and score"""
+    sentences = []
+    labels = []
+    with open(file, encoding='utf-8') as f:
+        for line in f:
+            tokens = line.strip().split()
+            sentences.append(" ".join(tokens[:-1]))
+            labels.append(float(tokens[-1]))
+    return sentences, labels
+
+def read_data2(file):
+    """Read in data sets and returns sentences and labels"""
+    sentences = []
+    Ids = []
+    with open(file, encoding='utf-8') as f:
+        for line in f:
+            tokens = line.strip().split()
+            sentences.append(" ".join(tokens[1:]))
+            Ids.append(tokens[0])
+    return Ids, sentences
