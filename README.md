@@ -26,7 +26,7 @@ To create a train set using implimentation 1, go to Baselines/ and run the follo
 If you want to run the train sets from implementation 1 and 3, first go to the Models/LM_BERT_Balanced_labels/ directory.
 
 * step 1: open config.json
-* for implentation 1: set "training-set" value to "label_template_balanced_train"
+* for implentation 1: set "training-set" value to "label_template_balanced_train" and set "model" value to "BERT"
 * for implentation 3: set "training-set" value to "custom" and set "model" value to "ERNIE"
 * step 2:run 
  ```
