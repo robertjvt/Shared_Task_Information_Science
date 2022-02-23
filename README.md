@@ -22,7 +22,11 @@ To create a train set using implimentation 1, run the following.
   ```
   GenerateSentence.py -i1
   ```
-  
+  To create a train set using implimentation 2, go to the Upsampling directory and run the following.
+  ```
+  Create_new_sentence_label. py
+  ```
+  These sentences would then need to be manually added the the train set created using implementation 1
   To create a train set using implimentation 3, run the following.
   ```
   GenerateSentence.py -i3
